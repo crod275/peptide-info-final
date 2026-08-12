@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Why PeptideGuidelines — a structured, neutral peptide reference built for researchers, not supplement sales." />
+  <title>Why PeptideGuidelines — Our Approach</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+
+    /* ── WHY PAGE HERO ── */
+    .why-hero {
+      padding: 80px 24px 68px;
+      background: var(--page-bg);
+      border-bottom: 1px solid var(--border);
+    }
+    .why-hero-inner {
+      max-width: 640px;
+      margin: 0 auto;
+    }
+    .why-eyebrow {
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      color: var(--accent);
+      margin-bottom: 16px;
+    }
+    .why-hero h1 {
+      font-size: clamp(28px, 4vw, 44px);
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      line-height: 1.1;
+      color: var(--text-primary);
+      margin-bottom: 20px;
+    }
+    .why-hero p {
+      font-size: 15px;
+      color: var(--text-secondary);
+      line-height: 1.7;
+      max-width: 52ch;
+    }
+
+    /* ── CONTENT WRAPPER ── */
+    .why-content {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 64px 24px 96px;
+    }
+
+    /* ── ROW LIST (what you get on every page) ── */
+    .why-rows {
+      border-top: 1px solid var(--border);
+      margin-bottom: 72px;
+    }
+    .why-row {
+      display: grid;
+      grid-template-columns: 200px 1fr;
+      gap: 32px;
+      padding: 28px 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .why-row-title {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--text-primary);
+      letter-spacing: -0.01em;
+      line-height: 1.4;
+    }
+    .why-row-body {
+      font-size: 14px;
+      color: var(--text-secondary);
+      line-height: 1.75;
+    }
+
+    /* ── SECTIONS ── */
+    .why-section {
+      margin-bottom: 64px;
+    }
+    .why-section-label {
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      color: var(--text-muted);
+      margin-bottom: 20px;
+    }
+    .why-section h2 {
+      font-size: 20px;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      color: var(--text-primary);
+      margin-bottom: 20px;
+      line-height: 1.3;
+    }
+    .why-section p {
+      font-size: 14px;
+      color: var(--text-secondary);
+      line-height: 1.75;
+      margin-bottom: 16px;
+      max-width: 65ch;
+    }
+    .why-section p:last-child { margin-bottom: 0; }
+
+    /* ── "WHAT WE'RE NOT" 2×2 GRID ── */
+    .why-not-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1px;
+      background: var(--border);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+      margin-top: 24px;
+    }
+    .why-not-item {
+      background: var(--bg);
+      padding: 20px 24px;
+    }
+    .why-not-title {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin-bottom: 4px;
+    }
+    .why-not-desc {
+      font-size: 13px;
+      color: var(--text-muted);
+      line-height: 1.55;
+    }
+
+    /* ── EDITORIAL LIST ── */
+    .why-editorial-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      border-top: 1px solid var(--border);
+      margin-top: 24px;
+    }
+    .why-editorial-list li {
+      display: flex;
+      align-items: baseline;
+      gap: 12px;
+      padding: 14px 0;
+      border-bottom: 1px solid var(--border);
+      font-size: 14px;
+      color: var(--text-secondary);
+      line-height: 1.5;
+    }
+    .why-editorial-list li::before {
+      content: '';
+      width: 5px;
+      height: 5px;
+      background: var(--accent);
+      border-radius: 50%;
+      flex-shrink: 0;
+      margin-top: 5px;
+    }
+
+    /* ── DISCLAIMER BANNER ── */
+    .why-disclaimer {
+      background: var(--warning-bg);
+      border: 1px solid var(--warning-border);
+      border-radius: var(--radius);
+      padding: 20px 24px;
+      margin-top: 16px;
+    }
+    .why-disclaimer p {
+      font-size: 13px;
+      color: var(--warning-text);
+      line-height: 1.6;
+      margin: 0;
+      max-width: none;
+    }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 600px) {
+      .why-hero { padding: 56px 16px 48px; }
+      .why-content { padding: 48px 16px 64px; }
+      .why-row { grid-template-columns: 1fr; gap: 8px; }
+      .why-not-grid { grid-template-columns: 1fr; }
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">Peptide<span>Guidelines</span></a>
+      <button class="nav-hamburger" id="nav-hamburger" type="button"
+              aria-label="Open navigation menu" aria-expanded="false" aria-controls="main-nav">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </button>
+      <nav class="nav" id="main-nav">
+        <div class="nav-dropdown">
+          <button class="nav-btn">
+            Guides
+            <svg class="nav-chevron" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/>
+            </svg>
+          </button>
+          <div class="dropdown-menu">
+            <span class="dropdown-header">Essential Guides</span>
+            <a class="dropdown-item" href="guides.html?guide=beginners-guide">Beginner's Guide to Peptides</a>
+            <a class="dropdown-item" href="guides.html?guide=reconstitution">How to Reconstitute Peptides</a>
+            <a class="dropdown-item" href="guides.html?guide=syringe-guide">Syringe &amp; Measurement Guide</a>
+            <span class="dropdown-header" style="margin-top:8px">Tools</span>
+            <a class="dropdown-item" href="calculator.html">Reconstitution Calculator</a>
+          </div>
+        </div>
+        <div class="nav-dropdown">
+          <button class="nav-btn">
+            Peptides
+            <svg class="nav-chevron" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/>
+            </svg>
+          </button>
+          <div class="dropdown-menu peptides-menu" id="peptides-dropdown-menu">
+            <span class="dropdown-header">Loading…</span>
+          </div>
+        </div>
+        <a href="calculator.html" class="nav-link">Calculator</a>
+        <a href="why.html" class="nav-link nav-link-active">Why Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="why-hero">
+      <div class="why-hero-inner">
+        <p class="why-eyebrow">Our Approach</p>
+        <h1>Built for research,<br>not recommendations</h1>
+        <p>Peptide information is scattered across forum posts, supplement blogs, and papers most people can't parse. PeptideGuidelines exists to fix that — structured, neutral, and built for quick reference.</p>
+      </div>
+    </section>
+
+    <div class="why-content">
+
+      <!-- SECTION 1: WHAT YOU GET -->
+      <div class="why-section">
+        <p class="why-section-label">What you get on every page</p>
+        <div class="why-rows">
+          <div class="why-row">
+            <p class="why-row-title">A consistent structure, every time</p>
+            <p class="why-row-body">Every peptide page follows the same layout: mechanism of action, dosage table, evidence rating, side effects, and stacking notes. Whether it's BPC-157 or Dihexa, you know exactly where to look before you arrive.</p>
+          </div>
+          <div class="why-row">
+            <p class="why-row-title">Designed for scanning, not reading</p>
+            <p class="why-row-body">Dosage tables, evidence levels, and key facts are surfaced first. Pages are built to answer your question in 30 seconds — not buried in paragraphs you have to scroll through to find a number.</p>
+          </div>
+          <div class="why-row">
+            <p class="why-row-title">Evidence ratings on every claim</p>
+            <p class="why-row-body">We show what the research actually supports. Each page carries an explicit evidence level — from human RCTs down to animal-only or theoretical — so you can calibrate your confidence in what you're reading.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- SECTION 2: THE GAP -->
+      <div class="why-section">
+        <p class="why-section-label">Why existing sources fall short</p>
+        <h2>Most peptide information has an agenda</h2>
+        <p>Forums are anecdotal and inconsistent. Reddit threads age badly, get locked, and reflect whoever replied first — not what the evidence actually shows. The loudest voices aren't always the most informed ones.</p>
+        <p>Supplement company content has a built-in conflict of interest. Their goal is to sell product. The information they publish is engineered to move you toward a purchase, not to give you an accurate picture of the research.</p>
+        <p>Academic literature is the most reliable source — and the most inaccessible. Papers require institutional access, fluency in statistical methods, and hours of cross-referencing. Most people can't or won't spend that time.</p>
+        <p>PeptideGuidelines is none of those things. It's a reference, not a recommendation engine. We don't sell anything, we don't take sponsorships, and we don't have a position on what you should do. We just document what's known.</p>
+      </div>
+
+      <!-- SECTION 3: WHAT WE'RE NOT -->
+      <div class="why-section">
+        <p class="why-section-label">What we're not</p>
+        <h2>We're a reference, not a service</h2>
+        <div class="why-not-grid">
+          <div class="why-not-item">
+            <p class="why-not-title">No affiliate links</p>
+            <p class="why-not-desc">We don't sell peptides, sourcing kits, or anything else. No affiliate links, no sponsored content, no upsells.</p>
+          </div>
+          <div class="why-not-item">
+            <p class="why-not-title">No protocols or advice</p>
+            <p class="why-not-desc">We document what protocols exist in the literature. We don't tell you what to run, at what dose, or for how long.</p>
+          </div>
+          <div class="why-not-item">
+            <p class="why-not-title">Structured information only</p>
+            <p class="why-not-desc">There's no comment section, no upvotes, no anecdotal experience reports. Structured information only.</p>
+          </div>
+          <div class="why-not-item">
+            <p class="why-not-title">Educational content only</p>
+            <p class="why-not-desc">Everything here is educational. Consult a qualified healthcare provider before making any decisions about peptide use.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- SECTION 4: EDITORIAL APPROACH -->
+      <div class="why-section">
+        <p class="why-section-label">Editorial approach</p>
+        <h2>How we build and maintain pages</h2>
+        <p>Every page is built from published literature and documented clinical use. We don't write from personal experience or third-party testimonials.</p>
+        <ul class="why-editorial-list">
+          <li>We draw sources from peer-reviewed journals, clinical trial databases, and established pharmacological references</li>
+          <li>Evidence levels are assigned editorially based on study design, sample size, and replication — and shown explicitly on every page</li>
+          <li>Pages are updated as new research becomes available; the evidence landscape for many peptides is still developing</li>
+          <li>We do not accept sponsored content, affiliate arrangements, or paid placements of any kind</li>
+          <li>Dosage ranges reflect what appears in the literature and documented protocols — not what any vendor recommends</li>
+        </ul>
+      </div>
+
+      <!-- DISCLAIMER -->
+      <div class="why-section">
+        <p class="why-section-label">Disclaimer</p>
+        <div class="why-disclaimer">
+          <p>The information on PeptideGuidelines is provided for educational and research purposes only. It is not intended to be, and does not constitute, medical advice, diagnosis, or treatment. Always seek the guidance of a qualified healthcare professional before starting, changing, or stopping any treatment or therapy. Peptides discussed on this site may be research chemicals not approved for human use by regulatory agencies. Compliance with all applicable laws and regulations is your responsibility.</p>
+        </div>
+      </div>
+
+    </div>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="footer-logo">Peptide<span>Guidelines</span></span>
+        <p class="footer-tagline">A structured peptide information database.</p>
+      </div>
+      <div class="footer-cols">
+        <div class="footer-col">
+          <p class="footer-col-heading">Peptides</p>
+          <a href="peptides-library.html">Single Peptides</a>
+          <a href="blends-library.html">Peptide Blends</a>
+          <a href="stacks-library.html">Peptide Stacks</a>
+        </div>
+        <div class="footer-col">
+          <p class="footer-col-heading">Guides</p>
+          <a href="guides.html?guide=beginners-guide">Beginner's Guide</a>
+          <a href="guides.html?guide=reconstitution">Reconstitution Guide</a>
+          <a href="guides.html?guide=syringe-guide">Syringe &amp; Measurement</a>
+          <a href="calculator.html">Dosing Calculator</a>
+        </div>
+        <div class="footer-col">
+          <p class="footer-col-heading">Company</p>
+          <a href="about.html">About</a>
+          <a href="why.html">Why Us</a>
+          <a href="#">Contact</a>
+          <a href="editorial-policy.html">Editorial Policy</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>This website is for informational and educational purposes only and is not medical advice.</p>
+      <p>&copy; 2026 PeptideGuidelines</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="script.js"></script>
+</body>
+</html>

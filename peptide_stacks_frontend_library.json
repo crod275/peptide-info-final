@@ -1,0 +1,1680 @@
+{
+  "schema_version": "2.0.0",
+  "content_type": "peptide_stack_frontend_library",
+  "total_items": 4,
+  "generated_at": "2026-05-20T20:48:20.117180+00:00",
+  "global_disclaimer": "This content is for educational and research-oriented website presentation only. It is not medical advice, diagnosis, treatment guidance, or a recommendation for use.",
+  "peptides": [
+    {
+      "id": "stack-001",
+      "name": "CJC-1295 DAC (2 mg) + Ipamorelin (5 mg) Stack",
+      "base_name": "CJC-1295 DAC + Ipamorelin",
+      "slug": "cjc-1295-dac-ipamorelin",
+      "vial_strength": "2 mg Vial + 5 mg Vial",
+      "source_page": {
+        "label": "Original scraped page URL",
+        "href": "https://peptidedosages.com/peptide-stack-dosages/cjc-1295-dac-2-mg-vial-ipamorelin-5-mg-vial-dosage-protocol/"
+      },
+      "seo": {
+        "title": "CJC-1295 DAC 2mg + Ipamorelin 5mg Stack | Peptide Dosages.com",
+        "description": "This stacked protocol combines CJC-1295 DAC, a long-acting GHRH analog with extended half-life via albumin binding [1], and Ipamorelin, a selective ghrelin-receptor agonist that triggers potent GH puls..."
+      },
+      "hero": {
+        "eyebrow": "Peptide Stack Research Library",
+        "title": "CJC-1295 DAC (2 mg) + Ipamorelin (5 mg) Stack",
+        "subtitle": "This stacked protocol combines CJC-1295 DAC, a long-acting GHRH analog with extended half-life via albumin binding [1], and Ipamorelin, a selective ghrelin-receptor agonist that triggers potent GH pulses with minimal ACTH/cortisol release [2]. Together, these peptides amplify endogenous growth hormone",
+        "image_alt": "CJC-1295 DAC (2 mg) + Ipamorelin (5 mg) Stack stack vial image",
+        "tags": [
+          "CJC-1295 DAC",
+          "Ipamorelin"
+        ],
+        "evidence_level": "Source-derived research summary"
+      },
+      "overview": {
+        "what_is_it": {
+          "heading": "What is the CJC-1295 DAC (2 mg) + Ipamorelin (5 mg) Stack?",
+          "body": "This stacked protocol combines CJC-1295 DAC, a long-acting GHRH analog with extended half-life via albumin binding [1], and Ipamorelin, a selective ghrelin-receptor agonist that triggers potent GH pulses with minimal ACTH/cortisol release [2]. Together, these peptides amplify endogenous growth hormone secretion and IGF-1 signaling through complementary mechanisms [3]."
+        },
+        "main_benefits": {
+          "heading": "Potential Benefits",
+          "items": [
+            {
+              "title": "Body composition",
+              "description": "GH secretagogues have demonstrated improvements in lean mass and reductions in fat mass in clinical studies"
+            },
+            {
+              "title": "Sustained GH/IGF-1 elevation",
+              "description": "CJC-1295 DAC produces prolonged elevations lasting 6–11 days per administration"
+            },
+            {
+              "title": "Selectivity",
+              "description": "Ipamorelin does not significantly increase cortisol or ACTH at therapeutic doses"
+            }
+          ]
+        },
+        "how_it_works": {
+          "heading": "How It Works",
+          "body": "CJC-1295 DAC functions as a synthetic GHRH analog that stimulates pituitary GH release. Its Drug Affinity Complex (DAC) moiety binds to serum albumin, extending its half-life to approximately 6–8 days and producing sustained, dose-dependent elevations in GH and IGF-1\n[1]\n. Ipamorelin is a selective growth hormone secretagogue that activates the ghrelin receptor (GHSR) to trigger rapid GH pulses without significantly affecting ACTH, cortisol, or prolactin\n[2]\n. When combined, these peptides act through complementary pathways (GHRH receptor and ghrelin receptor) to synergistically amplify endogenous GH secretion\n[3]\n."
+        },
+        "side_effects": {
+          "heading": "Potential Side Effects",
+          "items": [
+            "Both peptides were well tolerated in human studies, with transient injection-site reactions being the most common adverse effect",
+            "Water retention, mild headache, and transient numbness/tingling have been reported with GH-elevating compounds."
+          ],
+          "note": "This list reflects source-derived observations. Human safety has not been fully established for all investigational stack protocols."
+        }
+      },
+      "dosing_and_reconstitution": {
+        "section_title": "Dosing & Reconstitution",
+        "disclaimer": "This section is source-derived research information only and is not medical advice or a personal use recommendation.",
+        "dosage_protocols": [
+          {
+            "label": "CJC-1295 DAC: Standard",
+            "timeframe": "Standard",
+            "dose": "1000 mcg (1.0 mg)",
+            "units_or_volume": "100 units (1.0 mL)",
+            "notes": "Once weekly"
+          },
+          {
+            "label": "CJC-1295 DAC: Aggressive",
+            "timeframe": "Aggressive",
+            "dose": "2000 mcg (2.0 mg)",
+            "units_or_volume": "100 units × 2 injections (2.0 mL total)",
+            "notes": "Once weekly (split)"
+          },
+          {
+            "label": "Ipamorelin: Weeks 1–2 (Initiation)",
+            "timeframe": "Weeks 1–2 (Initiation)",
+            "dose": "100 mcg",
+            "units_or_volume": "6 units (0.06 mL)",
+            "notes": "Once daily"
+          },
+          {
+            "label": "Ipamorelin: Weeks 3–4 (Titration)",
+            "timeframe": "Weeks 3–4 (Titration)",
+            "dose": "150 mcg",
+            "units_or_volume": "9 units (0.09 mL)",
+            "notes": "Once daily"
+          },
+          {
+            "label": "Ipamorelin: Weeks 5+ (Maintenance)",
+            "timeframe": "Weeks 5+ (Maintenance)",
+            "dose": "200 mcg",
+            "units_or_volume": "12 units (0.12 mL)",
+            "notes": "Once daily"
+          },
+          {
+            "label": "Ipamorelin: Aggressive (Optional)",
+            "timeframe": "Aggressive (Optional)",
+            "dose": "300 mcg",
+            "units_or_volume": "18 units (0.18 mL)",
+            "notes": "Once daily or split 2×/day"
+          }
+        ],
+        "reconstitution_guide": {
+          "vial_amount": "CJC-1295 DAC 2 mg Vial + Ipamorelin 5 mg Vial",
+          "bacteriostatic_water": "",
+          "resulting_concentration": "",
+          "summary": "Easy measuring: CJC-1295 DAC:1 unit = 10 mcg; Ipamorelin:1 unit ≈ 16.7 mcgon U-100 syringes.",
+          "steps": [
+            "Draw 2.0 mL bacteriostatic water with a sterile syringe.",
+            "Inject slowly down the vial wall; avoid foaming or direct stream onto powder.",
+            "Gently swirl/roll until fully dissolved (do not shake).",
+            "Label with date and refrigerate at 2–8 °C (35.6–46.4 °F).",
+            "Draw 3.0 mL bacteriostatic water with a sterile syringe.",
+            "Inject slowly down the vial wall; avoid foaming.",
+            "Gently swirl/roll until dissolved (do not shake).",
+            "Label with date and refrigerate at 2–8 °C (35.6–46.4 °F)."
+          ]
+        },
+        "injection_frequency": {
+          "summary": "CJC-1295 DAC: 1 mg subcutaneously once per week on a consistent day. Ipamorelin: 100–300 mcg subcutaneously once daily.",
+          "options": [
+            "CJC-1295 DAC: Weekly Subcutaneous",
+            "Ipamorelin: Daily Subcutaneous"
+          ]
+        },
+        "protocol_duration": {
+          "summary": "CJC-1295 DAC once weekly + Ipamorelin once daily for 8–16 weeks.",
+          "vial_duration": "",
+          "duration_examples": [
+            {
+              "duration": "2 weeks",
+              "estimated_vials": "",
+              "notes": ""
+            },
+            {
+              "duration": "8 weeks",
+              "estimated_vials": "",
+              "notes": ""
+            },
+            {
+              "duration": "12 weeks",
+              "estimated_vials": "",
+              "notes": ""
+            }
+          ]
+        },
+        "recommended_for": [
+          {
+            "type": "Body Composition Research",
+            "description": "For readers studying growth hormone-mediated effects on lean mass, fat reduction, and IGF-1 signaling in clinical and preclinical models."
+          },
+          {
+            "type": "Sleep / GH Research",
+            "description": "For readers reviewing literature on pulsatile GH secretion, circadian GH rhythms, and the relationship between deep sleep and endogenous GH release."
+          },
+          {
+            "type": "Recovery Research",
+            "description": "For readers investigating tissue repair and recovery mechanisms mediated by sustained GH and IGF-1 elevation from GHRH analog and ghrelin-mimetic co-administration."
+          }
+        ]
+      },
+      "stack_details": {
+        "section_title": "Stack Components",
+        "summary": "Protocol Overview",
+        "components": [
+          {
+            "name": "CJC-1295 DAC",
+            "vial_strength": "2 mg Vial",
+            "route_or_frequency": "Weekly Subcutaneous",
+            "reconstitution": "Reconstitution:2.0 mL bacteriostatic water → 1.0 mg/mL(1000 mcg/mL) → 10 mcg per unit",
+            "dosing_table": [
+              {
+                "Phase": "Standard",
+                "Weekly Dose": "1000 mcg (1.0 mg)",
+                "Units (mL) per Injection": "100 units (1.0 mL)",
+                "Frequency": "Once weekly"
+              },
+              {
+                "Phase": "Aggressive",
+                "Weekly Dose": "2000 mcg (2.0 mg)",
+                "Units (mL) per Injection": "100 units × 2 injections (2.0 mL total)",
+                "Frequency": "Once weekly (split)"
+              }
+            ],
+            "reconstitution_steps": [
+              "Draw 2.0 mL bacteriostatic water with a sterile syringe.",
+              "Inject slowly down the vial wall; avoid foaming or direct stream onto powder.",
+              "Gently swirl/roll until fully dissolved (do not shake).",
+              "Label with date and refrigerate at 2–8 °C (35.6–46.4 °F)."
+            ]
+          },
+          {
+            "name": "Ipamorelin",
+            "vial_strength": "5 mg Vial",
+            "route_or_frequency": "Daily Subcutaneous",
+            "reconstitution": "Reconstitution:3.0 mL bacteriostatic water → 1.67 mg/mL(1666.7 mcg/mL) → 16.67 mcg per unit",
+            "dosing_table": [
+              {
+                "Phase": "Weeks 1–2 (Initiation)",
+                "Daily Dose": "100 mcg",
+                "Units (mL) per Injection": "6 units (0.06 mL)",
+                "Frequency": "Once daily"
+              },
+              {
+                "Phase": "Weeks 3–4 (Titration)",
+                "Daily Dose": "150 mcg",
+                "Units (mL) per Injection": "9 units (0.09 mL)",
+                "Frequency": "Once daily"
+              },
+              {
+                "Phase": "Weeks 5+ (Maintenance)",
+                "Daily Dose": "200 mcg",
+                "Units (mL) per Injection": "12 units (0.12 mL)",
+                "Frequency": "Once daily"
+              },
+              {
+                "Phase": "Aggressive (Optional)",
+                "Daily Dose": "300 mcg",
+                "Units (mL) per Injection": "18 units (0.18 mL)",
+                "Frequency": "Once daily or split 2×/day"
+              }
+            ],
+            "reconstitution_steps": [
+              "Draw 3.0 mL bacteriostatic water with a sterile syringe.",
+              "Inject slowly down the vial wall; avoid foaming.",
+              "Gently swirl/roll until dissolved (do not shake).",
+              "Label with date and refrigerate at 2–8 °C (35.6–46.4 °F)."
+            ]
+          }
+        ],
+        "combined_schedule": [
+          {
+            "Week": "Weeks 1–2",
+            "CJC-1295 DAC (Weekly)": "1000 mcg (100 units) once weekly",
+            "Ipamorelin (Daily)": "100 mcg (6 units) once daily"
+          },
+          {
+            "Week": "Weeks 3–4",
+            "CJC-1295 DAC (Weekly)": "1000 mcg (100 units) once weekly",
+            "Ipamorelin (Daily)": "150 mcg (9 units) once daily"
+          },
+          {
+            "Week": "Weeks 5–12",
+            "CJC-1295 DAC (Weekly)": "1000 mcg (100 units) once weekly",
+            "Ipamorelin (Daily)": "200 mcg (12 units) once daily"
+          }
+        ]
+      },
+      "supplies_needed": {
+        "section_title": "Supplies Needed",
+        "summary": "The following supplies are referenced in the source protocol material. Verify exact quantities based on your protocol length.",
+        "items": [
+          {
+            "name": "CJC-1295 DAC Vial (2 mg Vial)",
+            "purpose": "The research compound in lyophilized form.",
+            "quantity_guidance": "4 vials"
+          },
+          {
+            "name": "Ipamorelin Vial (5 mg Vial)",
+            "purpose": "The research compound in lyophilized form.",
+            "quantity_guidance": "3 vials"
+          },
+          {
+            "name": "Insulin Syringes (U-100)",
+            "purpose": "For measuring and administering subcutaneous doses.",
+            "quantity_guidance": "Per week: 1 (CJC) + 7 (Ipamorelin) ="
+          },
+          {
+            "name": "Bacteriostatic Water",
+            "purpose": "Used to reconstitute the lyophilized peptide vials.",
+            "quantity_guidance": "8 weeks: CJC (4 × 2 mL) + Ipam (3 × 3 mL) = 17 mL →"
+          },
+          {
+            "name": "Alcohol Swabs",
+            "purpose": "For sanitizing injection sites and vial stoppers.",
+            "quantity_guidance": "Per week: ~16 swabs (2/day for Ipamorelin + 2 for CJC weekly)"
+          },
+          {
+            "name": "Sharps Container",
+            "purpose": "For safe disposal of used syringes.",
+            "quantity_guidance": "See source protocol for quantity guidance."
+          }
+        ]
+      },
+      "storage_and_handling": {
+        "section_title": "Storage & Handling",
+        "lyophilized_storage": "Lyophilized: ≤−15 °C (5 °F)",
+        "reconstituted_storage": "reconstituted:2–8 °C (35.6–46.4 °F)",
+        "handling_tips": [
+          "General subcutaneous guidance from clinical best-practice resources",
+          "Clean the vial stopper and skin with alcohol; allow to dry completely.",
+          "Pinch a skinfold; insert the needle at",
+          "into subcutaneous tissue",
+          "Do not aspirate for subcutaneous injections; inject slowly and steadily",
+          "Rotate sites systematically (abdomen, thighs, upper arms) to avoid lipohypertrophy."
+        ],
+        "safety_notes": [
+          "Practical considerations for consistency and safety.",
+          "Use a new sterile insulin syringe for each injection; dispose in a sharps container.",
+          "Rotate injection sites systematically (abdomen, thighs, upper arms) to reduce local irritation.",
+          "Inject slowly; wait a few seconds before withdrawing the needle."
+        ]
+      },
+      "research": {
+        "section_title": "Research & References",
+        "evidence_summary": "The evidence profile for CJC-1295 DAC (2 mg) + Ipamorelin (5 mg) Stack is based on the source references below.",
+        "resources": [
+          {
+            "id": "resource-cjc-1295-dac-ipamorelin-1",
+            "label": "Journal of Clinical Endocrinology & Metabolism",
+            "title": "Prolonged stimulation of GH and IGF-I secretion by CJC-1295 in healthy adults",
+            "href": "https://pubmed.ncbi.nlm.nih.gov/16352683/",
+            "source_number": 1,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-cjc-1295-dac-ipamorelin-2",
+            "label": "European Journal of Endocrinology",
+            "title": "Ipamorelin, the first selective growth hormone secretagogue",
+            "href": "https://pubmed.ncbi.nlm.nih.gov/9849822/",
+            "source_number": 2,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-cjc-1295-dac-ipamorelin-3",
+            "label": "Endocrine Reviews",
+            "title": "Growth hormone secretagogues: mechanisms and clinical applications",
+            "href": "https://pubmed.ncbi.nlm.nih.gov/11739335/",
+            "source_number": 3,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-cjc-1295-dac-ipamorelin-4",
+            "label": "Sleep Medicine Reviews",
+            "title": "Sleep and the GH/IGF-1 axis: physiological and clinical implications",
+            "href": "https://pubmed.ncbi.nlm.nih.gov/10838019/",
+            "source_number": 4,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-cjc-1295-dac-ipamorelin-5",
+            "label": "Bachem",
+            "title": "Handling and storage guidelines for peptides (lyophilized stability)",
+            "href": "https://www.bachem.com/knowledge-center/peptide-guide/handling-and-storage-guidelines-for-peptides/",
+            "source_number": 5,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-cjc-1295-dac-ipamorelin-6",
+            "label": "Bachem",
+            "title": "Reconstituted peptide storage and stability recommendations",
+            "href": "https://www.bachem.com/knowledge-center/peptide-guide/handling-and-storage-guidelines-for-peptides/",
+            "source_number": 6,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-cjc-1295-dac-ipamorelin-7",
+            "label": "Translational Andrology and Urology (PMC)",
+            "title": "GH secretagogues in body composition management for hypogonadal males",
+            "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7108996/",
+            "source_number": 7,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-cjc-1295-dac-ipamorelin-8",
+            "label": "International Journal of Surgery (Pub Med)",
+            "title": "Ipamorelin for postoperative ileus: tolerability and safety in bowel resection patients",
+            "href": "https://pubmed.ncbi.nlm.nih.gov/25331030/",
+            "source_number": 8,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-cjc-1295-dac-ipamorelin-9",
+            "label": "NCBI Bookshelf",
+            "title": "Parenteral medication administration: subcutaneous injection technique",
+            "href": "https://www.ncbi.nlm.nih.gov/books/NBK596739/",
+            "source_number": 9,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-cjc-1295-dac-ipamorelin-10",
+            "label": "CDC",
+            "title": "Vaccine administration guidelines: subcutaneous route (no aspiration required)",
+            "href": "https://www.cdc.gov/vaccines/hcp/administration/during.html",
+            "source_number": 10,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-cjc-1295-dac-ipamorelin-11",
+            "label": "Growth Hormone & IGF Research (Science Direct)",
+            "title": "Ipamorelin induces longitudinal bone growth in rats",
+            "href": "https://www.sciencedirect.com/science/article/abs/pii/S1096637499999987",
+            "source_number": 11,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-cjc-1295-dac-ipamorelin-12",
+            "label": "Physiological Reviews",
+            "title": "The somatotropic axis: GH and IGF-1 regulation and actions",
+            "href": "https://pubmed.ncbi.nlm.nih.gov/10221985/",
+            "source_number": 12,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-cjc-1295-dac-ipamorelin-13",
+            "label": "Clinical Drug Investigation (PMC)",
+            "title": "Subcutaneous drug delivery: pharmacokinetic considerations",
+            "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6822791/",
+            "source_number": 13,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-cjc-1295-dac-ipamorelin-14",
+            "label": "Pure Lab Peptides",
+            "title": "CJC-1295 DAC (2 mg) product page",
+            "href": "https://purelabpeptides.com/buy-peptides/buy-cjc-1295-dac-2mg/",
+            "source_number": 14,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-cjc-1295-dac-ipamorelin-15",
+            "label": "Pure Lab Peptides",
+            "title": "Ipamorelin (5 mg) product page",
+            "href": "https://purelabpeptides.com/buy-peptides/buy-ipamorelin-5mg/",
+            "source_number": 15,
+            "is_clickable": true
+          }
+        ]
+      },
+      "compliance_notes": {
+        "not_medical_advice": true,
+        "content_origin": "source-derived stack scrape",
+        "copyright_safety_note": "Frontend text is generated from source-derived scraped excerpts and should not be expanded with invented claims."
+      }
+    },
+    {
+      "id": "stack-002",
+      "name": "CJC-1295 DAC (5 mg) + Ipamorelin (5 mg) Stack",
+      "base_name": "CJC-1295 DAC + Ipamorelin",
+      "slug": "cjc-1295-dac-ipamorelin",
+      "vial_strength": "5 mg Vial + 5 mg Vial",
+      "source_page": {
+        "label": "Original scraped page URL",
+        "href": "https://peptidedosages.com/peptide-stack-dosages/cjc-1295-dac-5-mg-vial-ipamorelin-5-mg-vial-dosage-protocol/"
+      },
+      "seo": {
+        "title": "CJC-1295 DAC 5mg + Ipamorelin 5mg Stack | Peptide Dosages.com",
+        "description": "This stacked protocol combines CJC-1295 DAC, a long-acting GHRH analog with extended half-life via albumin binding [1], and Ipamorelin, a selective ghrelin-receptor agonist that triggers potent GH puls..."
+      },
+      "hero": {
+        "eyebrow": "Peptide Stack Research Library",
+        "title": "CJC-1295 DAC (5 mg) + Ipamorelin (5 mg) Stack",
+        "subtitle": "This stacked protocol combines CJC-1295 DAC, a long-acting GHRH analog with extended half-life via albumin binding [1], and Ipamorelin, a selective ghrelin-receptor agonist that triggers potent GH pulses with minimal ACTH/cortisol release [2]. Together, these peptides amplify endogenous growth hormone",
+        "image_alt": "CJC-1295 DAC (5 mg) + Ipamorelin (5 mg) Stack stack vial image",
+        "tags": [
+          "CJC-1295 DAC",
+          "Ipamorelin"
+        ],
+        "evidence_level": "Source-derived research summary"
+      },
+      "overview": {
+        "what_is_it": {
+          "heading": "What is the CJC-1295 DAC (5 mg) + Ipamorelin (5 mg) Stack?",
+          "body": "This stacked protocol combines CJC-1295 DAC, a long-acting GHRH analog with extended half-life via albumin binding [1], and Ipamorelin, a selective ghrelin-receptor agonist that triggers potent GH pulses with minimal ACTH/cortisol release [2]. Together, these peptides amplify endogenous growth hormone secretion and IGF-1 signaling through complementary mechanisms [3]."
+        },
+        "main_benefits": {
+          "heading": "Potential Benefits",
+          "items": [
+            {
+              "title": "Body composition",
+              "description": "GH secretagogues have demonstrated improvements in lean mass and reductions in fat mass in clinical studies"
+            },
+            {
+              "title": "Sustained GH/IGF-1 elevation",
+              "description": "CJC-1295 DAC produces prolonged elevations lasting 6–11 days per administration"
+            },
+            {
+              "title": "Selectivity",
+              "description": "Ipamorelin does not significantly increase cortisol or ACTH at therapeutic doses"
+            }
+          ]
+        },
+        "how_it_works": {
+          "heading": "How It Works",
+          "body": "CJC-1295 DAC functions as a synthetic GHRH analog that stimulates pituitary GH release. Its Drug Affinity Complex (DAC) moiety binds to serum albumin, extending its half-life to approximately 6–8 days and producing sustained, dose-dependent elevations in GH and IGF-1\n[1]\n. Ipamorelin is a selective growth hormone secretagogue that activates the ghrelin receptor (GHSR) to trigger rapid GH pulses without significantly affecting ACTH, cortisol, or prolactin\n[2]\n. When combined, these peptides act through complementary pathways (GHRH receptor and ghrelin receptor) to synergistically amplify endogenous GH secretion\n[3]\n."
+        },
+        "side_effects": {
+          "heading": "Potential Side Effects",
+          "items": [
+            "Both peptides were well tolerated in human studies, with transient injection-site reactions being the most common adverse effect",
+            "Water retention, mild headache, and transient numbness/tingling have been reported with GH-elevating compounds."
+          ],
+          "note": "This list reflects source-derived observations. Human safety has not been fully established for all investigational stack protocols."
+        }
+      },
+      "dosing_and_reconstitution": {
+        "section_title": "Dosing & Reconstitution",
+        "disclaimer": "This section is source-derived research information only and is not medical advice or a personal use recommendation.",
+        "dosage_protocols": [
+          {
+            "label": "CJC-1295 DAC: Standard",
+            "timeframe": "Standard",
+            "dose": "1000 mcg (1.0 mg)",
+            "units_or_volume": "40 units (0.40 mL)",
+            "notes": "Once weekly"
+          },
+          {
+            "label": "CJC-1295 DAC: Aggressive",
+            "timeframe": "Aggressive",
+            "dose": "2000 mcg (2.0 mg)",
+            "units_or_volume": "80 units (0.80 mL)",
+            "notes": "Once weekly"
+          },
+          {
+            "label": "Ipamorelin: Weeks 1–2 (Initiation)",
+            "timeframe": "Weeks 1–2 (Initiation)",
+            "dose": "100 mcg",
+            "units_or_volume": "6 units (0.06 mL)",
+            "notes": "Once daily"
+          },
+          {
+            "label": "Ipamorelin: Weeks 3–4 (Titration)",
+            "timeframe": "Weeks 3–4 (Titration)",
+            "dose": "150 mcg",
+            "units_or_volume": "9 units (0.09 mL)",
+            "notes": "Once daily"
+          },
+          {
+            "label": "Ipamorelin: Weeks 5+ (Maintenance)",
+            "timeframe": "Weeks 5+ (Maintenance)",
+            "dose": "200 mcg",
+            "units_or_volume": "12 units (0.12 mL)",
+            "notes": "Once daily"
+          },
+          {
+            "label": "Ipamorelin: Aggressive (Optional)",
+            "timeframe": "Aggressive (Optional)",
+            "dose": "300 mcg",
+            "units_or_volume": "18 units (0.18 mL)",
+            "notes": "Once daily or split 2×/day"
+          }
+        ],
+        "reconstitution_guide": {
+          "vial_amount": "CJC-1295 DAC 5 mg Vial + Ipamorelin 5 mg Vial",
+          "bacteriostatic_water": "",
+          "resulting_concentration": "",
+          "summary": "Easy measuring: CJC-1295 DAC:1 unit = 25 mcg; Ipamorelin:1 unit ≈ 16.7 mcgon U-100 syringes.",
+          "steps": [
+            "Draw 2.0 mL bacteriostatic water with a sterile syringe.",
+            "Inject slowly down the vial wall; avoid foaming or direct stream onto powder.",
+            "Gently swirl/roll until fully dissolved (do not shake).",
+            "Label with date and refrigerate at 2–8 °C (35.6–46.4 °F).",
+            "Draw 3.0 mL bacteriostatic water with a sterile syringe.",
+            "Inject slowly down the vial wall; avoid foaming.",
+            "Gently swirl/roll until dissolved (do not shake).",
+            "Label with date and refrigerate at 2–8 °C (35.6–46.4 °F)."
+          ]
+        },
+        "injection_frequency": {
+          "summary": "CJC-1295 DAC: 1 mg (40 units) subcutaneously once per week on a consistent day. Ipamorelin: 100–300 mcg subcutaneously once daily.",
+          "options": [
+            "CJC-1295 DAC: Subcutaneous, Once Weekly",
+            "Ipamorelin: Subcutaneous, Once Daily"
+          ]
+        },
+        "protocol_duration": {
+          "summary": "CJC-1295 DAC once weekly + Ipamorelin once daily for 8–16 weeks.",
+          "vial_duration": "",
+          "duration_examples": [
+            {
+              "duration": "8 weeks",
+              "estimated_vials": "",
+              "notes": ""
+            },
+            {
+              "duration": "12 weeks",
+              "estimated_vials": "",
+              "notes": ""
+            },
+            {
+              "duration": "16 weeks",
+              "estimated_vials": "",
+              "notes": ""
+            }
+          ]
+        },
+        "recommended_for": [
+          {
+            "type": "Body Composition Research",
+            "description": "For readers studying growth hormone-mediated effects on lean mass, fat reduction, and IGF-1 signaling in clinical and preclinical models."
+          },
+          {
+            "type": "Sleep / GH Research",
+            "description": "For readers reviewing literature on pulsatile GH secretion, circadian GH rhythms, and the relationship between deep sleep and endogenous GH release."
+          },
+          {
+            "type": "Recovery Research",
+            "description": "For readers investigating tissue repair and recovery mechanisms mediated by sustained GH and IGF-1 elevation from GHRH analog and ghrelin-mimetic co-administration."
+          }
+        ]
+      },
+      "stack_details": {
+        "section_title": "Stack Components",
+        "summary": "Protocol Overview",
+        "components": [
+          {
+            "name": "CJC-1295 DAC",
+            "vial_strength": "5 mg Vial",
+            "route_or_frequency": "Subcutaneous, Once Weekly",
+            "reconstitution": "Reconstitution:2.0 mL bacteriostatic water → 2.5 mg/mL(2500 mcg/mL) → 25 mcg per unit",
+            "dosing_table": [
+              {
+                "Phase": "Standard",
+                "Weekly Dose (mcg / mg)": "1000 mcg (1.0 mg)",
+                "Units (mL) per Injection": "40 units (0.40 mL)",
+                "Frequency": "Once weekly"
+              },
+              {
+                "Phase": "Aggressive",
+                "Weekly Dose (mcg / mg)": "2000 mcg (2.0 mg)",
+                "Units (mL) per Injection": "80 units (0.80 mL)",
+                "Frequency": "Once weekly"
+              }
+            ],
+            "reconstitution_steps": [
+              "Draw 2.0 mL bacteriostatic water with a sterile syringe.",
+              "Inject slowly down the vial wall; avoid foaming or direct stream onto powder.",
+              "Gently swirl/roll until fully dissolved (do not shake).",
+              "Label with date and refrigerate at 2–8 °C (35.6–46.4 °F)."
+            ]
+          },
+          {
+            "name": "Ipamorelin",
+            "vial_strength": "5 mg Vial",
+            "route_or_frequency": "Subcutaneous, Once Daily",
+            "reconstitution": "Reconstitution:3.0 mL bacteriostatic water → 1.67 mg/mL(1666.7 mcg/mL) → 16.67 mcg per unit",
+            "dosing_table": [
+              {
+                "Phase": "Weeks 1–2 (Initiation)",
+                "Daily Dose (mcg / mg)": "100 mcg (0.1 mg)",
+                "Units (mL) per Injection": "6 units (0.06 mL)",
+                "Frequency": "Once daily"
+              },
+              {
+                "Phase": "Weeks 3–4 (Titration)",
+                "Daily Dose (mcg / mg)": "150 mcg (0.15 mg)",
+                "Units (mL) per Injection": "9 units (0.09 mL)",
+                "Frequency": "Once daily"
+              },
+              {
+                "Phase": "Weeks 5+ (Maintenance)",
+                "Daily Dose (mcg / mg)": "200 mcg (0.2 mg)",
+                "Units (mL) per Injection": "12 units (0.12 mL)",
+                "Frequency": "Once daily"
+              },
+              {
+                "Phase": "Aggressive (Optional)",
+                "Daily Dose (mcg / mg)": "300 mcg (0.3 mg)",
+                "Units (mL) per Injection": "18 units (0.18 mL)",
+                "Frequency": "Once daily or split 2×/day"
+              }
+            ],
+            "reconstitution_steps": [
+              "Draw 3.0 mL bacteriostatic water with a sterile syringe.",
+              "Inject slowly down the vial wall; avoid foaming.",
+              "Gently swirl/roll until dissolved (do not shake).",
+              "Label with date and refrigerate at 2–8 °C (35.6–46.4 °F)."
+            ]
+          }
+        ],
+        "combined_schedule": [
+          {
+            "Week": "Weeks 1–2",
+            "CJC-1295 DAC (Weekly)": "1000 mcg (40 units) once weekly",
+            "Ipamorelin (Daily)": "100 mcg (6 units) once daily"
+          },
+          {
+            "Week": "Weeks 3–4",
+            "CJC-1295 DAC (Weekly)": "1000 mcg (40 units) once weekly",
+            "Ipamorelin (Daily)": "150 mcg (9 units) once daily"
+          },
+          {
+            "Week": "Weeks 5–12",
+            "CJC-1295 DAC (Weekly)": "1000 mcg (40 units) once weekly",
+            "Ipamorelin (Daily)": "200 mcg (12 units) once daily"
+          }
+        ]
+      },
+      "supplies_needed": {
+        "section_title": "Supplies Needed",
+        "summary": "The following supplies are referenced in the source protocol material. Verify exact quantities based on your protocol length.",
+        "items": [
+          {
+            "name": "CJC-1295 DAC Vial (5 mg Vial)",
+            "purpose": "The research compound in lyophilized form.",
+            "quantity_guidance": "2 vials"
+          },
+          {
+            "name": "Ipamorelin Vial (5 mg Vial)",
+            "purpose": "The research compound in lyophilized form.",
+            "quantity_guidance": "3 vials"
+          },
+          {
+            "name": "Insulin Syringes (U-100)",
+            "purpose": "For measuring and administering subcutaneous doses.",
+            "quantity_guidance": "Per week: 1 (CJC) + 7 (Ipamorelin) ="
+          },
+          {
+            "name": "Bacteriostatic Water",
+            "purpose": "Used to reconstitute the lyophilized peptide vials.",
+            "quantity_guidance": "8 weeks: CJC (2 × 2 mL = 4 mL) + Ipam (3 × 3 mL = 9 mL) = 13 mL →"
+          },
+          {
+            "name": "Alcohol Swabs",
+            "purpose": "For sanitizing injection sites and vial stoppers.",
+            "quantity_guidance": "Per week: ~16 swabs (2/day for Ipamorelin + 2 for CJC weekly)"
+          },
+          {
+            "name": "Sharps Container",
+            "purpose": "For safe disposal of used syringes.",
+            "quantity_guidance": "See source protocol for quantity guidance."
+          }
+        ]
+      },
+      "storage_and_handling": {
+        "section_title": "Storage & Handling",
+        "lyophilized_storage": "Lyophilized: ≤−15 °C (5 °F)",
+        "reconstituted_storage": "reconstituted:2–8 °C (35.6–46.4 °F)",
+        "handling_tips": [
+          "General subcutaneous guidance from clinical best-practice resources",
+          "Clean the vial stopper and skin with alcohol; allow to dry completely.",
+          "Pinch a skinfold; insert the needle at",
+          "into subcutaneous tissue",
+          "Do not aspirate for subcutaneous injections; inject slowly and steadily",
+          "Rotate sites systematically (abdomen, thighs, upper arms) to avoid lipohypertrophy."
+        ],
+        "safety_notes": [
+          "Practical considerations for consistency and safety.",
+          "Use a new sterile insulin syringe for each injection; dispose in a sharps container.",
+          "Rotate injection sites systematically (abdomen, thighs, upper arms) to reduce local irritation.",
+          "Inject slowly; wait a few seconds before withdrawing the needle."
+        ]
+      },
+      "research": {
+        "section_title": "Research & References",
+        "evidence_summary": "The evidence profile for CJC-1295 DAC (5 mg) + Ipamorelin (5 mg) Stack is based on the source references below.",
+        "resources": [
+          {
+            "id": "resource-cjc-1295-dac-ipamorelin-1",
+            "label": "Journal of Clinical Endocrinology & Metabolism",
+            "title": "Prolonged stimulation of GH and IGF-I secretion by CJC-1295 in healthy adults",
+            "href": "https://pubmed.ncbi.nlm.nih.gov/16352683/",
+            "source_number": 1,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-cjc-1295-dac-ipamorelin-2",
+            "label": "European Journal of Endocrinology",
+            "title": "Ipamorelin, the first selective growth hormone secretagogue",
+            "href": "https://pubmed.ncbi.nlm.nih.gov/9849822/",
+            "source_number": 2,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-cjc-1295-dac-ipamorelin-3",
+            "label": "Endocrine Reviews",
+            "title": "Growth hormone secretagogues: mechanisms and clinical applications",
+            "href": "https://pubmed.ncbi.nlm.nih.gov/11739335/",
+            "source_number": 3,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-cjc-1295-dac-ipamorelin-4",
+            "label": "Sleep Medicine Reviews",
+            "title": "Sleep and the GH/IGF-1 axis: physiological and clinical implications",
+            "href": "https://pubmed.ncbi.nlm.nih.gov/10838019/",
+            "source_number": 4,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-cjc-1295-dac-ipamorelin-5",
+            "label": "Bachem",
+            "title": "Handling and storage guidelines for peptides (lyophilized stability)",
+            "href": "https://www.bachem.com/knowledge-center/peptide-guide/handling-and-storage-guidelines-for-peptides/",
+            "source_number": 5,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-cjc-1295-dac-ipamorelin-6",
+            "label": "Bachem",
+            "title": "Reconstituted peptide storage and stability recommendations",
+            "href": "https://www.bachem.com/knowledge-center/peptide-guide/handling-and-storage-guidelines-for-peptides/",
+            "source_number": 6,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-cjc-1295-dac-ipamorelin-7",
+            "label": "Translational Andrology and Urology (PMC)",
+            "title": "GH secretagogues in body composition management for hypogonadal males",
+            "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7108996/",
+            "source_number": 7,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-cjc-1295-dac-ipamorelin-8",
+            "label": "International Journal of Surgery (Pub Med)",
+            "title": "Ipamorelin for postoperative ileus: tolerability and safety in bowel resection patients",
+            "href": "https://pubmed.ncbi.nlm.nih.gov/25331030/",
+            "source_number": 8,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-cjc-1295-dac-ipamorelin-9",
+            "label": "NCBI Bookshelf",
+            "title": "Parenteral medication administration: subcutaneous injection technique",
+            "href": "https://www.ncbi.nlm.nih.gov/books/NBK596739/",
+            "source_number": 9,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-cjc-1295-dac-ipamorelin-10",
+            "label": "CDC",
+            "title": "Vaccine administration guidelines: subcutaneous route (no aspiration required)",
+            "href": "https://www.cdc.gov/vaccines/hcp/administration/during.html",
+            "source_number": 10,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-cjc-1295-dac-ipamorelin-11",
+            "label": "Growth Hormone & IGF Research (Science Direct)",
+            "title": "Ipamorelin induces longitudinal bone growth in rats",
+            "href": "https://www.sciencedirect.com/science/article/abs/pii/S1096637499999987",
+            "source_number": 11,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-cjc-1295-dac-ipamorelin-12",
+            "label": "Physiological Reviews",
+            "title": "The somatotropic axis: GH and IGF-1 regulation and actions",
+            "href": "https://pubmed.ncbi.nlm.nih.gov/10221985/",
+            "source_number": 12,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-cjc-1295-dac-ipamorelin-13",
+            "label": "Clinical Drug Investigation (PMC)",
+            "title": "Subcutaneous drug delivery: pharmacokinetic considerations",
+            "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6822791/",
+            "source_number": 13,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-cjc-1295-dac-ipamorelin-14",
+            "label": "Pure Lab Peptides",
+            "title": "CJC-1295 DAC (5 mg) product page",
+            "href": "https://purelabpeptides.com/buy-peptides/buy-cjc-1295-dac-5mg/",
+            "source_number": 14,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-cjc-1295-dac-ipamorelin-15",
+            "label": "Pure Lab Peptides",
+            "title": "Ipamorelin (5 mg) product page",
+            "href": "https://purelabpeptides.com/buy-peptides/buy-ipamorelin-5mg/",
+            "source_number": 15,
+            "is_clickable": true
+          }
+        ]
+      },
+      "compliance_notes": {
+        "not_medical_advice": true,
+        "content_origin": "source-derived stack scrape",
+        "copyright_safety_note": "Frontend text is generated from source-derived scraped excerpts and should not be expanded with invented claims."
+      }
+    },
+    {
+      "id": "stack-003",
+      "name": "PT-141 & Melanotan II (10 mg Vials)",
+      "base_name": "PT-141 + Melanotan II",
+      "slug": "pt-141-melanotan-ii",
+      "vial_strength": "",
+      "source_page": {
+        "label": "Original scraped page URL",
+        "href": "https://peptidedosages.com/peptide-stack-dosages/melanotan-ii-10-mg-vial-pt-141-10-mg-vial-dosage-protocol/"
+      },
+      "seo": {
+        "title": "PT-141 + Melanotan II Stack Dosage Protocol | Peptide Dosages.com",
+        "description": "PT-141 (bremelanotide) and Melanotan II are cyclic melanocortin receptor agonists with distinct but related applications. PT-141 is FDA-approved for hypoactive sexual desire disorder and is used on-de..."
+      },
+      "hero": {
+        "eyebrow": "Peptide Stack Research Library",
+        "title": "PT-141 & Melanotan II (10 mg Vials)",
+        "subtitle": "PT-141 (bremelanotide) and Melanotan II are cyclic melanocortin receptor agonists with distinct but related applications. PT-141 is FDA-approved for hypoactive sexual desire disorder and is used on-demand [1][2], while Melanotan II has been studied for its effects on skin pigmentation and sexual func",
+        "image_alt": "PT-141 & Melanotan II (10 mg Vials) stack vial image",
+        "tags": [
+          "PT-141",
+          "Melanotan II"
+        ],
+        "evidence_level": "Source-derived research summary"
+      },
+      "overview": {
+        "what_is_it": {
+          "heading": "What is the PT-141 & Melanotan II (10 mg Vials)?",
+          "body": "PT-141 (bremelanotide) and Melanotan II are cyclic melanocortin receptor agonists with distinct but related applications. PT-141 is FDA-approved for hypoactive sexual desire disorder and is used on-demand [1][2], while Melanotan II has been studied for its effects on skin pigmentation and sexual function with daily dosing protocols [5][6]. This educational guide covers reconstitution, dosing, and administration for both peptides."
+        },
+        "main_benefits": {
+          "heading": "Potential Benefits",
+          "items": [
+            {
+              "title": "Research interest centers on",
+              "description": "Research interest centers on melanocortin receptor activity, arousal signaling pathways, and pigmentation mechanisms in preclinical and clinical models."
+            },
+            {
+              "title": "PT-141 is FDA-approved",
+              "description": "PT-141 is FDA-approved for hypoactive sexual desire disorder; Melanotan II is studied for pigmentation and arousal signaling without FDA approval for these uses."
+            },
+            {
+              "title": "Potential benefits reflect",
+              "description": "Potential benefits reflect the individual melanocortin research profiles of each peptide; direct combination evidence is limited."
+            }
+          ]
+        },
+        "how_it_works": {
+          "heading": "How It Works",
+          "body": "How These Peptides Work\nPT-141 and Melanotan II are both synthetic cyclic peptide analogues that act on melanocortin receptors, particularly MC3R and MC4R in the central nervous system\n[2]\n[5]\n. PT-141 (bremelanotide) is a metabolite of Melanotan II and was developed specifically for its effects on sexual function without significant pigmentation activity. It is FDA-approved for hypoactive sexual desire disorder in premenopausal women\n[1]\n[3]\n. Melanotan II retains both melanogenic and sexual-function properties, stimulating melanin production in skin cells (melanocytes) while also activating central pathways involved in sexual arousal\n[5]\n[6]\n."
+        },
+        "side_effects": {
+          "heading": "Potential Side Effects",
+          "items": [
+            "Common side effects include nausea (especially with first doses), flushing, headache, and injection-site reactions",
+            "Common side effects include nausea, facial flushing, fatigue, and appetite suppression, particularly during initial dosing"
+          ],
+          "note": "This list reflects source-derived observations. Human safety has not been fully established for all investigational stack protocols."
+        }
+      },
+      "dosing_and_reconstitution": {
+        "section_title": "Dosing & Reconstitution",
+        "disclaimer": "This section is source-derived research information only and is not medical advice or a personal use recommendation.",
+        "dosage_protocols": [
+          {
+            "label": "PT-141: Initial / Titration",
+            "timeframe": "Initial / Titration",
+            "dose": "500–750 mcg",
+            "units_or_volume": "—",
+            "notes": ""
+          },
+          {
+            "label": "PT-141: Standard",
+            "timeframe": "Standard",
+            "dose": "1000–1500 mcg",
+            "units_or_volume": "—",
+            "notes": ""
+          },
+          {
+            "label": "PT-141: Full / FDA-Approved",
+            "timeframe": "Full / FDA-Approved",
+            "dose": "1750 mcg (1.75 mg)",
+            "units_or_volume": "—",
+            "notes": ""
+          },
+          {
+            "label": "Melanotan II: Week 1",
+            "timeframe": "Week 1",
+            "dose": "",
+            "units_or_volume": "—",
+            "notes": ""
+          },
+          {
+            "label": "Melanotan II: Week 2",
+            "timeframe": "Week 2",
+            "dose": "",
+            "units_or_volume": "—",
+            "notes": ""
+          },
+          {
+            "label": "Melanotan II: Weeks 3–4",
+            "timeframe": "Weeks 3–4",
+            "dose": "",
+            "units_or_volume": "—",
+            "notes": ""
+          },
+          {
+            "label": "Melanotan II: Weeks 5+ (Loading)",
+            "timeframe": "Weeks 5+ (Loading)",
+            "dose": "",
+            "units_or_volume": "—",
+            "notes": ""
+          },
+          {
+            "label": "Melanotan II: Maintenance",
+            "timeframe": "Maintenance",
+            "dose": "",
+            "units_or_volume": "—",
+            "notes": ""
+          }
+        ],
+        "reconstitution_guide": {
+          "vial_amount": "",
+          "bacteriostatic_water": "",
+          "resulting_concentration": "",
+          "summary": "Easy measuring: At 3.33 mg/mL,1 unit = 0.01 mL ≈ 33.3 mcgon a U-100 insulin syringe.",
+          "steps": []
+        },
+        "injection_frequency": {
+          "summary": "See source protocol for injection frequency details.",
+          "options": [
+            "See source protocol for details."
+          ]
+        },
+        "protocol_duration": {
+          "summary": "Daily subcutaneous injections during loading phase (4–8 weeks), then 2–3× weekly maintenance for pigmentation and related effects",
+          "vial_duration": "",
+          "duration_examples": [
+            {
+              "duration": "8 weeks",
+              "estimated_vials": "",
+              "notes": ""
+            },
+            {
+              "duration": "12 weeks",
+              "estimated_vials": "",
+              "notes": ""
+            },
+            {
+              "duration": "16 weeks",
+              "estimated_vials": "",
+              "notes": ""
+            }
+          ]
+        },
+        "recommended_for": [
+          {
+            "type": "Melanocortin Research",
+            "description": "For readers studying MC3R and MC4R receptor signaling, bremelanotide pharmacology, and the central pathways involved in melanocortin-mediated arousal."
+          },
+          {
+            "type": "Sexual Function Research",
+            "description": "For readers reviewing clinical evidence on melanocortin receptor agonists in sexual function, including FDA-approved bremelanotide applications in premenopausal women."
+          },
+          {
+            "type": "Skin Pigmentation Research",
+            "description": "For readers investigating melanogenesis, UV-induced pigmentation responses, and melanocyte-stimulating hormone analog mechanisms studied with Melanotan II."
+          }
+        ]
+      },
+      "stack_details": {
+        "section_title": "Stack Components",
+        "summary": "Protocol Overview",
+        "components": [
+          {
+            "name": "PT-141",
+            "vial_strength": "",
+            "route_or_frequency": "",
+            "reconstitution": "",
+            "dosing_table": [
+              {
+                "Phase": "Initial / Titration",
+                "Dose (mcg)": "500–750 mcg",
+                "Units (per injection) (mL)": "15–22 units (0.15–0.22 mL)"
+              },
+              {
+                "Phase": "Standard",
+                "Dose (mcg)": "1000–1500 mcg",
+                "Units (per injection) (mL)": "30–45 units (0.30–0.45 mL)"
+              },
+              {
+                "Phase": "Full / FDA-Approved",
+                "Dose (mcg)": "1750 mcg (1.75 mg)",
+                "Units (per injection) (mL)": "52 units (0.52 mL)"
+              }
+            ],
+            "reconstitution_steps": []
+          },
+          {
+            "name": "Melanotan II",
+            "vial_strength": "",
+            "route_or_frequency": "",
+            "reconstitution": "",
+            "dosing_table": [
+              {
+                "Week": "Week 1",
+                "Daily Dose (mcg)": "250 mcg",
+                "Units (per injection) (mL)": "7.5 units (0.075 mL)*"
+              },
+              {
+                "Week": "Week 2",
+                "Daily Dose (mcg)": "500 mcg",
+                "Units (per injection) (mL)": "15 units (0.15 mL)"
+              },
+              {
+                "Week": "Weeks 3–4",
+                "Daily Dose (mcg)": "750 mcg",
+                "Units (per injection) (mL)": "22 units (0.22 mL)"
+              },
+              {
+                "Week": "Weeks 5+ (Loading)",
+                "Daily Dose (mcg)": "1000 mcg",
+                "Units (per injection) (mL)": "30 units (0.30 mL)"
+              },
+              {
+                "Week": "Maintenance",
+                "Daily Dose (mcg)": "500–1000 mcg (2–3×/week)",
+                "Units (per injection) (mL)": "15–30 units (0.15–0.30 mL)"
+              }
+            ],
+            "reconstitution_steps": []
+          }
+        ],
+        "combined_schedule": []
+      },
+      "supplies_needed": {
+        "section_title": "Supplies Needed",
+        "summary": "The following supplies are referenced in the source protocol material. Verify exact quantities based on your protocol length.",
+        "items": [
+          {
+            "name": "PT-141 Vial",
+            "purpose": "The research compound in lyophilized form.",
+            "quantity_guidance": "2 vials"
+          },
+          {
+            "name": "Melanotan II Vial",
+            "purpose": "The research compound in lyophilized form.",
+            "quantity_guidance": "6 vials"
+          },
+          {
+            "name": "Insulin Syringes (U-100)",
+            "purpose": "For measuring and administering subcutaneous doses.",
+            "quantity_guidance": "8 weeks:"
+          },
+          {
+            "name": "Bacteriostatic Water",
+            "purpose": "Used to reconstitute the lyophilized peptide vials.",
+            "quantity_guidance": "8 weeks (2 vials × 3 mL):"
+          },
+          {
+            "name": "Alcohol Swabs",
+            "purpose": "For sanitizing injection sites and vial stoppers.",
+            "quantity_guidance": "8 weeks:"
+          },
+          {
+            "name": "Sharps Container",
+            "purpose": "For safe disposal of used syringes.",
+            "quantity_guidance": "See source protocol for quantity guidance."
+          }
+        ]
+      },
+      "storage_and_handling": {
+        "section_title": "Storage & Handling",
+        "lyophilized_storage": "Lyophilized: freeze at−20 °C (−4 °F)",
+        "reconstituted_storage": "reconstituted: refrigerate at 2–8 °C (35.6–46.4 °F)and use within ~1 week.",
+        "handling_tips": [
+          "General subcutaneous guidance from clinical best-practice resources",
+          "Clean the vial stopper with an alcohol swab; allow to dry completely.",
+          "Clean the injection site (abdomen or thigh) with an alcohol swab for at least 30 seconds; allow to dry",
+          "Pinch a fold of skin; insert the needle at",
+          "depending on subcutaneous tissue depth",
+          "Aspiration is not required for subcutaneous injections; inject slowly and steadily"
+        ],
+        "safety_notes": [
+          "Practical considerations for consistency and safety.",
+          "Use new sterile insulin syringes for each injection; dispose in a sharps container.",
+          "Rotate injection sites (abdomen, thighs, upper arms) to reduce local irritation.",
+          "Inject slowly; wait a few seconds before withdrawing the needle."
+        ]
+      },
+      "research": {
+        "section_title": "Research & References",
+        "evidence_summary": "The evidence profile for PT-141 & Melanotan II (10 mg Vials) is based on the source references below.",
+        "resources": [
+          {
+            "id": "resource-pt-141-melanotan-ii-1",
+            "label": "FDA",
+            "title": "Bremelanotide (Vyleesi) prescribing information: dosing, safety, and use limitations",
+            "href": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2019/210557s000lbl.pdf",
+            "source_number": 1,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-pt-141-melanotan-ii-2",
+            "label": "NCBI Bookshelf (Liver Tox)",
+            "title": "Bremelanotide: mechanism, clinical use, and hepatic safety profile",
+            "href": "https://www.ncbi.nlm.nih.gov/books/NBK573221/",
+            "source_number": 2,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-pt-141-melanotan-ii-3",
+            "label": "PMC",
+            "title": "Bremelanotide for treatment of female hypoactive sexual desire disorder: clinical trial review",
+            "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8788464/",
+            "source_number": 3,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-pt-141-melanotan-ii-4",
+            "label": "Mayo Clinic",
+            "title": "Bremelanotide (subcutaneous route): side effects, dosage, and precautions",
+            "href": "https://www.mayoclinic.org/drugs-supplements/bremelanotide-subcutaneous-route/description/drg-20466805",
+            "source_number": 4,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-pt-141-melanotan-ii-5",
+            "label": "Pub Med",
+            "title": "Evaluation of Melanotan-II: pilot phase-I clinical study on safety and efficacy",
+            "href": "https://pubmed.ncbi.nlm.nih.gov/8637402/",
+            "source_number": 5,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-pt-141-melanotan-ii-6",
+            "label": "Rx List",
+            "title": "Melanotan-II: uses, side effects, dosing, and precautions overview",
+            "href": "https://www.rxlist.com/supplements/melanotan-ii.htm",
+            "source_number": 6,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-pt-141-melanotan-ii-7",
+            "label": "Bachem",
+            "title": "Handling and storage guidelines for peptides: lyophilized and reconstituted stability",
+            "href": "https://www.bachem.com/knowledge-center/peptide-guide/handling-and-storage-guidelines-for-peptides/",
+            "source_number": 7,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-pt-141-melanotan-ii-8",
+            "label": "NCBI Bookshelf (WHO)",
+            "title": "Best practices for injections and related procedures: asepsis and technique",
+            "href": "https://www.ncbi.nlm.nih.gov/books/NBK138495/",
+            "source_number": 8,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-pt-141-melanotan-ii-9",
+            "label": "Healthline",
+            "title": "Subcutaneous injection: technique, sites, and step-by-step guidance",
+            "href": "https://www.healthline.com/health/subcutaneous-injection",
+            "source_number": 9,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-pt-141-melanotan-ii-10",
+            "label": "CDC",
+            "title": "Vaccine administration: subcutaneous injection angle and site selection",
+            "href": "https://www.cdc.gov/vaccines/hcp/administration/during.html",
+            "source_number": 10,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-pt-141-melanotan-ii-11",
+            "label": "PMC",
+            "title": "Subcutaneous drug injection: pharmacologic considerations and clinical review",
+            "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6822791/",
+            "source_number": 11,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-pt-141-melanotan-ii-12",
+            "label": "Pure Lab Peptides",
+            "title": "PT-141 (10 mg) product page: quality and batch documentation",
+            "href": "https://purelabpeptides.com/buy-peptides/buy-pt-141-10mg/",
+            "source_number": 12,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-pt-141-melanotan-ii-13",
+            "label": "Pure Lab Peptides",
+            "title": "Melanotan II (10 mg) product page: quality and batch documentation",
+            "href": "https://purelabpeptides.com/buy-peptides/buy-melanotan-2-10mg/",
+            "source_number": 13,
+            "is_clickable": true
+          }
+        ]
+      },
+      "compliance_notes": {
+        "not_medical_advice": true,
+        "content_origin": "source-derived stack scrape",
+        "copyright_safety_note": "Frontend text is generated from source-derived scraped excerpts and should not be expanded with invented claims."
+      }
+    },
+    {
+      "id": "stack-004",
+      "name": "TB-500 + BPC-157 Stack (5 mg Vials)",
+      "base_name": "TB-500 + BPC-157",
+      "slug": "tb-500-bpc-157",
+      "vial_strength": "",
+      "source_page": {
+        "label": "Original scraped page URL",
+        "href": "https://peptidedosages.com/peptide-stack-dosages/tb-500-5-mg-vial-bpc-157-5-mg-vial-dosage-protocol/"
+      },
+      "seo": {
+        "title": "TB-500 + BPC-157 Stack Dosage Protocol | Peptide Dosages.com",
+        "description": "TB-500 (Thymosin β4) is a 43-amino-acid peptide that promotes tissue repair and regeneration through enhanced angiogenesis and cellular migration [1][2]. BPC-157 (Body Protection Compound-157) is a 15-..."
+      },
+      "hero": {
+        "eyebrow": "Peptide Stack Research Library",
+        "title": "TB-500 + BPC-157 Stack (5 mg Vials)",
+        "subtitle": "TB-500 (Thymosin β4) is a 43-amino-acid peptide that promotes tissue repair and regeneration through enhanced angiogenesis and cellular migration [1][2]. BPC-157 (Body Protection Compound-157) is a 15-amino-acid gastric peptide studied for accelerating musculoskeletal healing by upregulating growth f",
+        "image_alt": "TB-500 + BPC-157 Stack (5 mg Vials) stack vial image",
+        "tags": [
+          "TB-500",
+          "BPC-157"
+        ],
+        "evidence_level": "Source-derived research summary"
+      },
+      "overview": {
+        "what_is_it": {
+          "heading": "What is the TB-500 + BPC-157 Stack (5 mg Vials)?",
+          "body": "TB-500 (Thymosin β4) is a 43-amino-acid peptide that promotes tissue repair and regeneration through enhanced angiogenesis and cellular migration [1][2]. BPC-157 (Body Protection Compound-157) is a 15-amino-acid gastric peptide studied for accelerating musculoskeletal healing by upregulating growth factor signaling [3][4]. Stacking these peptides is a common research approach for synergistic tissue repair support."
+        },
+        "main_benefits": {
+          "heading": "Potential Benefits",
+          "items": [
+            {
+              "title": "TB-500",
+              "description": "Preclinical studies show accelerated wound closure, reduced fibrosis, and improved function after ischemic or traumatic injuries"
+            },
+            {
+              "title": "BPC-157",
+              "description": "Preclinical models demonstrate accelerated recovery of tendon, ligament, muscle, and bone injuries with no observed toxicity"
+            },
+            {
+              "title": "Stack Rationale",
+              "description": "The combination may offer complementary mechanisms—systemic repair signaling (TB-500) plus localized tissue healing (BPC-157)."
+            }
+          ]
+        },
+        "how_it_works": {
+          "heading": "How It Works",
+          "body": "TB-500\nmimics endogenous thymosin β4, modulating inflammation and activating repair pathways including PI3K/Akt and Notch signaling to enhance angiogenesis and cell migration\n[1]\n[2]\n. It promotes actin sequestration and is studied for accelerating wound healing, reducing fibrosis, and improving function after ischemic or traumatic injuries.\nBPC-157\nupregulates angiogenic pathways (including VEGF) and counteracts inflammatory cytokines\n[3]\n. Preclinical research demonstrates improved healing of muscle, tendon, ligament, and bone with no observed toxicity\n[4]\n[5]\n. The combination targets complementary mechanisms: TB-500 for systemic tissue repair signaling and BPC-157 for localized healing support."
+        },
+        "side_effects": {
+          "heading": "Potential Side Effects",
+          "items": [
+            "Generally well tolerated in research settings; occasional mild injection-site reactions (redness, itching) may occur with subcutaneous administration."
+          ],
+          "note": "This list reflects source-derived observations. Human safety has not been fully established for all investigational stack protocols."
+        }
+      },
+      "dosing_and_reconstitution": {
+        "section_title": "Dosing & Reconstitution",
+        "disclaimer": "This section is source-derived research information only and is not medical advice or a personal use recommendation.",
+        "dosage_protocols": [
+          {
+            "label": "TB-500: Weeks 1–4",
+            "timeframe": "Weeks 1–4",
+            "dose": "1,250 mcg (1.25 mg)",
+            "units_or_volume": "50 units (0.50 mL)",
+            "notes": "Twice weekly"
+          },
+          {
+            "label": "TB-500: Weeks 5–12",
+            "timeframe": "Weeks 5–12",
+            "dose": "1,250 mcg (1.25 mg)",
+            "units_or_volume": "50 units (0.50 mL)",
+            "notes": "Once weekly"
+          },
+          {
+            "label": "BPC-157: Weeks 1–2",
+            "timeframe": "Weeks 1–2",
+            "dose": "",
+            "units_or_volume": "—",
+            "notes": "Once daily"
+          },
+          {
+            "label": "BPC-157: Weeks 3–8",
+            "timeframe": "Weeks 3–8",
+            "dose": "",
+            "units_or_volume": "—",
+            "notes": "Once daily"
+          },
+          {
+            "label": "BPC-157: Weeks 9–12",
+            "timeframe": "Weeks 9–12",
+            "dose": "",
+            "units_or_volume": "—",
+            "notes": "Once daily"
+          }
+        ],
+        "reconstitution_guide": {
+          "vial_amount": "",
+          "bacteriostatic_water": "",
+          "resulting_concentration": "",
+          "summary": "Easy measuring: At 2.5 mg/mL,1 unit = 0.01 mL = 25 mcgon a U-100 insulin syringe.",
+          "steps": [
+            "Draw 2.0 mL bacteriostatic water with a sterile syringe.",
+            "Inject slowly down the vial wall; avoid foaming.",
+            "Gently swirl/roll until dissolved (do not shake).",
+            "Label and refrigerate at 2–8 °C (35.6–46.4 °F), protected from light.",
+            "Draw 2.0 mL bacteriostatic water with a sterile syringe.",
+            "Inject slowly down the vial wall; avoid foaming.",
+            "Gently swirl/roll until dissolved (do not shake).",
+            "Label and refrigerate at 2–8 °C (35.6–46.4 °F), protected from light."
+          ]
+        },
+        "injection_frequency": {
+          "summary": "1,250 mcg twice weekly for 4 weeks (total ~2.5 mg/week).",
+          "options": [
+            "See source protocol for details."
+          ]
+        },
+        "protocol_duration": {
+          "summary": "TB-500 twice weekly (loading) then once weekly (maintenance); BPC-157 daily throughout.",
+          "vial_duration": "",
+          "duration_examples": [
+            {
+              "duration": "8 weeks",
+              "estimated_vials": "",
+              "notes": ""
+            },
+            {
+              "duration": "12 weeks",
+              "estimated_vials": "",
+              "notes": ""
+            },
+            {
+              "duration": "16 weeks",
+              "estimated_vials": "",
+              "notes": ""
+            }
+          ]
+        },
+        "recommended_for": [
+          {
+            "type": "Tissue Repair Research",
+            "description": "For readers studying the regenerative mechanisms of thymosin β4 and BPC-157 in musculoskeletal, tendon, ligament, and soft-tissue injury models."
+          },
+          {
+            "type": "Recovery & Inflammation Research",
+            "description": "For readers reviewing complementary anti-inflammatory and angiogenic signaling pathways activated by TB-500 and BPC-157 in wound healing research."
+          },
+          {
+            "type": "Musculoskeletal Research",
+            "description": "For readers comparing preclinical outcomes of BPC-157 and TB-500 in orthopaedic sports medicine contexts, including tendon healing and joint repair studies."
+          }
+        ]
+      },
+      "stack_details": {
+        "section_title": "Stack Components",
+        "summary": "Protocol Overview",
+        "components": [
+          {
+            "name": "TB-500",
+            "vial_strength": "",
+            "route_or_frequency": "",
+            "reconstitution": "Draw 2.0 mL bacteriostatic water with a sterile syringe.Inject slowly down the vial wall; avoid foaming.Gently swirl/roll until dissolved (do not shake).Label and refrigerate at 2–8 °C (35.6–46.4 °F), protected from light.",
+            "dosing_table": [
+              {
+                "Week": "Weeks 1–4",
+                "Dose (mcg)": "1,250 mcg (1.25 mg)",
+                "Units (per injection) (mL)": "50 units (0.50 mL)",
+                "Frequency": "Twice weekly"
+              },
+              {
+                "Week": "Weeks 5–12",
+                "Dose (mcg)": "1,250 mcg (1.25 mg)",
+                "Units (per injection) (mL)": "50 units (0.50 mL)",
+                "Frequency": "Once weekly"
+              }
+            ],
+            "reconstitution_steps": [
+              "Draw 2.0 mL bacteriostatic water with a sterile syringe.",
+              "Inject slowly down the vial wall; avoid foaming.",
+              "Gently swirl/roll until dissolved (do not shake).",
+              "Label and refrigerate at 2–8 °C (35.6–46.4 °F), protected from light."
+            ]
+          },
+          {
+            "name": "BPC-157",
+            "vial_strength": "",
+            "route_or_frequency": "",
+            "reconstitution": "Draw 2.0 mL bacteriostatic water with a sterile syringe.Inject slowly down the vial wall; avoid foaming.Gently swirl/roll until dissolved (do not shake).Label and refrigerate at 2–8 °C (35.6–46.4 °F), protected from light.",
+            "dosing_table": [
+              {
+                "Week": "Weeks 1–2",
+                "Daily Dose (mcg)": "250 mcg (0.25 mg)",
+                "Units (per injection) (mL)": "10 units (0.10 mL)",
+                "Frequency": "Once daily"
+              },
+              {
+                "Week": "Weeks 3–8",
+                "Daily Dose (mcg)": "500 mcg (0.50 mg)",
+                "Units (per injection) (mL)": "20 units (0.20 mL)",
+                "Frequency": "Once daily"
+              },
+              {
+                "Week": "Weeks 9–12",
+                "Daily Dose (mcg)": "250 mcg (0.25 mg)",
+                "Units (per injection) (mL)": "10 units (0.10 mL)",
+                "Frequency": "Once daily"
+              }
+            ],
+            "reconstitution_steps": [
+              "Draw 2.0 mL bacteriostatic water with a sterile syringe.",
+              "Inject slowly down the vial wall; avoid foaming.",
+              "Gently swirl/roll until dissolved (do not shake).",
+              "Label and refrigerate at 2–8 °C (35.6–46.4 °F), protected from light."
+            ]
+          }
+        ],
+        "combined_schedule": []
+      },
+      "supplies_needed": {
+        "section_title": "Supplies Needed",
+        "summary": "The following supplies are referenced in the source protocol material. Verify exact quantities based on your protocol length.",
+        "items": [
+          {
+            "name": "TB-500 Vial",
+            "purpose": "The research compound in lyophilized form.",
+            "quantity_guidance": "3 vials"
+          },
+          {
+            "name": "BPC-157 Vial",
+            "purpose": "The research compound in lyophilized form.",
+            "quantity_guidance": "5 vials"
+          },
+          {
+            "name": "Insulin Syringes (U-100)",
+            "purpose": "For measuring and administering subcutaneous doses.",
+            "quantity_guidance": "8 weeks:"
+          },
+          {
+            "name": "Bacteriostatic Water",
+            "purpose": "Used to reconstitute the lyophilized peptide vials.",
+            "quantity_guidance": "Use 2.0 mL per vial for reconstitution."
+          },
+          {
+            "name": "Alcohol Swabs",
+            "purpose": "For sanitizing injection sites and vial stoppers.",
+            "quantity_guidance": "8 weeks:"
+          },
+          {
+            "name": "Sharps Container",
+            "purpose": "For safe disposal of used syringes.",
+            "quantity_guidance": "See source protocol for quantity guidance."
+          }
+        ]
+      },
+      "storage_and_handling": {
+        "section_title": "Storage & Handling",
+        "lyophilized_storage": "Lyophilized: refrigerate at 2–8 °C (35.6–46.4 °F)",
+        "reconstituted_storage": "after reconstitution, refrigerate and use within ~30 days.",
+        "handling_tips": [
+          "General subcutaneous guidance from clinical best-practice resources",
+          "Clean the vial stopper and skin with alcohol; allow to dry.",
+          "Pinch a skinfold; insert the needle at",
+          "into subcutaneous tissue",
+          "Do not aspirate for subcutaneous injections; inject slowly and steadily",
+          "Rotate sites systematically (abdomen, thighs, upper arms) to avoid lipohypertrophy"
+        ],
+        "safety_notes": [
+          "Practical considerations for consistency and safety.",
+          "Use new sterile insulin syringes for each injection; dispose in a sharps container.",
+          "Rotate injection sites (abdomen, thighs, upper arms) for TB-500; inject BPC-157 near the target tissue when possible",
+          "Inject slowly; wait a few seconds before withdrawing the needle."
+        ]
+      },
+      "research": {
+        "section_title": "Research & References",
+        "evidence_summary": "The evidence profile for TB-500 + BPC-157 Stack (5 mg Vials) is based on the source references below.",
+        "resources": [
+          {
+            "id": "resource-tb-500-bpc-157-1",
+            "label": "Frontiers in Endocrinology (2021)",
+            "title": "Progress on the Function and Application of Thymosin β4",
+            "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8724243/",
+            "source_number": 1,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-tb-500-bpc-157-2",
+            "label": "Annals of the New York Academy of Sciences",
+            "title": "Thymosin β4: roles in development, repair, and engineering of the cardiovascular system",
+            "href": "https://pubmed.ncbi.nlm.nih.gov/17986590/",
+            "source_number": 2,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-tb-500-bpc-157-3",
+            "label": "Frontiers in Pharmacology (2022)",
+            "title": "Pharmacokinetics, distribution, metabolism, and excretion of BPC-157",
+            "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9794587/",
+            "source_number": 3,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-tb-500-bpc-157-4",
+            "label": "HSS Journal (2025)",
+            "title": "Emerging Use of BPC-157 in Orthopaedic Sports Medicine: A Systematic Review",
+            "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12313605/",
+            "source_number": 4,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-tb-500-bpc-157-5",
+            "label": "Current Pharmaceutical Design (2018)",
+            "title": "Stable Gastric Pentadecapeptide BPC 157: Novel Therapy in Gastrointestinal Tract",
+            "href": "https://pubmed.ncbi.nlm.nih.gov/29098973/",
+            "source_number": 5,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-tb-500-bpc-157-6",
+            "label": "Journal of Orthopaedic Surgery and Research (2019)",
+            "title": "BPC 157 and its effects on tendon healing",
+            "href": "https://pubmed.ncbi.nlm.nih.gov/30965832/",
+            "source_number": 6,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-tb-500-bpc-157-7",
+            "label": "CDC (2024)",
+            "title": "Vaccine Administration: Subcutaneous (SUBCUT) Injection",
+            "href": "https://www.cdc.gov/vaccines/hcp/admin/downloads/YCTS-Vax Admin-Subcut-injection.pdf",
+            "source_number": 7,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-tb-500-bpc-157-8",
+            "label": "NCBI Bookshelf (2023)",
+            "title": "Administration of Parenteral Medications – Nursing Skills",
+            "href": "https://www.ncbi.nlm.nih.gov/books/NBK596739/",
+            "source_number": 8,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-tb-500-bpc-157-9",
+            "label": "CDC (NCHS)",
+            "title": "Laboratory Procedure Manual: C-Peptide in Serum (storage guidelines)",
+            "href": "",
+            "source_number": 9,
+            "is_clickable": false
+          },
+          {
+            "id": "resource-tb-500-bpc-157-10",
+            "label": "CDC (2023)",
+            "title": "General Best Practice Guidelines for Immunization: Vaccine Administration",
+            "href": "",
+            "source_number": 10,
+            "is_clickable": false
+          },
+          {
+            "id": "resource-tb-500-bpc-157-11",
+            "label": "Pure Lab Peptides",
+            "title": "TB-500 (5 mg) product page",
+            "href": "https://purelabpeptides.com/buy-peptides/buy-tb-500-5mg/",
+            "source_number": 11,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-tb-500-bpc-157-12",
+            "label": "Pure Lab Peptides",
+            "title": "BPC-157 (5 mg) product page",
+            "href": "https://purelabpeptides.com/buy-peptides/buy-bpc-157-5mg/",
+            "source_number": 12,
+            "is_clickable": true
+          }
+        ]
+      },
+      "compliance_notes": {
+        "not_medical_advice": true,
+        "content_origin": "source-derived stack scrape",
+        "copyright_safety_note": "Frontend text is generated from source-derived scraped excerpts and should not be expanded with invented claims."
+      }
+    }
+  ]
+}

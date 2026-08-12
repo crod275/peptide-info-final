@@ -1,0 +1,3338 @@
+{
+  "schema_version": "2.0.0",
+  "content_type": "peptide_blend_frontend_library",
+  "total_items": 11,
+  "generated_at": "2026-05-20T20:06:44.041953+00:00",
+  "global_disclaimer": "This content is for educational and research-oriented website presentation only. It is not medical advice, diagnosis, treatment guidance, or a recommendation for use.",
+  "peptides": [
+    {
+      "id": "blend-001",
+      "name": "AOD-9604 + CJC-1295 + Ipamorelin (12 mg Blend)",
+      "base_name": "AOD-9604 + CJC-1295 + Ipamorelin",
+      "slug": "aod-9604-cjc-1295-ipamorelin",
+      "vial_strength": "12 mg Blend",
+      "source_page": {
+        "label": "Original scraped page URL",
+        "href": "https://peptidedosages.com/peptide-blend-dosages/aod-9604-cjc-1295-ipamorelin-12mg-blend/"
+      },
+      "seo": {
+        "title": "AOD-9604 + CJC-1295 + Ipamorelin Dosage Protocol | PeptideDosages.com",
+        "description": "This synergistic blend combines three peptides targeting body composition:AOD-9604(hGH fragment 177–191) promotes lipolysis without raising IGF-1 [1];CJC-1295(GHRH analog) produces sustained GH and IGF..."
+      },
+      "hero": {
+        "eyebrow": "Peptide Blend Research Library",
+        "title": "AOD-9604 + CJC-1295 + Ipamorelin (12 mg Blend)",
+        "subtitle": "This synergistic blend combines three peptides targeting body composition:AOD-9604(hGH fragment 177–191) promotes lipolysis without raising IGF-1 [1];CJC-1295(GHRH analog) produces sustained GH and IGF-1 elevations [2]; andIpamorelin(ghrelin mimetic) selectively stimulates GH secretion without increas",
+        "image_alt": "AOD-9604 + CJC-1295 + Ipamorelin (12 mg Blend) vial image",
+        "tags": [
+          "AOD-9604",
+          "CJC-1295",
+          "Ipamorelin"
+        ],
+        "evidence_level": "Primarily preclinical"
+      },
+      "overview": {
+        "what_is_it": {
+          "heading": "What is AOD-9604 + CJC-1295 + Ipamorelin (12 mg Blend)?",
+          "body": "This synergistic blend combines three peptides targeting body composition:AOD-9604(hGH fragment 177–191) promotes lipolysis without raising IGF-1 [1];CJC-1295(GHRH analog) produces sustained GH and IGF-1 elevations [2]; andIpamorelin(ghrelin mimetic) selectively stimulates GH secretion without increasing cortisol or ACTH [3]. Together, these peptides may support lean mass gains and fat reduction [4]."
+        },
+        "main_benefits": {
+          "heading": "Potential Benefits",
+          "items": [
+            {
+              "title": "Studied for fat metabolism",
+              "description": "Studied for fat metabolism and lipolytic activity via AOD-9604's beta-adrenergic pathway involvement in preclinical and early clinical research."
+            },
+            {
+              "title": "Associated with GH and IGF-1",
+              "description": "Associated with GH and IGF-1 elevation through CJC-1295's sustained GHRH signaling and Ipamorelin's selective pulsatile GH release."
+            },
+            {
+              "title": "Potential benefits are based",
+              "description": "Potential benefits are based on the individual research profiles of each component; direct evidence for this combination is limited."
+            }
+          ]
+        },
+        "how_it_works": {
+          "heading": "How It Works",
+          "body": "This blend combines three complementary peptides with distinct mechanisms:\nAOD-9604\nis a modified C-terminal fragment of human growth hormone (amino acids 177–191) that retains the lipolytic and anti-lipogenic properties of GH without stimulating IGF-1 or affecting glucose metabolism\n[1]\n[7]\n.\nCJC-1295\nis a long-acting GHRH analog that produces sustained elevations in growth hormone and IGF-1 levels\n[2]\n, supporting anabolic processes and fat metabolism.\nIpamorelin\nis a selective ghrelin mimetic that stimulates pulsatile GH secretion without significantly increasing ACTH or cortisol\n[3]\n, offering a cleaner GH release profile.\nTogether, these peptides work synergistically to enhance endogenous GH pulsatility and promote favorable changes in body composition similar to exogenous GH therapy\n[4]\n[5]\n."
+        },
+        "side_effects": {
+          "heading": "Potential Side Effects",
+          "items": [
+            "Observations from preclinical and clinical literature.",
+            "Supports reduction in fat mass and enhancement of lipolysis",
+            "May promote lean mass gains through sustained GH and IGF-1 elevation",
+            "Selective GH release without significant cortisol or prolactin increases",
+            "AOD-9604 shows a placebo-like safety profile in human studies",
+            "Possible Side Effects",
+            "Mild injection-site reactions (redness, itching) with subcutaneous administration.",
+            "Transient flushing or warmth following injection.",
+            "Occasional headache or lightheadedness during initial use.",
+            "Water retention (typically mild) with sustained GH elevation."
+          ],
+          "note": "This list reflects source-derived observations. Human safety has not been fully established for this investigational compound."
+        }
+      },
+      "dosing_and_reconstitution": {
+        "section_title": "Dosing & Reconstitution",
+        "disclaimer": "This section is source-derived research information only and is not medical advice or a personal use recommendation.",
+        "dosage_protocols": [
+          {
+            "label": "Week 1",
+            "timeframe": "Week 1",
+            "dose": "200 mcg AOD / 100 mcg CJC / 100 mcg Ip",
+            "units_or_volume": "10 units (0.10 mL)",
+            "notes": ""
+          },
+          {
+            "label": "Week 2",
+            "timeframe": "Week 2",
+            "dose": "300 mcg AOD / 150 mcg CJC / 150 mcg Ip",
+            "units_or_volume": "15 units (0.15 mL)",
+            "notes": ""
+          },
+          {
+            "label": "Weeks 3–12",
+            "timeframe": "Weeks 3–12",
+            "dose": "400 mcg AOD / 200 mcg CJC / 200 mcg Ip",
+            "units_or_volume": "20 units (0.20 mL)",
+            "notes": ""
+          }
+        ],
+        "reconstitution_guide": {
+          "vial_amount": "12 mg total",
+          "bacteriostatic_water": "3.0 mL",
+          "resulting_concentration": "4 mg/mL",
+          "summary": "Add 3.0 mL bacteriostatic water → 4 mg/mL total (2 mg/mL AOD, 1 mg/mL CJC, 1 mg/mL Ip).",
+          "steps": [
+            "Draw 3.0 mL of bacteriostatic water with a sterile syringe.",
+            "Inject slowly down the vial wall; avoid foaming.",
+            "Gently swirl/roll until dissolved (do not shake).",
+            "Label with the date of reconstitution and refrigerate at 2–8 °C (35.6–46.4 °F), protected from light."
+          ]
+        },
+        "injection_frequency": {
+          "summary": "Frequency:",
+          "options": [
+            "Typical daily range: 0.1–0.2 mL once daily (200–400 mcg AOD / 100–200 mcg CJC / 100–200 mcg Ip)."
+          ]
+        },
+        "protocol_duration": {
+          "summary": "See source protocol for vial duration guidance. Daily range: Typical daily range: 0.1–0.2 mL once daily (200–400 mcg AOD / 100–200 mcg CJC / 100–200 mcg Ip).",
+          "vial_duration": "",
+          "duration_examples": []
+        },
+        "recommended_for": [
+          {
+            "type": "Metabolic Research",
+            "description": "For readers researching AOD-9604's lipolytic effects on the β3-adrenergic pathway, fat oxidation mechanisms, and hGH fragment metabolism."
+          },
+          {
+            "type": "Body Composition Research",
+            "description": "For readers comparing GH/IGF-1 axis modulation via combined GHRH analog and ghrelin mimetic administration and downstream lean mass and fat mass outcomes."
+          },
+          {
+            "type": "Growth Hormone Research",
+            "description": "For readers reviewing synergistic GH secretion from GHRH analog plus secretagogue co-administration and the distinct contribution of each peptide to the GH pulse."
+          }
+        ]
+      },
+      "supplies_needed": {
+        "section_title": "Supplies Needed",
+        "summary": "The following supplies are referenced in the source protocol material. Verify exact quantities based on your protocol length.",
+        "items": [
+          {
+            "name": "AOD-9604 + CJC-1295 + Ipamorelin (12 mg Blend) Vial",
+            "purpose": "The research compound blend in lyophilized form.",
+            "quantity_guidance": "8 weeks (~11.2 mL total):"
+          },
+          {
+            "name": "Bacteriostatic Water",
+            "purpose": "Used to reconstitute the lyophilized peptide blend before handling.",
+            "quantity_guidance": "Use 3.0 mL per vial for reconstitution."
+          },
+          {
+            "name": "Insulin Syringe",
+            "purpose": "For measuring and administering subcutaneous doses.",
+            "quantity_guidance": "Per week:"
+          },
+          {
+            "name": "Alcohol Swab",
+            "purpose": "For sanitizing injection sites and vial tops.",
+            "quantity_guidance": "One for the vial stopper + one for the injection site each day."
+          }
+        ]
+      },
+      "storage_and_handling": {
+        "section_title": "Storage & Handling",
+        "lyophilized_storage": "Storage:Lyophilized: freeze at−20 °C (−4 °F)",
+        "reconstituted_storage": "after reconstitution, refrigerate at 2–8 °C (35",
+        "handling_tips": [
+          "Protect from light.",
+          "Do not shake the vial.",
+          "Do not refreeze after reconstitution.",
+          "Rotate injection sites as noted in source material."
+        ],
+        "safety_notes": [
+          "Use sterile supplies when handling injection-related materials.",
+          "Dispose of used syringes in a sharps container.",
+          "This information is source-derived research context only."
+        ]
+      },
+      "research": {
+        "section_title": "Research & References",
+        "evidence_summary": "The evidence profile for AOD-9604 + CJC-1295 + Ipamorelin (12 mg Blend) is classified as primarily preclinical. See source references below.",
+        "resources": [
+          {
+            "id": "resource-aod-9604-cjc-1295-ipamorelin-1",
+            "label": "Journal of Endocrinology & Metabolism (2014)",
+            "title": "Safety and metabolism of AOD9604: novel nutraceutical ingredient for improved metabolic health",
+            "href": "https://jofem.org/index.php/jofem/article/view/213/278",
+            "source_number": 1,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-aod-9604-cjc-1295-ipamorelin-2",
+            "label": "Journal of Clinical Endocrinology & Metabolism (PubMed)",
+            "title": "Prolonged stimulation of GH and IGF-I secretion by CJC-1295 in healthy adults",
+            "href": "https://pubmed.ncbi.nlm.nih.gov/16352683/",
+            "source_number": 2,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-aod-9604-cjc-1295-ipamorelin-3",
+            "label": "European Journal of Endocrinology (PubMed)",
+            "title": "Ipamorelin: the first selective growth hormone secretagogue",
+            "href": "https://pubmed.ncbi.nlm.nih.gov/9849822/",
+            "source_number": 3,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-aod-9604-cjc-1295-ipamorelin-4",
+            "label": "Translational Andrology and Urology (PMC)",
+            "title": "Role of growth hormone secretagogues in body composition management",
+            "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7108996/",
+            "source_number": 4,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-aod-9604-cjc-1295-ipamorelin-5",
+            "label": "Endocrinology (OUP)",
+            "title": "hGH and AOD-9604: lipid metabolism and beta-adrenergic pathway insights",
+            "href": "https://academic.oup.com/endo/article/142/12/5182/2988749",
+            "source_number": 5,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-aod-9604-cjc-1295-ipamorelin-6",
+            "label": "CDC",
+            "title": "Preventing unsafe injection practices: multi-dose vial handling guidelines",
+            "href": "https://www.cdc.gov/injection-safety/hcp/clinical-safety/index.html",
+            "source_number": 6,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-aod-9604-cjc-1295-ipamorelin-7",
+            "label": "Journal of Endocrinology & Metabolism (2013)",
+            "title": "Safety and tolerability of the hexadecapeptide AOD9604 in humans",
+            "href": "https://www.jofem.org/index.php/jofem/article/view/157/194",
+            "source_number": 7,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-aod-9604-cjc-1295-ipamorelin-8",
+            "label": "Obesity Pharmacotherapy Review (PMC)",
+            "title": "AOD-9604 clinical trial overview and weight loss outcomes",
+            "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3584306/",
+            "source_number": 8,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-aod-9604-cjc-1295-ipamorelin-9",
+            "label": "Subcutaneous Drug Injection Review (PMC)",
+            "title": "Pharmacologic considerations of the subcutaneous route",
+            "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6822791/",
+            "source_number": 9,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-aod-9604-cjc-1295-ipamorelin-10",
+            "label": "CDC",
+            "title": "Vaccine administration: subcutaneous route (angle/site guidance)",
+            "href": "https://www.cdc.gov/vaccines/hcp/administration/during.html",
+            "source_number": 10,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-aod-9604-cjc-1295-ipamorelin-11",
+            "label": "MedlinePlus",
+            "title": "Subcutaneous injections: patient instructions and technique",
+            "href": "https://medlineplus.gov/ency/patientinstructions/000430.htm",
+            "source_number": 11,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-aod-9604-cjc-1295-ipamorelin-12",
+            "label": "NCBI Bookshelf",
+            "title": "Best practices for injection: asepsis, preparation, and administration",
+            "href": "https://www.ncbi.nlm.nih.gov/books/NBK138495/",
+            "source_number": 12,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-aod-9604-cjc-1295-ipamorelin-13",
+            "label": "Central & Peripheral Anti-Obesity Targets (PMC)",
+            "title": "AOD-9604 RCT summary and mechanistic overview",
+            "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3136748/",
+            "source_number": 13,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-aod-9604-cjc-1295-ipamorelin-14",
+            "label": "PubMed",
+            "title": "Metabolic studies of AOD-9604 in obese rodents (oral dosing, fat oxidation)",
+            "href": "https://pubmed.ncbi.nlm.nih.gov/11146367/",
+            "source_number": 14,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-aod-9604-cjc-1295-ipamorelin-15",
+            "label": "Pure Lab Peptides",
+            "title": "AOD-9604 + CJC-1295 + Ipamorelin Blend product page (quality and batch documentation)",
+            "href": "https://purelabpeptides.com/buy-peptides/buy-aod-cjc-ipamorelin-blend/",
+            "source_number": 15,
+            "is_clickable": true
+          }
+        ]
+      },
+      "compliance_notes": {
+        "not_medical_advice": true,
+        "content_origin": "Transformed from scraped source material to match the peptide_frontend_library_v2.json schema.",
+        "copyright_safety_note": "This transformation avoids page-by-page paraphrasing. Legal review is still recommended before publication."
+      }
+    },
+    {
+      "id": "blend-002",
+      "name": "BPC-157 + TB-500 (10 mg Blend)",
+      "base_name": "BPC-157 + TB-500",
+      "slug": "bpc-157-tb-500-10mg",
+      "vial_strength": "10 mg Blend",
+      "source_page": {
+        "label": "Original scraped page URL",
+        "href": "https://peptidedosages.com/peptide-blend-dosages/bpc-157-tb-500-10mg-blend-dosage-protocol/"
+      },
+      "seo": {
+        "title": "BPC-157 + TB-500 10mg Blend Dosage Protocol | PeptideDosages.com",
+        "description": "This blend combines two well-studied regenerative peptides: BPC-157 (Body Protection Compound-157), a pentadecapeptide derived from human gastric juice with cytoprotective and wound-healing properties..."
+      },
+      "hero": {
+        "eyebrow": "Peptide Blend Research Library",
+        "title": "BPC-157 + TB-500 (10 mg Blend)",
+        "subtitle": "This blend combines two well-studied regenerative peptides: BPC-157 (Body Protection Compound-157), a pentadecapeptide derived from human gastric juice with cytoprotective and wound-healing properties [1][2], and TB-500 (Thymosin Beta-4 fragment), a 43-amino-acid peptide involved in tissue repair, ce",
+        "image_alt": "BPC-157 + TB-500 (10 mg Blend) vial image",
+        "tags": [
+          "BPC-157",
+          "TB-500"
+        ],
+        "evidence_level": "Primarily preclinical"
+      },
+      "overview": {
+        "what_is_it": {
+          "heading": "What is BPC-157 + TB-500 (10 mg Blend)?",
+          "body": "This blend combines two well-studied regenerative peptides: BPC-157 (Body Protection Compound-157), a pentadecapeptide derived from human gastric juice with cytoprotective and wound-healing properties [1][2], and TB-500 (Thymosin Beta-4 fragment), a 43-amino-acid peptide involved in tissue repair, cell migration, and angiogenesis [3][4]. This educational protocol presents a once-daily subcutaneous approach using a practical dilution for clear insulin-syringe measurements."
+        },
+        "main_benefits": {
+          "heading": "Potential Benefits",
+          "items": [
+            {
+              "title": "Studied for soft-tissue repair",
+              "description": "Studied for soft-tissue repair and cytoprotection across musculoskeletal and gastrointestinal systems in preclinical models."
+            },
+            {
+              "title": "TB-500 is associated with",
+              "description": "TB-500 is associated with cell migration, angiogenesis, and wound healing in preclinical and early clinical research."
+            },
+            {
+              "title": "Potential benefits reflect",
+              "description": "Potential benefits reflect the individual research profiles of each peptide; direct evidence for the combination is limited."
+            }
+          ]
+        },
+        "how_it_works": {
+          "heading": "How It Works",
+          "body": "BPC-157\nis a stable pentadecapeptide that promotes angiogenesis, modulates nitric oxide pathways, and demonstrates broad cytoprotective effects across gastrointestinal, musculoskeletal, and neurological tissues in preclinical models\n[1]\n[2]\n. It has shown activity at very low doses (nanogram to microgram per kilogram) without demonstrable toxicity in animal studies\n[11]\n.\nTB-500\n(Thymosin Beta-4) is an actin-sequestering peptide that promotes cell migration, wound healing, and anti-inflammatory responses\n[3]\n[4]\n. It is well-tolerated in animal and early clinical studies, even at multi-milligram doses\n[12]\n.\nCombining these peptides may provide complementary mechanisms for tissue repair: BPC-157 for its trophic and anti-inflammatory effects, and TB-500 for enhanced cell migration and angiogenesis\n[8]\n."
+        },
+        "side_effects": {
+          "heading": "Potential Side Effects",
+          "items": [
+            "Observations from preclinical and limited clinical literature.",
+            "May support accelerated healing of tendons, ligaments, muscles, and soft tissue injuries",
+            "Preclinical evidence suggests gastroprotective and anti-inflammatory properties for BPC-157",
+            "TB-500 promotes wound healing and may reduce scarring through enhanced cell migration",
+            "Both peptides are generally well tolerated; occasional mild injection-site reactions (redness, itching) may occur with subcutaneous administration.",
+            "No significant toxicity has been documented up to high doses in animal studies"
+          ],
+          "note": "This list reflects source-derived observations. Human safety has not been fully established for this investigational compound."
+        }
+      },
+      "dosing_and_reconstitution": {
+        "section_title": "Dosing & Reconstitution",
+        "disclaimer": "This section is source-derived research information only and is not medical advice or a personal use recommendation.",
+        "dosage_protocols": [
+          {
+            "label": "Standard: Weeks 1–2",
+            "timeframe": "Weeks 1–2",
+            "dose": "300 mcg BPC-157 + 300 mcg TB-500",
+            "units_or_volume": "18 units (0.18 mL)",
+            "notes": ""
+          },
+          {
+            "label": "Standard: Weeks 3–4",
+            "timeframe": "Weeks 3–4",
+            "dose": "400 mcg BPC-157 + 400 mcg TB-500",
+            "units_or_volume": "24 units (0.24 mL)",
+            "notes": ""
+          },
+          {
+            "label": "Standard: Weeks 5–8",
+            "timeframe": "Weeks 5–8",
+            "dose": "300 mcg BPC-157 + 300 mcg TB-500",
+            "units_or_volume": "18 units (0.18 mL)",
+            "notes": ""
+          },
+          {
+            "label": "Aggressive: Weeks 1–2",
+            "timeframe": "Weeks 1–2",
+            "dose": "500 mcg BPC-157 + 500 mcg TB-500",
+            "units_or_volume": "30 units (0.30 mL)",
+            "notes": ""
+          },
+          {
+            "label": "Aggressive: Weeks 3–4",
+            "timeframe": "Weeks 3–4",
+            "dose": "400 mcg BPC-157 + 400 mcg TB-500",
+            "units_or_volume": "24 units (0.24 mL)",
+            "notes": ""
+          },
+          {
+            "label": "Aggressive: Weeks 5–8",
+            "timeframe": "Weeks 5–8",
+            "dose": "300 mcg BPC-157 + 300 mcg TB-500",
+            "units_or_volume": "18 units (0.18 mL)",
+            "notes": ""
+          }
+        ],
+        "reconstitution_guide": {
+          "vial_amount": "10 mg total",
+          "bacteriostatic_water": "3.0 mL",
+          "resulting_concentration": "3.33 mg/mL",
+          "summary": "Add 3.0 mL bacteriostatic water → 3.33 mg/mL total concentration (1.67 mg/mL of each peptide).",
+          "steps": [
+            "Draw 3.0 mL of bacteriostatic water with a sterile syringe.",
+            "Inject slowly down the vial wall; avoid foaming or vigorous shaking.",
+            "Gently swirl/roll until fully dissolved (do not shake).",
+            "Label with the date of reconstitution and refrigerate at 2–8 °C (35.6–46.4 °F), protected from light."
+          ]
+        },
+        "injection_frequency": {
+          "summary": "Subcutaneous injection, once daily",
+          "options": [
+            "Typical daily range: 600–1000 mcg total blend once daily (provides 300–500 mcg of each peptide)."
+          ]
+        },
+        "protocol_duration": {
+          "summary": "See source protocol for vial duration guidance. Daily range: Typical daily range: 600–1000 mcgtotal blend once daily (provides 300–500 mcg of each peptide).",
+          "vial_duration": "",
+          "duration_examples": []
+        },
+        "recommended_for": [
+          {
+            "type": "Tissue Repair Research",
+            "description": "For readers studying the complementary regenerative mechanisms of BPC-157 and thymosin β4 across musculoskeletal, soft-tissue, and wound healing models."
+          },
+          {
+            "type": "Recovery & Inflammation Research",
+            "description": "For readers reviewing anti-inflammatory, cytoprotective, and angiogenic signaling pathways relevant to injury recovery and tissue regeneration research."
+          },
+          {
+            "type": "Gastrointestinal Research",
+            "description": "For readers investigating BPC-157's gastroprotective and mucosal repair properties alongside thymosin β4's anti-inflammatory effects in gastrointestinal research."
+          }
+        ]
+      },
+      "supplies_needed": {
+        "section_title": "Supplies Needed",
+        "summary": "The following supplies are referenced in the source protocol material. Verify exact quantities based on your protocol length.",
+        "items": [
+          {
+            "name": "Bacteriostatic Water",
+            "purpose": "Used to reconstitute the lyophilized peptide blend before handling.",
+            "quantity_guidance": "Use 3.0 mL per vial for reconstitution."
+          },
+          {
+            "name": "Insulin Syringe",
+            "purpose": "For measuring and administering subcutaneous doses.",
+            "quantity_guidance": "Per week:"
+          },
+          {
+            "name": "Alcohol Swab",
+            "purpose": "For sanitizing injection sites and vial tops.",
+            "quantity_guidance": "One for the vial stopper + one for the injection site each day."
+          }
+        ]
+      },
+      "storage_and_handling": {
+        "section_title": "Storage & Handling",
+        "lyophilized_storage": "Storage:Lyophilized: freeze at−20 °C (−4 °F)",
+        "reconstituted_storage": "after reconstitution, refrigerate at 2–8 °C (35",
+        "handling_tips": [
+          "Protect from light.",
+          "Do not shake the vial.",
+          "Do not refreeze after reconstitution.",
+          "Rotate injection sites as noted in source material."
+        ],
+        "safety_notes": [
+          "Use sterile supplies when handling injection-related materials.",
+          "Dispose of used syringes in a sharps container.",
+          "This information is source-derived research context only."
+        ]
+      },
+      "research": {
+        "section_title": "Research & References",
+        "evidence_summary": "The evidence profile for BPC-157 + TB-500 (10 mg Blend) is classified as primarily preclinical. See source references below.",
+        "resources": [
+          {
+            "id": "resource-bpc-157-tb-500-1",
+            "label": "PubMed",
+            "title": "Preclinical safety evaluation of body protective compound-157, a potential drug for treating various wounds",
+            "href": "https://pubmed.ncbi.nlm.nih.gov/32334036/",
+            "source_number": 1,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-bpc-157-tb-500-2",
+            "label": "Current Pharmaceutical Design (PubMed)",
+            "title": "Stable gastric pentadecapeptide BPC-157: novel therapy in gastrointestinal tract",
+            "href": "https://pubmed.ncbi.nlm.nih.gov/27117515/",
+            "source_number": 2,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-bpc-157-tb-500-3",
+            "label": "PMC",
+            "title": "Utilizing developmentally essential secreted peptides such as Thymosin Beta-4 for regenerative therapies",
+            "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8228050/",
+            "source_number": 3,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-bpc-157-tb-500-4",
+            "label": "Annals of the New York Academy of Sciences (PubMed)",
+            "title": "Thymosin beta 4 and wound healing: new ideas",
+            "href": "https://pubmed.ncbi.nlm.nih.gov/17446452/",
+            "source_number": 4,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-bpc-157-tb-500-5",
+            "label": "PMC",
+            "title": "Emerging use of BPC-157 in orthopaedic sports medicine: a systematic review",
+            "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12313605/",
+            "source_number": 5,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-bpc-157-tb-500-6",
+            "label": "Johns Hopkins Arthritis Center",
+            "title": "How to give a subcutaneous injection",
+            "href": "https://www.hopkinsarthritis.org/patient-corner/how-to-give-a-subcutaneous-injection/",
+            "source_number": 6,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-bpc-157-tb-500-7",
+            "label": "PMC",
+            "title": "Subcutaneous drug delivery review: pharmacologic considerations",
+            "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6822791/",
+            "source_number": 7,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-bpc-157-tb-500-8",
+            "label": "ASIPP / Alternative Therapies in Health and Medicine",
+            "title": "Intra-articular injection of BPC-157 for multiple types of knee pain",
+            "href": "https://asipp.org/wp-content/uploads/Intra-Articular-Injection-of-BPC-157-for-Multiple-Types-of-Knee-Pain-2021-Alternative-Therapies-in-Health-and-Medicine.pdf",
+            "source_number": 8,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-bpc-157-tb-500-9",
+            "label": "A4M",
+            "title": "Thymosin Beta-4 professional monograph",
+            "href": "https://a4m.com/assets/pdf/covid-19-resources/Thymosin%20beta%204%20prof%20monograph.pdf",
+            "source_number": 9,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-bpc-157-tb-500-10",
+            "label": "PubMed",
+            "title": "Detection of thymosin beta-4 and related peptides in sport drug testing",
+            "href": "https://pubmed.ncbi.nlm.nih.gov/34324435/",
+            "source_number": 10,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-bpc-157-tb-500-11",
+            "label": "Journal of Physiology and Pharmacology (PubMed)",
+            "title": "BPC-157 activity at very low doses without toxicity in animal studies",
+            "href": "https://pubmed.ncbi.nlm.nih.gov/21846500/",
+            "source_number": 11,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-bpc-157-tb-500-12",
+            "label": "Expert Opinion on Biological Therapy (PubMed)",
+            "title": "Thymosin beta-4 and its role in wound healing",
+            "href": "https://pubmed.ncbi.nlm.nih.gov/20132060/",
+            "source_number": 12,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-bpc-157-tb-500-13",
+            "label": "CDC",
+            "title": "Vaccine administration: subcutaneous route (angle/site; no aspiration)",
+            "href": "https://www.cdc.gov/vaccines/hcp/administration/during.html",
+            "source_number": 13,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-bpc-157-tb-500-14",
+            "label": "NCBI Bookshelf",
+            "title": "Best practices for injection (asepsis, preparation, and administration)",
+            "href": "https://www.ncbi.nlm.nih.gov/books/NBK138495/",
+            "source_number": 14,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-bpc-157-tb-500-15",
+            "label": "Pure Lab Peptides",
+            "title": "BPC-157 + TB-500 (10 mg blend) product page (quality and batch documentation)",
+            "href": "https://purelabpeptides.com/buy-peptides/buy-bpc-157-tb-500-10mg-blend/",
+            "source_number": 15,
+            "is_clickable": true
+          }
+        ]
+      },
+      "compliance_notes": {
+        "not_medical_advice": true,
+        "content_origin": "Transformed from scraped source material to match the peptide_frontend_library_v2.json schema.",
+        "copyright_safety_note": "This transformation avoids page-by-page paraphrasing. Legal review is still recommended before publication."
+      }
+    },
+    {
+      "id": "blend-003",
+      "name": "BPC-157 + TB-500 (20 mg Blend)",
+      "base_name": "BPC-157 + TB-500",
+      "slug": "bpc-157-tb-500-20mg",
+      "vial_strength": "20 mg Blend",
+      "source_page": {
+        "label": "Original scraped page URL",
+        "href": "https://peptidedosages.com/peptide-blend-dosages/bpc-157-tb-500-20mg-blend-dosage-protocol/"
+      },
+      "seo": {
+        "title": "BPC-157 + TB-500 20mg Blend Dosage Protocol | PeptideDosages.com",
+        "description": "BPC-157 (Body Protection Compound-157) is a 15-amino-acid peptide fragment derived from human gastric juice, studied for its cytoprotective and tissue-repair properties across gastrointestinal, muscul..."
+      },
+      "hero": {
+        "eyebrow": "Peptide Blend Research Library",
+        "title": "BPC-157 + TB-500 (20 mg Blend)",
+        "subtitle": "BPC-157 (Body Protection Compound-157) is a 15-amino-acid peptide fragment derived from human gastric juice, studied for its cytoprotective and tissue-repair properties across gastrointestinal, musculoskeletal, and neurological systems [1][2]. TB-500 (Thymosin β4) is a 43-amino-acid peptide involved ",
+        "image_alt": "BPC-157 + TB-500 (20 mg Blend) vial image",
+        "tags": [
+          "BPC-157",
+          "TB-500"
+        ],
+        "evidence_level": "Primarily preclinical"
+      },
+      "overview": {
+        "what_is_it": {
+          "heading": "What is BPC-157 + TB-500 (20 mg Blend)?",
+          "body": "BPC-157 (Body Protection Compound-157) is a 15-amino-acid peptide fragment derived from human gastric juice, studied for its cytoprotective and tissue-repair properties across gastrointestinal, musculoskeletal, and neurological systems [1][2]. TB-500 (Thymosin β4) is a 43-amino-acid peptide involved in cell migration, angiogenesis, and wound healing [3][4]. This blend combines both peptides for synergistic tissue-repair research applications."
+        },
+        "main_benefits": {
+          "heading": "Potential Benefits",
+          "items": [
+            {
+              "title": "Both components have demonstrated",
+              "description": "Both components have demonstrated tissue repair and anti-inflammatory properties across musculoskeletal and soft-tissue models in preclinical research."
+            },
+            {
+              "title": "BPC-157 is studied for",
+              "description": "BPC-157 is studied for cytoprotective effects; TB-500 is associated with reduced fibrosis, cell migration, and angiogenesis."
+            },
+            {
+              "title": "Potential benefits reflect",
+              "description": "Potential benefits reflect individual compound research; direct clinical evidence for this combination remains limited."
+            }
+          ]
+        },
+        "how_it_works": {
+          "heading": "How It Works",
+          "body": "BPC-157 is a synthetic pentadecapeptide (15 amino acids) originally isolated from human gastric juice. Preclinical research indicates it exerts cytoprotective effects across multiple organ systems, promotes angiogenesis, modulates nitric oxide pathways, and interacts with growth-factor systems involved in tissue repair\n[1]\n[2]\n. TB-500 (Thymosin β4) is a naturally occurring peptide that regulates actin polymerization, promotes cell migration, reduces inflammation, and supports wound healing and tissue regeneration\n[3]\n[4]\n. The combination is hypothesized to provide complementary mechanisms for accelerated musculoskeletal and soft-tissue recovery."
+        },
+        "side_effects": {
+          "heading": "Potential Side Effects",
+          "items": [
+            "Observations from preclinical and early clinical literature.",
+            "Both peptides demonstrate wound-healing, tendon-repair, and anti-inflammatory properties in animal models",
+            "Gastrointestinal Support:",
+            "BPC-157 shows gastroprotective and ulcer-healing effects in preclinical studies",
+            "Preclinical data indicate a wide safety margin for BPC-157 (no lethal dose up to ~20 mg/kg); TB-500 human tolerability studies report mild adverse events at doses up to 1,260 mg",
+            "Possible Side Effects:",
+            "Occasional mild injection-site reactions (redness, itching); rare reports of transient dizziness or nausea; long-term human safety data remain limited."
+          ],
+          "note": "This list reflects source-derived observations. Human safety has not been fully established for this investigational compound."
+        }
+      },
+      "dosing_and_reconstitution": {
+        "section_title": "Dosing & Reconstitution",
+        "disclaimer": "This section is source-derived research information only and is not medical advice or a personal use recommendation.",
+        "dosage_protocols": [
+          {
+            "label": "Weeks 1–2",
+            "timeframe": "Weeks 1–2",
+            "dose": "~250 mcg BPC-157 + ~250 mcg TB-500",
+            "units_or_volume": "7.5 units (0.075 mL)",
+            "notes": ""
+          },
+          {
+            "label": "Weeks 3–4",
+            "timeframe": "Weeks 3–4",
+            "dose": "~333 mcg BPC-157 + ~333 mcg TB-500",
+            "units_or_volume": "10 units (0.10 mL)",
+            "notes": ""
+          },
+          {
+            "label": "Weeks 5–8",
+            "timeframe": "Weeks 5–8",
+            "dose": "~500 mcg BPC-157 + ~500 mcg TB-500",
+            "units_or_volume": "15 units (0.15 mL)",
+            "notes": ""
+          },
+          {
+            "label": "Loading (Weeks 1–4)",
+            "timeframe": "Loading (Weeks 1–4)",
+            "dose": "~750 mcg BPC-157 + ~750 mcg TB-500",
+            "units_or_volume": "22.5 units (0.225 mL)",
+            "notes": ""
+          },
+          {
+            "label": "Maintenance (Weeks 5–8)",
+            "timeframe": "Maintenance (Weeks 5–8)",
+            "dose": "~500 mcg BPC-157 + ~500 mcg TB-500",
+            "units_or_volume": "15 units (0.15 mL)",
+            "notes": ""
+          }
+        ],
+        "reconstitution_guide": {
+          "vial_amount": "20 mg total",
+          "bacteriostatic_water": "3.0 mL",
+          "resulting_concentration": "6.67 mg/mL",
+          "summary": "Add 3.0 mL bacteriostatic water → ~6.67 mg/mL total concentration (~3.33 mg/mL of each peptide).",
+          "steps": [
+            "Draw 3.0 mL of bacteriostatic water with a sterile syringe.",
+            "Inject slowly down the vial wall; avoid foaming or direct stream onto the powder.",
+            "Gently swirl or roll until fully dissolved (do not shake).",
+            "Label with the date of reconstitution and refrigerate at 2–8 °C (35.6–46.4 °F), protected from light."
+          ]
+        },
+        "injection_frequency": {
+          "summary": "Frequency:",
+          "options": [
+            "Typical daily range: 250–500 mcg BPC-157 + 250–500 mcg TB-500 (500–1,000 mcg total blend) once daily."
+          ]
+        },
+        "protocol_duration": {
+          "summary": "See source protocol for vial duration guidance. Daily range: Typical daily range: 250–500 mcg BPC-157+250–500 mcg TB-500(500–1,000 mcg total blend) once daily.",
+          "vial_duration": "",
+          "duration_examples": []
+        },
+        "recommended_for": [
+          {
+            "type": "Tissue Repair Research",
+            "description": "For readers studying the complementary regenerative mechanisms of BPC-157 and thymosin β4 across musculoskeletal, soft-tissue, and wound healing models."
+          },
+          {
+            "type": "Recovery & Inflammation Research",
+            "description": "For readers reviewing anti-inflammatory, cytoprotective, and angiogenic signaling pathways relevant to injury recovery and tissue regeneration research."
+          },
+          {
+            "type": "Gastrointestinal Research",
+            "description": "For readers investigating BPC-157's gastroprotective and mucosal repair properties alongside thymosin β4's anti-inflammatory effects in gastrointestinal research."
+          }
+        ]
+      },
+      "supplies_needed": {
+        "section_title": "Supplies Needed",
+        "summary": "The following supplies are referenced in the source protocol material. Verify exact quantities based on your protocol length.",
+        "items": [
+          {
+            "name": "Bacteriostatic Water",
+            "purpose": "Used to reconstitute the lyophilized peptide blend before handling.",
+            "quantity_guidance": "Use 3.0 mL per vial for reconstitution."
+          },
+          {
+            "name": "Insulin Syringe",
+            "purpose": "For measuring and administering subcutaneous doses.",
+            "quantity_guidance": "Per week:"
+          },
+          {
+            "name": "Alcohol Swab",
+            "purpose": "For sanitizing injection sites and vial tops.",
+            "quantity_guidance": "One for the vial stopper + one for the injection site each day."
+          }
+        ]
+      },
+      "storage_and_handling": {
+        "section_title": "Storage & Handling",
+        "lyophilized_storage": "Storage:Lyophilized: freeze at−20 °C (−4 °F)",
+        "reconstituted_storage": "after reconstitution, refrigerate at 2–8 °C (35",
+        "handling_tips": [
+          "Protect from light.",
+          "Do not shake the vial.",
+          "Do not refreeze after reconstitution.",
+          "Rotate injection sites as noted in source material."
+        ],
+        "safety_notes": [
+          "Use sterile supplies when handling injection-related materials.",
+          "Dispose of used syringes in a sharps container.",
+          "This information is source-derived research context only."
+        ]
+      },
+      "research": {
+        "section_title": "Research & References",
+        "evidence_summary": "The evidence profile for BPC-157 + TB-500 (20 mg Blend) is classified as primarily preclinical. See source references below.",
+        "resources": [
+          {
+            "id": "resource-bpc-157-tb-500-1",
+            "label": "Biomedicines (2022)",
+            "title": "Stable gastric pentadecapeptide BPC 157: pleiotropic beneficial activity and neurotransmitter interactions",
+            "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11053547/",
+            "source_number": 1,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-bpc-157-tb-500-2",
+            "label": "Current Pharmaceutical Design (2018)",
+            "title": "BPC 157 and standard angiogenic growth factors: gastrointestinal tract healing and angiogenesis",
+            "href": "https://pubmed.ncbi.nlm.nih.gov/29701147/",
+            "source_number": 2,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-bpc-157-tb-500-3",
+            "label": "Annals of the New York Academy of Sciences (2007)",
+            "title": "Thymosin β4: roles in development, repair, and regeneration",
+            "href": "https://pubmed.ncbi.nlm.nih.gov/17312315/",
+            "source_number": 3,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-bpc-157-tb-500-4",
+            "label": "Expert Opinion on Biological Therapy (2018)",
+            "title": "Thymosin β4: a multi-functional regenerative peptide; basic mechanisms and clinical applications",
+            "href": "https://pubmed.ncbi.nlm.nih.gov/30048158/",
+            "source_number": 4,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-bpc-157-tb-500-5",
+            "label": "American Academy of Anti-Aging Medicine",
+            "title": "Thymosin beta 4 (Tb4) professional monograph (indications, dosage)",
+            "href": "",
+            "source_number": 5,
+            "is_clickable": false
+          },
+          {
+            "id": "resource-bpc-157-tb-500-6",
+            "label": "Bachem Technical Note",
+            "title": "Peptide stability and handling guidelines",
+            "href": "https://www.bachem.com/knowledge-center/peptide-stability/",
+            "source_number": 6,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-bpc-157-tb-500-7",
+            "label": "International Journal of Clinical Pharmacy (2013)",
+            "title": "Evaluation of maximum beyond-use-date stability of peptide solutions",
+            "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3798155/",
+            "source_number": 7,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-bpc-157-tb-500-8",
+            "label": "CDC",
+            "title": "Vaccine administration: subcutaneous route (angle, site rotation guidance)",
+            "href": "https://www.cdc.gov/vaccines/hcp/administration/during.html",
+            "source_number": 8,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-bpc-157-tb-500-9",
+            "label": "WADA Prohibited List (2024)",
+            "title": "Growth factors and peptides prohibited in sport",
+            "href": "https://www.wada-ama.org/en/prohibited-list",
+            "source_number": 9,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-bpc-157-tb-500-10",
+            "label": "Arthroscopy (2025)",
+            "title": "Emerging use of BPC-157 in orthopaedic sports medicine: a systematic review",
+            "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12313605/",
+            "source_number": 10,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-bpc-157-tb-500-11",
+            "label": "PubMed (2010)",
+            "title": "Randomized, placebo-controlled, single and multiple dose study of intravenous thymosin beta4 in healthy volunteers",
+            "href": "https://pubmed.ncbi.nlm.nih.gov/20536472/",
+            "source_number": 11,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-bpc-157-tb-500-12",
+            "label": "CDC (Subcut Injection PDF)",
+            "title": "Technique diagram and site guidance for subcutaneous injections",
+            "href": "https://www.cdc.gov/vaccines/hcp/admin/downloads/YCTS-VaxAdmin-Subcut-injection.pdf",
+            "source_number": 12,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-bpc-157-tb-500-13",
+            "label": "NCBI Bookshelf",
+            "title": "Administration of parenteral medications: best practices",
+            "href": "https://www.ncbi.nlm.nih.gov/books/NBK596739/",
+            "source_number": 13,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-bpc-157-tb-500-14",
+            "label": "Subcutaneous Drug Injection Review (PMC)",
+            "title": "Pharmacologic considerations of the subcutaneous route",
+            "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6822791/",
+            "source_number": 14,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-bpc-157-tb-500-15",
+            "label": "Pure Lab Peptides",
+            "title": "BPC-157 + TB-500 (20 mg Blend) product page (quality and batch documentation)",
+            "href": "https://purelabpeptides.com/buy-peptides/buy-bpc-157-10mg-tb-500-20mg-blend/",
+            "source_number": 15,
+            "is_clickable": true
+          }
+        ]
+      },
+      "compliance_notes": {
+        "not_medical_advice": true,
+        "content_origin": "Transformed from scraped source material to match the peptide_frontend_library_v2.json schema.",
+        "copyright_safety_note": "This transformation avoids page-by-page paraphrasing. Legal review is still recommended before publication."
+      }
+    },
+    {
+      "id": "blend-004",
+      "name": "Cagrilintide + Semaglutide (10 mg Blend)",
+      "base_name": "Cagrilintide + Semaglutide",
+      "slug": "cagrilintide-semaglutide",
+      "vial_strength": "10 mg Blend",
+      "source_page": {
+        "label": "Original scraped page URL",
+        "href": "https://peptidedosages.com/peptide-blend-dosages/cagrilintide-glp-1s-10-mg-blend-dosage-protocol/"
+      },
+      "seo": {
+        "title": "Cagrilintide + Semaglutide Dosage Protocol | PeptideDosages.com",
+        "description": "Cagrilintide + Semaglutide is a dual‑agonist combination blending an amylin analog (cagrilintide) with a GLP‑1 receptor agonist (Semaglutide). Clinical trials demonstrate superior weight reduction ver..."
+      },
+      "hero": {
+        "eyebrow": "Peptide Blend Research Library",
+        "title": "Cagrilintide + Semaglutide (10 mg Blend)",
+        "subtitle": "Cagrilintide + Semaglutide is a dual‑agonist combination blending an amylin analog (cagrilintide) with a GLP‑1 receptor agonist (Semaglutide). Clinical trials demonstrate superior weight reduction versus either agent alone, with the combination targeting complementary satiety pathways [1][2]. This ed",
+        "image_alt": "Cagrilintide + Semaglutide (10 mg Blend) vial image",
+        "tags": [
+          "Cagrilintide",
+          "Semaglutide"
+        ],
+        "evidence_level": "Primarily preclinical"
+      },
+      "overview": {
+        "what_is_it": {
+          "heading": "What is Cagrilintide + Semaglutide (10 mg Blend)?",
+          "body": "Cagrilintide + Semaglutide is a dual‑agonist combination blending an amylin analog (cagrilintide) with a GLP‑1 receptor agonist (Semaglutide). Clinical trials demonstrate superior weight reduction versus either agent alone, with the combination targeting complementary satiety pathways [1][2]. This educational protocol presents a once-weekly subcutaneous approach using a practical dilution for clear insulin‑syringe measurements."
+        },
+        "main_benefits": {
+          "heading": "Potential Benefits",
+          "items": [
+            {
+              "title": "Weight loss efficacy",
+              "description": "Phase 2 trials report mean body‑weight loss of ~15–17% at 32 weeks with the combination, exceeding Semaglutide monotherapy"
+            },
+            {
+              "title": "Glycemic improvement",
+              "description": "In type 2 diabetes, HbA1c reductions were observed alongside weight loss"
+            }
+          ]
+        },
+        "how_it_works": {
+          "heading": "How It Works",
+          "body": "Cagrilintide is a long‑acting amylin analog that reduces appetite via central satiety pathways, while Semaglutide activates GLP‑1 receptors to enhance glucose‑dependent insulin secretion and suppress glucagon\n[4]\n[5]\n. The combination leverages complementary mechanisms: amylin primarily delays gastric emptying and signals satiety through the area postrema, while GLP‑1 enhances pancreatic β‑cell function and central appetite suppression\n[1]\n. Clinical trials of the co‑administered regimen (CagriSema) show greater body‑weight reduction than either agent alone\n[2]\n."
+        },
+        "side_effects": {
+          "heading": "Potential Side Effects",
+          "items": [
+            "Observations from clinical literature.",
+            "Nausea, vomiting, and diarrhea are the most common adverse events; gradual titration minimizes severity",
+            "Injection‑site reactions:",
+            "Mild and transient in clinical reports."
+          ],
+          "note": "This list reflects source-derived observations. Human safety has not been fully established for this investigational compound."
+        }
+      },
+      "dosing_and_reconstitution": {
+        "section_title": "Dosing & Reconstitution",
+        "disclaimer": "This section is source-derived research information only and is not medical advice or a personal use recommendation.",
+        "dosage_protocols": [
+          {
+            "label": "Weeks 1–4",
+            "timeframe": "Weeks 1–4",
+            "dose": "250 mcg cagrilintide + 250 mcg semaglutide",
+            "units_or_volume": "15 units (0.15 mL)",
+            "notes": ""
+          },
+          {
+            "label": "Weeks 5–8",
+            "timeframe": "Weeks 5–8",
+            "dose": "500 mcg cagrilintide + 500 mcg semaglutide",
+            "units_or_volume": "30 units (0.30 mL)",
+            "notes": ""
+          },
+          {
+            "label": "Weeks 9–12",
+            "timeframe": "Weeks 9–12",
+            "dose": "1000 mcg cagrilintide + 1000 mcg semaglutide",
+            "units_or_volume": "60 units (0.60 mL)",
+            "notes": ""
+          },
+          {
+            "label": "Weeks 13–16",
+            "timeframe": "Weeks 13–16",
+            "dose": "1700 mcg cagrilintide + 1700 mcg semaglutide",
+            "units_or_volume": "102 units (1.02 mL)",
+            "notes": ""
+          },
+          {
+            "label": "Week 17+",
+            "timeframe": "Week 17+",
+            "dose": "2400 mcg cagrilintide + 2400 mcg semaglutide",
+            "units_or_volume": "144 units (1.44 mL)",
+            "notes": ""
+          }
+        ],
+        "reconstitution_guide": {
+          "vial_amount": "10 mg total",
+          "bacteriostatic_water": "3.0 mL",
+          "resulting_concentration": "3.33 mg/mL total",
+          "summary": "Add 3.0 mL bacteriostatic water → ~3.33 mg/mL total(1.67 mg/mL each peptide).",
+          "steps": [
+            "Draw 3.0 mL of bacteriostatic water with a sterile syringe.",
+            "Inject slowly down the vial wall; avoid foaming.",
+            "Gently swirl/roll until fully dissolved (do not shake).",
+            "Label with the date of reconstitution and refrigerate at 2–8 °C (35.6–46.4 °F), protected from light; use within 30 days."
+          ]
+        },
+        "injection_frequency": {
+          "summary": "Frequency:",
+          "options": [
+            "Once daily (subcutaneous)"
+          ]
+        },
+        "protocol_duration": {
+          "summary": "Gradual once-weekly titration over 16+ weeks. Each vial (10 mg) supports approximately 3–4 weeks at lower doses.",
+          "vial_duration": "",
+          "duration_examples": []
+        },
+        "recommended_for": [
+          {
+            "type": "Metabolic Research",
+            "description": "For readers studying dual-agonist satiety mechanisms through complementary amylin analog and GLP-1 receptor pathways and their combined effect on energy intake."
+          },
+          {
+            "type": "Weight Management Research",
+            "description": "For readers reviewing phase 2 and 3 CagriSema clinical trial data examining weight reduction outcomes versus monotherapy comparators."
+          },
+          {
+            "type": "Glycemic Regulation Research",
+            "description": "For readers investigating GLP-1 receptor agonist pharmacology, glucose-dependent insulin secretion, and glucagon suppression mechanisms in metabolic research."
+          }
+        ]
+      },
+      "supplies_needed": {
+        "section_title": "Supplies Needed",
+        "summary": "The following supplies are referenced in the source protocol material. Verify exact quantities based on your protocol length.",
+        "items": [
+          {
+            "name": "Bacteriostatic Water",
+            "purpose": "Used to reconstitute the lyophilized peptide blend before handling.",
+            "quantity_guidance": "Use 3.0 mL per vial for reconstitution."
+          },
+          {
+            "name": "Insulin Syringe",
+            "purpose": "For measuring and administering subcutaneous doses.",
+            "quantity_guidance": "Per week:"
+          },
+          {
+            "name": "Alcohol Swab",
+            "purpose": "For sanitizing injection sites and vial tops.",
+            "quantity_guidance": "One for the vial stopper + one for the injection site each week."
+          }
+        ]
+      },
+      "storage_and_handling": {
+        "section_title": "Storage & Handling",
+        "lyophilized_storage": "Storage:Lyophilized: freeze at−20 °C (−4 °F)",
+        "reconstituted_storage": "after reconstitution, refrigerate at 2–8 °C (35",
+        "handling_tips": [
+          "Protect from light.",
+          "Do not shake the vial.",
+          "Do not refreeze after reconstitution.",
+          "Rotate injection sites as noted in source material."
+        ],
+        "safety_notes": [
+          "Use sterile supplies when handling injection-related materials.",
+          "Dispose of used syringes in a sharps container.",
+          "This information is source-derived research context only."
+        ]
+      },
+      "research": {
+        "section_title": "Research & References",
+        "evidence_summary": "The evidence profile for Cagrilintide + Semaglutide (10 mg Blend) is classified as primarily preclinical. See source references below.",
+        "resources": [
+          {
+            "id": "resource-cagrilintide-semaglutide-1",
+            "label": "Lancet Diabetes Endocrinology (2024)",
+            "title": "Efficacy and safety of co‑administered once‑weekly cagrilintide 2.4 mg with Semaglutide 2.4 mg in type 2 diabetes: phase 2 trial",
+            "href": "https://doi.org/10.1016/S0140-6736(23)01163-7",
+            "source_number": 1,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-cagrilintide-semaglutide-2",
+            "label": "Lancet (2021)",
+            "title": "Safety, tolerability, pharmacokinetics, and pharmacodynamics of concomitant cagrilintide with Semaglutide 2.4 mg: phase 1b trial",
+            "href": "https://doi.org/10.1016/S0140-6736(21)00845-X",
+            "source_number": 2,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-cagrilintide-semaglutide-3",
+            "label": "Lancet (2021)",
+            "title": "Once‑weekly cagrilintide for weight management: dose‑finding phase 2 trial in overweight/obesity",
+            "href": "https://doi.org/10.1016/S0140-6736(21)01751-7",
+            "source_number": 3,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-cagrilintide-semaglutide-4",
+            "label": "StatPearls (2025)",
+            "title": "Semaglutide: pharmacology, indications, and clinical use overview",
+            "href": "https://www.ncbi.nlm.nih.gov/books/NBK603723/",
+            "source_number": 4,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-cagrilintide-semaglutide-5",
+            "label": "Cureus (2024)",
+            "title": "Semaglutide: risks and benefits review (PMC)",
+            "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11790292/",
+            "source_number": 5,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-cagrilintide-semaglutide-6",
+            "label": "WHO (2010)",
+            "title": "Best practices for injection and related procedures (WHO toolkit)",
+            "href": "https://www.ncbi.nlm.nih.gov/books/NBK138495/",
+            "source_number": 6,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-cagrilintide-semaglutide-7",
+            "label": "Sigma‑Aldrich (2016)",
+            "title": "Peptide Handling Guide: storage, reconstitution, and stability",
+            "href": "",
+            "source_number": 7,
+            "is_clickable": false
+          },
+          {
+            "id": "resource-cagrilintide-semaglutide-8",
+            "label": "LibreTexts (2020)",
+            "title": "Intradermal and subcutaneous injections: clinical procedures",
+            "href": "https://med.libretexts.org/Bookshelves/Nursing/Clinical_Procedures_for_Safer_Patient_Care_(Doyle_and_McCutcheon)/07:_Blood_Glucose_Monitoring/7.03:_Intradermal_and_Subcutaneous_Injections",
+            "source_number": 8,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-cagrilintide-semaglutide-9",
+            "label": "CDC (2024)",
+            "title": "Vaccine administration: subcutaneous injection technique",
+            "href": "https://www.cdc.gov/vaccines/hcp/admin/downloads/YCTS-VaxAdmin-Subcut-injection.pdf",
+            "source_number": 9,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-cagrilintide-semaglutide-10",
+            "label": "PubMed (2024)",
+            "title": "Cagrilintide‑Semaglutide in adults with overweight/obesity and type 2 diabetes",
+            "href": "https://pubmed.ncbi.nlm.nih.gov/40544432/",
+            "source_number": 10,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-cagrilintide-semaglutide-11",
+            "label": "ScienceDirect (2024)",
+            "title": "Efficacy and safety of CagriSema 2.4 mg + 2.4 mg in type 2 diabetes",
+            "href": "https://www.sciencedirect.com/science/article/abs/pii/S0140673623011637",
+            "source_number": 11,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-cagrilintide-semaglutide-12",
+            "label": "PMC (2019)",
+            "title": "Subcutaneous drug injection: pharmacologic review",
+            "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6822791/",
+            "source_number": 12,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-cagrilintide-semaglutide-13",
+            "label": "Pure Lab Peptides",
+            "title": "Cagrilintide + Semaglutide (10 mg Blend) product page",
+            "href": "https://purelabpeptides.com/buy-peptides/buy-cagrilintide-Semaglutide-10mg-blend/",
+            "source_number": 13,
+            "is_clickable": true
+          }
+        ]
+      },
+      "compliance_notes": {
+        "not_medical_advice": true,
+        "content_origin": "Transformed from scraped source material to match the peptide_frontend_library_v2.json schema.",
+        "copyright_safety_note": "This transformation avoids page-by-page paraphrasing. Legal review is still recommended before publication."
+      }
+    },
+    {
+      "id": "blend-005",
+      "name": "CJC-1295 + GHRP-2 (10 mg Blend)",
+      "base_name": "CJC-1295 + GHRP-2",
+      "slug": "cjc-1295-ghrp-2",
+      "vial_strength": "10 mg Blend",
+      "source_page": {
+        "label": "Original scraped page URL",
+        "href": "https://peptidedosages.com/peptide-blend-dosages/cjc-1295-ghrp-2-10mg-blend-dosage-protocol/"
+      },
+      "seo": {
+        "title": "CJC-1295 + GHRP-2 Blend Dosage Protocol | PeptideDosages.com",
+        "description": "CJC-1295 is a long-acting GHRH analog that can elevate GH levels 2–10× baseline for approximately 6 days and increase IGF-1 by 1.5–3× for 9–11 days [1]. GHRP-2 is a ghrelin-mimetic secretagogue with a ..."
+      },
+      "hero": {
+        "eyebrow": "Peptide Blend Research Library",
+        "title": "CJC-1295 + GHRP-2 (10 mg Blend)",
+        "subtitle": "CJC-1295 is a long-acting GHRH analog that can elevate GH levels 2–10× baseline for approximately 6 days and increase IGF-1 by 1.5–3× for 9–11 days [1]. GHRP-2 is a ghrelin-mimetic secretagogue with a plasma half-life of ~30 minutes that triggers rapid GH pulses peaking within ~25 minutes of administ",
+        "image_alt": "CJC-1295 + GHRP-2 (10 mg Blend) vial image",
+        "tags": [
+          "CJC-1295",
+          "GHRP-2"
+        ],
+        "evidence_level": "Primarily preclinical"
+      },
+      "overview": {
+        "what_is_it": {
+          "heading": "What is CJC-1295 + GHRP-2 (10 mg Blend)?",
+          "body": "CJC-1295 is a long-acting GHRH analog that can elevate GH levels 2–10× baseline for approximately 6 days and increase IGF-1 by 1.5–3× for 9–11 days [1]. GHRP-2 is a ghrelin-mimetic secretagogue with a plasma half-life of ~30 minutes that triggers rapid GH pulses peaking within ~25 minutes of administration [3]. Combining these peptides leverages GHRP-2’s acute pulsatile release with CJC-1295’s sustained action. This educational protocol presents a once-daily subcutaneous approach using a practical dilution for clear insulin-syringe measurements."
+        },
+        "main_benefits": {
+          "heading": "Potential Benefits",
+          "items": [
+            {
+              "title": "CJC-1295 is associated with",
+              "description": "CJC-1295 is associated with sustained, multi-day GH and IGF-1 elevation as demonstrated in human clinical studies."
+            },
+            {
+              "title": "GHRP-2 is studied for",
+              "description": "GHRP-2 is studied for acute GH pulse stimulation via GHS-R1a receptor binding, with peak release observed within ~25 minutes in research models."
+            },
+            {
+              "title": "Research interest centers on",
+              "description": "Research interest centers on synergistic GH axis activation through complementary pathways; combination-specific human data remain limited."
+            }
+          ]
+        },
+        "how_it_works": {
+          "heading": "How It Works",
+          "body": "CJC-1295 is a tetrasubstituted GHRH(1–29) analog engineered for extended half-life (~6–8 days) via protection from enzymatic degradation and reversible albumin binding\n[1]\n. A single dose can sustain elevated GH for approximately 6 days and IGF-1 elevation for 9–11 days. GHRP-2 is a synthetic hexapeptide ghrelin-mimetic that binds the GH secretagogue receptor (GHS-R1a), triggering acute GH pulses that peak within ~25 minutes\n[3]\n. Combining CJC-1295’s sustained GHRH signaling with GHRP-2’s rapid secretagogue action produces synergistic GH release that exceeds either peptide alone\n[6]\n."
+        },
+        "side_effects": {
+          "heading": "Potential Side Effects",
+          "items": [
+            "Observations from preclinical and clinical literature.",
+            "Sustained elevation of GH and IGF-1 levels over extended periods with once-daily or even less frequent dosing",
+            "Long-term pediatric studies (8 months) reported no significant adverse effects or toxicities from GHRP-2 therapy",
+            "GHRP-2 may transiently increase appetite due to ghrelin-like activity",
+            "Mild, transient elevations in ACTH, cortisol, and prolactin may occur shortly after injection but remain within physiological ranges",
+            "CJC-1295 at higher doses may cause transient vasodilatory effects such as facial flushing or brief lightheadedness",
+            "Occasional mild injection-site reactions (redness, itching) may occur with subcutaneous administration."
+          ],
+          "note": "This list reflects source-derived observations. Human safety has not been fully established for this investigational compound."
+        }
+      },
+      "dosing_and_reconstitution": {
+        "section_title": "Dosing & Reconstitution",
+        "disclaimer": "This section is source-derived research information only and is not medical advice or a personal use recommendation.",
+        "dosage_protocols": [
+          {
+            "label": "Standard: Weeks 1–2",
+            "timeframe": "Weeks 1–2",
+            "dose": "150 mcg total blend",
+            "units_or_volume": "4.5 units (0.045 mL)",
+            "notes": ""
+          },
+          {
+            "label": "Standard: Weeks 3–12",
+            "timeframe": "Weeks 3–12",
+            "dose": "300 mcg total blend",
+            "units_or_volume": "9 units (0.09 mL)",
+            "notes": ""
+          },
+          {
+            "label": "Twice-Daily: Weeks 1–2",
+            "timeframe": "Weeks 1–2",
+            "dose": "100 mcg per injection",
+            "units_or_volume": "3 units (0.03 mL)",
+            "notes": ""
+          },
+          {
+            "label": "Twice-Daily: Weeks 3–12",
+            "timeframe": "Weeks 3–12",
+            "dose": "150 mcg per injection",
+            "units_or_volume": "4.5 units (0.045 mL)",
+            "notes": ""
+          }
+        ],
+        "reconstitution_guide": {
+          "vial_amount": "10 mg total",
+          "bacteriostatic_water": "3.0 mL",
+          "resulting_concentration": "3.33 mg/mL",
+          "summary": "Add 3.0 mL bacteriostatic water → ~3.33 mg/mL concentration (1 unit ≈ 33.3 mcg).",
+          "steps": [
+            "Draw 3.0 mL of bacteriostatic water with a sterile syringe.",
+            "Inject slowly down the vial wall; avoid foaming.",
+            "Gently swirl/roll until dissolved (do not shake).",
+            "Label with the date of reconstitution and refrigerate at 2–8 °C (35.6–46.4 °F), protected from light."
+          ]
+        },
+        "injection_frequency": {
+          "summary": "Frequency:",
+          "options": [
+            "Typical daily range: 100–300 mcg once daily (gradual titration)."
+          ]
+        },
+        "protocol_duration": {
+          "summary": "See source protocol for vial duration guidance. Daily range: Typical daily range: 100–300 mcgonce daily (gradual titration).",
+          "vial_duration": "",
+          "duration_examples": []
+        },
+        "recommended_for": [
+          {
+            "type": "Growth Hormone Research",
+            "description": "For readers studying the synergistic effect of GHRH analog and ghrelin-mimetic co-administration on GH pulse amplitude, IGF-1 elevation, and receptor pathway interactions."
+          },
+          {
+            "type": "Body Composition Research",
+            "description": "For readers reviewing GH-mediated effects on lean mass accretion, fat oxidation, and metabolic adaptation in body composition research contexts."
+          },
+          {
+            "type": "Pulsatile GH Signaling Research",
+            "description": "For readers investigating GH pulse kinetics, optimal GHRP-2 administration timing relative to GHRH analog action, and secretagogue dose-response relationships."
+          }
+        ]
+      },
+      "supplies_needed": {
+        "section_title": "Supplies Needed",
+        "summary": "The following supplies are referenced in the source protocol material. Verify exact quantities based on your protocol length.",
+        "items": [
+          {
+            "name": "Bacteriostatic Water",
+            "purpose": "Used to reconstitute the lyophilized peptide blend before handling.",
+            "quantity_guidance": "Use ~3.0 mL per vial for reconstitution."
+          },
+          {
+            "name": "Insulin Syringe",
+            "purpose": "For measuring and administering subcutaneous doses.",
+            "quantity_guidance": "Per week:"
+          },
+          {
+            "name": "Alcohol Swab",
+            "purpose": "For sanitizing injection sites and vial tops.",
+            "quantity_guidance": "One for the vial stopper + one for the injection site each day."
+          }
+        ]
+      },
+      "storage_and_handling": {
+        "section_title": "Storage & Handling",
+        "lyophilized_storage": "Storage:Lyophilized: refrigerate at 2–8 °C (35",
+        "reconstituted_storage": "6–46",
+        "handling_tips": [
+          "Protect from light.",
+          "Do not shake the vial.",
+          "Do not refreeze after reconstitution.",
+          "Rotate injection sites as noted in source material."
+        ],
+        "safety_notes": [
+          "Use sterile supplies when handling injection-related materials.",
+          "Dispose of used syringes in a sharps container.",
+          "This information is source-derived research context only."
+        ]
+      },
+      "research": {
+        "section_title": "Research & References",
+        "evidence_summary": "The evidence profile for CJC-1295 + GHRP-2 (10 mg Blend) is classified as primarily preclinical. See source references below.",
+        "resources": [
+          {
+            "id": "resource-cjc-1295-ghrp-2-1",
+            "label": "J Clin Endocrinol Metab (2006)",
+            "title": "Teichman SL et al. Prolonged stimulation of GH and IGF-I secretion by CJC-1295, a long-acting GHRH analog, in healthy adults",
+            "href": "https://pubmed.ncbi.nlm.nih.gov/16352683/",
+            "source_number": 1,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-cjc-1295-ghrp-2-2",
+            "label": "J Clin Endocrinol Metab (1998)",
+            "title": "Mericq V et al. Effects of eight months treatment with graded doses of GHRP in GH-deficient children",
+            "href": "https://pubmed.ncbi.nlm.nih.gov/9661608/",
+            "source_number": 2,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-cjc-1295-ghrp-2-3",
+            "label": "J Clin Endocrinol Metab (1998)",
+            "title": "Pihoker C et al. Pharmacokinetics and pharmacodynamics of GHRP-2: a phase I study in children",
+            "href": "https://pubmed.ncbi.nlm.nih.gov/9543135/",
+            "source_number": 3,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-cjc-1295-ghrp-2-4",
+            "label": "J Clin Endocrinol Metab (2005)",
+            "title": "Laferrère B et al. GHRP-2, like ghrelin, increases food intake in healthy men",
+            "href": "https://pubmed.ncbi.nlm.nih.gov/15546898/",
+            "source_number": 4,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-cjc-1295-ghrp-2-5",
+            "label": "Peptides (1997)",
+            "title": "Arvat E et al. Effects of GHRP-2 and hexarelin on GH, prolactin, ACTH, and cortisol levels in man",
+            "href": "https://pubmed.ncbi.nlm.nih.gov/9285939/",
+            "source_number": 5,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-cjc-1295-ghrp-2-6",
+            "label": "WADA Technical Document (2019)",
+            "title": "Testing guide for Growth Hormone Releasing Factors (GHRFs), Version 2.0",
+            "href": "https://www.wada-ama.org/sites/default/files/growth_hormone_releasing_factors_2.0_1.pdf",
+            "source_number": 6,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-cjc-1295-ghrp-2-7",
+            "label": "CDC",
+            "title": "Vaccine administration: subcutaneous route (angle/site; no aspiration)",
+            "href": "https://www.cdc.gov/vaccines/hcp/administration/during.html",
+            "source_number": 7,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-cjc-1295-ghrp-2-8",
+            "label": "CDC (Subcut Injection PDF)",
+            "title": "Technique diagram and site guidance for subcutaneous injections",
+            "href": "https://www.cdc.gov/vaccines/hcp/admin/downloads/YCTS-VaxAdmin-Subcut-injection.pdf",
+            "source_number": 8,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-cjc-1295-ghrp-2-9",
+            "label": "Bachem Technical Bulletin",
+            "title": "Handling and storage guidelines for peptides",
+            "href": "https://www.bachem.com/knowledge-center/peptide-guide/handling-and-storage-guidelines-for-peptides/",
+            "source_number": 9,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-cjc-1295-ghrp-2-10",
+            "label": "Sigma-Aldrich Technical Guide",
+            "title": "Handling and storage of synthetic peptides",
+            "href": "",
+            "source_number": 10,
+            "is_clickable": false
+          },
+          {
+            "id": "resource-cjc-1295-ghrp-2-11",
+            "label": "NCBI Bookshelf",
+            "title": "Best practices for injection (asepsis, preparation, and administration)",
+            "href": "https://www.ncbi.nlm.nih.gov/books/NBK138495/",
+            "source_number": 11,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-cjc-1295-ghrp-2-12",
+            "label": "Subcutaneous Drug Injection Review (PMC)",
+            "title": "Pharmacologic considerations of the subcutaneous route",
+            "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6822791/",
+            "source_number": 12,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-cjc-1295-ghrp-2-13",
+            "label": "Pure Lab Peptides",
+            "title": "CJC-1295 + GHRP-2 (10 mg Blend) product page (quality and batch documentation)",
+            "href": "https://purelabpeptides.com/buy-peptides/buy-cjc-1295-ghrp-2-blend/",
+            "source_number": 13,
+            "is_clickable": true
+          }
+        ]
+      },
+      "compliance_notes": {
+        "not_medical_advice": true,
+        "content_origin": "Transformed from scraped source material to match the peptide_frontend_library_v2.json schema.",
+        "copyright_safety_note": "This transformation avoids page-by-page paraphrasing. Legal review is still recommended before publication."
+      }
+    },
+    {
+      "id": "blend-006",
+      "name": "CJC-1295 NO DAC + Ipamorelin (10 mg Blend)",
+      "base_name": "CJC-1295 NO DAC + Ipamorelin",
+      "slug": "cjc-1295-no-dac-ipamorelin",
+      "vial_strength": "10 mg Blend",
+      "source_page": {
+        "label": "Original scraped page URL",
+        "href": "https://peptidedosages.com/peptide-blend-dosages/cjc-1295-no-dac-ipamorelin-10-mg-blend-dosage-protocol/"
+      },
+      "seo": {
+        "title": "CJC-1295 No DAC + Ipamorelin Dosage Protocol | PeptideDosages.com",
+        "description": "This blend combines CJC-1295 (no DAC), a modified growth hormone-releasing hormone (GHRH) analog, with Ipamorelin, a selective growth hormone secretagogue (GHS)[1][2]. CJC-1295 (no DAC) produces susta..."
+      },
+      "hero": {
+        "eyebrow": "Peptide Blend Research Library",
+        "title": "CJC-1295 NO DAC + Ipamorelin (10 mg Blend)",
+        "subtitle": "This blend combines CJC-1295 (no DAC), a modified growth hormone-releasing hormone (GHRH) analog, with Ipamorelin, a selective growth hormone secretagogue (GHS)[1][2]. CJC-1295 (no DAC) produces sustained, dose-dependent GH and IGF-1 increases [1], while Ipamorelin selectively stimulates GH release w",
+        "image_alt": "CJC-1295 NO DAC + Ipamorelin (10 mg Blend) vial image",
+        "tags": [
+          "CJC-1295 NO DAC",
+          "Ipamorelin"
+        ],
+        "evidence_level": "Primarily preclinical"
+      },
+      "overview": {
+        "what_is_it": {
+          "heading": "What is CJC-1295 NO DAC + Ipamorelin (10 mg Blend)?",
+          "body": "This blend combines CJC-1295 (no DAC), a modified growth hormone-releasing hormone (GHRH) analog, with Ipamorelin, a selective growth hormone secretagogue (GHS)[1][2]. CJC-1295 (no DAC) produces sustained, dose-dependent GH and IGF-1 increases [1], while Ipamorelin selectively stimulates GH release without raising ACTH or cortisol [3]. This educational protocol presents a once-daily subcutaneous approach using a practical dilution for clear insulin-syringe measurements."
+        },
+        "main_benefits": {
+          "heading": "Potential Benefits",
+          "items": [
+            {
+              "title": "Studied for pulsatile GH",
+              "description": "Studied for pulsatile GH and IGF-1 elevation through GHRH analog signaling, with human data supporting dose-dependent increases."
+            },
+            {
+              "title": "Ipamorelin is associated with",
+              "description": "Ipamorelin is associated with selective GH release without significant cortisol or ACTH elevation in preclinical and clinical research."
+            },
+            {
+              "title": "Potential benefits are based",
+              "description": "Potential benefits are based on complementary GH secretagogue mechanisms; combination-specific human evidence is limited."
+            }
+          ]
+        },
+        "how_it_works": {
+          "heading": "How It Works",
+          "body": "CJC-1295 (no DAC) is a modified GHRH analog (tetrasubstituted 29-amino acid peptide) that stimulates pulsatile GH release from the pituitary\n[1]\n. Human studies demonstrate sustained, dose-dependent increases in both GH and IGF-1 with subcutaneous administration\n[1]\n. Ipamorelin is a pentapeptide GH secretagogue with a half-life of approximately 1.5–2.5 hours\n[5]\nthat elicits a rapid GH pulse peaking around 40 minutes post-dose\n[6]\n. Importantly, Ipamorelin selectively increases GH without affecting ACTH, cortisol, or prolactin levels\n[3]\n. When combined, these peptides may produce synergistic GH release by acting on complementary receptor pathways\n[4]\n."
+        },
+        "side_effects": {
+          "heading": "Potential Side Effects",
+          "items": [
+            "Observations from preclinical and clinical literature.",
+            "Supports sustained GH and IGF-1 elevation through pulsatile release patterns",
+            "Ipamorelin demonstrates selective GH release without cortisol or ACTH elevation",
+            "Once-daily dosing of CJC-1295 (no DAC) has been shown to normalize growth in animal models",
+            "Generally well tolerated; possible transient effects may include flushing, headache, or injection-site reactions.",
+            "Some individuals report increased appetite, water retention, or tingling sensations."
+          ],
+          "note": "This list reflects source-derived observations. Human safety has not been fully established for this investigational compound."
+        }
+      },
+      "dosing_and_reconstitution": {
+        "section_title": "Dosing & Reconstitution",
+        "disclaimer": "This section is source-derived research information only and is not medical advice or a personal use recommendation.",
+        "dosage_protocols": [
+          {
+            "label": "Weeks 1–2",
+            "timeframe": "Weeks 1–2",
+            "dose": "100 mcg CJC-1295 + 100 mcg Ipamorelin",
+            "units_or_volume": "3 units (0.03 mL)",
+            "notes": ""
+          },
+          {
+            "label": "Weeks 3–4",
+            "timeframe": "Weeks 3–4",
+            "dose": "150 mcg CJC-1295 + 150 mcg Ipamorelin",
+            "units_or_volume": "4.5 units (0.045 mL)",
+            "notes": ""
+          },
+          {
+            "label": "Weeks 5–6",
+            "timeframe": "Weeks 5–6",
+            "dose": "200 mcg CJC-1295 + 200 mcg Ipamorelin",
+            "units_or_volume": "6 units (0.06 mL)",
+            "notes": ""
+          },
+          {
+            "label": "Weeks 7–12",
+            "timeframe": "Weeks 7–12",
+            "dose": "250–300 mcg CJC-1295 + 250–300 mcg Ipamorelin",
+            "units_or_volume": "7.5–9 units (0.075–0.09 mL)",
+            "notes": ""
+          }
+        ],
+        "reconstitution_guide": {
+          "vial_amount": "10 mg total",
+          "bacteriostatic_water": "3.0 mL",
+          "resulting_concentration": "3.33 mg/mL",
+          "summary": "Add 3.0 mL bacteriostatic water → ~3.33 mg/mL total concentration (1.67 mg/mL each peptide).",
+          "steps": [
+            "Draw 3.0 mL of bacteriostatic water with a sterile syringe.",
+            "Inject slowly down the vial wall; avoid foaming.",
+            "Gently swirl/roll until dissolved (do not shake).",
+            "Label with the date of reconstitution and refrigerate at 2–8 °C (35.6–46.4 °F), protected from light."
+          ]
+        },
+        "injection_frequency": {
+          "summary": "Frequency:",
+          "options": [
+            "Typical daily range: 100–300 mcg of each peptide once daily (gradual titration)."
+          ]
+        },
+        "protocol_duration": {
+          "summary": "See source protocol for vial duration guidance. Daily range: Typical daily range: 100–300 mcgof each peptide once daily (gradual titration).",
+          "vial_duration": "",
+          "duration_examples": []
+        },
+        "recommended_for": [
+          {
+            "type": "Growth Hormone Research",
+            "description": "For readers studying short-acting GHRH analog and selective ghrelin mimetic co-administration effects on pulsatile GH secretion and IGF-1 responses."
+          },
+          {
+            "type": "Body Composition Research",
+            "description": "For readers comparing GH axis modulation and downstream effects on muscle protein synthesis, fat utilization, and metabolic adaptation in research models."
+          },
+          {
+            "type": "Recovery Research",
+            "description": "For readers reviewing GH and IGF-1 axis involvement in tissue repair and recovery outcomes, including ipamorelin's selectivity profile in research contexts."
+          }
+        ]
+      },
+      "supplies_needed": {
+        "section_title": "Supplies Needed",
+        "summary": "The following supplies are referenced in the source protocol material. Verify exact quantities based on your protocol length.",
+        "items": [
+          {
+            "name": "Bacteriostatic Water",
+            "purpose": "Used to reconstitute the lyophilized peptide blend before handling.",
+            "quantity_guidance": "Use ~3.0 mL per vial for reconstitution."
+          },
+          {
+            "name": "Insulin Syringe",
+            "purpose": "For measuring and administering subcutaneous doses.",
+            "quantity_guidance": "Per week:"
+          },
+          {
+            "name": "Alcohol Swab",
+            "purpose": "For sanitizing injection sites and vial tops.",
+            "quantity_guidance": "One for the vial stopper + one for the injection site each day."
+          }
+        ]
+      },
+      "storage_and_handling": {
+        "section_title": "Storage & Handling",
+        "lyophilized_storage": "Storage:Lyophilized: freeze at−20 °C (−4 °F)",
+        "reconstituted_storage": "after reconstitution, refrigerate at 2–8 °C (35",
+        "handling_tips": [
+          "Protect from light.",
+          "Do not shake the vial.",
+          "Do not refreeze after reconstitution.",
+          "Rotate injection sites as noted in source material."
+        ],
+        "safety_notes": [
+          "Use sterile supplies when handling injection-related materials.",
+          "Dispose of used syringes in a sharps container.",
+          "This information is source-derived research context only."
+        ]
+      },
+      "research": {
+        "section_title": "Research & References",
+        "evidence_summary": "The evidence profile for CJC-1295 NO DAC + Ipamorelin (10 mg Blend) is classified as primarily preclinical. See source references below.",
+        "resources": [
+          {
+            "id": "resource-cjc-1295-no-dac-ipamorelin-1",
+            "label": "PubMed",
+            "title": "Prolonged stimulation of GH and IGF-1 secretion by CJC-1295 in healthy adults",
+            "href": "https://pubmed.ncbi.nlm.nih.gov/16352683/",
+            "source_number": 1,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-cjc-1295-no-dac-ipamorelin-2",
+            "label": "PubMed",
+            "title": "Once-daily CJC-1295 normalizes growth in GHRH knockout mouse",
+            "href": "https://pubmed.ncbi.nlm.nih.gov/16822960/",
+            "source_number": 2,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-cjc-1295-no-dac-ipamorelin-3",
+            "label": "PubMed",
+            "title": "Ipamorelin, the first selective growth hormone secretagogue",
+            "href": "https://pubmed.ncbi.nlm.nih.gov/9849822/",
+            "source_number": 3,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-cjc-1295-no-dac-ipamorelin-4",
+            "label": "PMC",
+            "title": "Beyond the androgen receptor: GH secretagogues in body composition management",
+            "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7108996/",
+            "source_number": 4,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-cjc-1295-no-dac-ipamorelin-5",
+            "label": "PubMed",
+            "title": "Pharmacokinetic-pharmacodynamic modeling of ipamorelin in human volunteers",
+            "href": "https://pubmed.ncbi.nlm.nih.gov/10923144/",
+            "source_number": 5,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-cjc-1295-no-dac-ipamorelin-6",
+            "label": "PubMed",
+            "title": "Ipamorelin GH pulse kinetics and timing studies",
+            "href": "https://pubmed.ncbi.nlm.nih.gov/10496658/",
+            "source_number": 6,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-cjc-1295-no-dac-ipamorelin-7",
+            "label": "CDC",
+            "title": "Vaccine administration: subcutaneous route (angle/site; no aspiration)",
+            "href": "https://www.cdc.gov/vaccines/hcp/administration/during.html",
+            "source_number": 7,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-cjc-1295-no-dac-ipamorelin-8",
+            "label": "CDC (Subcut Injection PDF)",
+            "title": "Technique diagram and site guidance for subcutaneous injections",
+            "href": "https://www.cdc.gov/vaccines/hcp/admin/downloads/YCTS-VaxAdmin-Subcut-injection.pdf",
+            "source_number": 8,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-cjc-1295-no-dac-ipamorelin-9",
+            "label": "NCBI Bookshelf",
+            "title": "Best practices for injection (asepsis, preparation, and administration)",
+            "href": "https://www.ncbi.nlm.nih.gov/books/NBK138495/",
+            "source_number": 9,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-cjc-1295-no-dac-ipamorelin-10",
+            "label": "Subcutaneous Drug Injection Review (PMC)",
+            "title": "Pharmacologic considerations of the subcutaneous route",
+            "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6822791/",
+            "source_number": 10,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-cjc-1295-no-dac-ipamorelin-11",
+            "label": "Frontiers in Endocrinology",
+            "title": "Growth hormone secretagogues: history and clinical applications",
+            "href": "https://www.frontiersin.org/articles/10.3389/fendo.2019.00155/full",
+            "source_number": 11,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-cjc-1295-no-dac-ipamorelin-12",
+            "label": "Endocrine Reviews",
+            "title": "Ghrelin and growth hormone secretagogues: physiology and applications",
+            "href": "https://academic.oup.com/edrv/article/25/3/426/2355257",
+            "source_number": 12,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-cjc-1295-no-dac-ipamorelin-13",
+            "label": "Pure Lab Peptides",
+            "title": "CJC-1295 NO DAC + Ipamorelin (10 mg Blend) product page",
+            "href": "https://purelabpeptides.com/buy-peptides/buy-cjc1295-no-dac-ipamorelin-10mg-blend/",
+            "source_number": 13,
+            "is_clickable": true
+          }
+        ]
+      },
+      "compliance_notes": {
+        "not_medical_advice": true,
+        "content_origin": "Transformed from scraped source material to match the peptide_frontend_library_v2.json schema.",
+        "copyright_safety_note": "This transformation avoids page-by-page paraphrasing. Legal review is still recommended before publication."
+      }
+    },
+    {
+      "id": "blend-007",
+      "name": "GLOW (70 mg Blend)",
+      "base_name": "GLOW",
+      "slug": "glow",
+      "vial_strength": "70 mg Blend",
+      "source_page": {
+        "label": "Original scraped page URL",
+        "href": "https://peptidedosages.com/peptide-blend-dosages/glow-peptide-blend-70-mg-vial-dosage-protocol-old/"
+      },
+      "seo": {
+        "title": "GLOW Peptide Blend Dosage Protocol | PeptideDosages.com",
+        "description": "GLOW is a research peptide blend combining GHK-Cu,TB-500 (Thymosin Beta-4 fragment), and BPC-157 in one 70 mg vial. Each component has been studied for its regenerative and healing properties across vario..."
+      },
+      "hero": {
+        "eyebrow": "Peptide Blend Research Library",
+        "title": "GLOW (70 mg Blend)",
+        "subtitle": "GLOW is a research peptide blend combining GHK-Cu,TB-500 (Thymosin Beta-4 fragment), and BPC-157 in one 70 mg vial. Each component has been studied for its regenerative and healing properties across various tissues [1][5]. By delivering all three in one formulation, GLOW aims to synergistically promote t",
+        "image_alt": "GLOW (70 mg Blend) vial image",
+        "tags": [
+          "GLOW"
+        ],
+        "evidence_level": "Primarily preclinical"
+      },
+      "overview": {
+        "what_is_it": {
+          "heading": "What is GLOW (70 mg Blend)?",
+          "body": "GLOW is a research peptide blend combining GHK-Cu,TB-500 (Thymosin Beta-4 fragment), and BPC-157 in one 70 mg vial. Each component has been studied for its regenerative and healing properties across various tissues [1][5]. By delivering all three in one formulation, GLOW aims to synergistically promote tissue repair, inflammation reduction, and wound healing beyond what each peptide might achieve alone."
+        },
+        "main_benefits": {
+          "heading": "Potential Benefits",
+          "items": [
+            {
+              "title": "Combines three peptides studied",
+              "description": "Combines three peptides studied for wound healing, cell migration, and collagen synthesis across preclinical tissue-repair models."
+            },
+            {
+              "title": "Each component has preclinical",
+              "description": "Each component has preclinical evidence for angiogenesis, anti-inflammatory activity, and tissue regeneration via distinct biological pathways."
+            },
+            {
+              "title": "Potential benefits reflect individual",
+              "description": "Potential benefits reflect individual compound research; direct evidence for the combined GLOW formulation is limited."
+            }
+          ]
+        },
+        "how_it_works": {
+          "heading": "How It Works",
+          "body": "The three peptides in GLOW operate via distinct but complementary biological pathways to enhance healing and repair.\nGHK-Cu\nacts as a genomic modulator; it can upregulate a broad array of genes related to tissue growth and downregulate those linked to inflammation and tissue breakdown\n[1]\n. Notably, GHK-Cu stimulates collagen and glycosaminoglycan synthesis in fibroblasts, promotes angiogenesis (formation of new blood vessels), and exhibits antioxidant and anti-inflammatory properties (for example, it suppresses NF-κB activity)\n[1]\n. These actions translate to improved wound contraction, tissue remodeling, and even anti-aging effects in skin.\nTB-500 (Thymosin β4)\nprimarily facilitates cell migration and cytoskeletal remodeling. After an injury, endogenous thymosin β4 is released by platelets and immune cells to protect tissues from further damage\n[4]\n. TB-500 mimics this by binding to actin, a key cell structural protein, and promoting the mobilization of cells to the injury site\n[4]\n. It thereby accelerates angiogenesis (new capillary growth) and recruits stem and progenitor cells, which aid in regenerating damaged tissues\n[4]\n. TB-500 also has anti-apoptotic effects (reducing cell death) and modulates immune cells to limit excessive inflammation and fibrosis. One outcome of this mechanism is reduced scar tissue formation and more organized healing in wounds\n[4]\n.\nBPC-157\ntriggers a multi-factorial healing response. It is known to enhance growth factor signaling (e.g., increasing receptors for VEGF and PDGF) and upregulate nitric oxide pathways, leading to improved microcirculation in injured tissue\n[5]\n. BPC-157 also directly counteracts inflammatory mediators; it lowers pro-inflammatory cytokines and increases anti-inflammatory factors at injury sites\n[5]\n. On a cellular level, BPC-157 promotes the migration and survival of repair cells (fibroblasts, endothelial cells, etc.). For instance, in tendon cells it activates the FAK-paxillin pathway to increase cell movement and adhesion for repair\n[6]\n. Additionally, BPC-157 supports the formation of new blood vessels (angiogenesis) similar to growth factors, helping deliver nutrients for regeneration\n[5]\n. Through these mechanisms, BPC-157 has demonstrated accelerated healing in diverse tissues (muscle, tendon, bone, gut) in preclinical models.\nBy combining GHK-Cu, TB-500, and BPC-157, GLOW leverages these synergistic pathways (collagen synthesis, cell migration, angiogenesis, and inflammation control) to create an optimal environment for tissue repair. The net result observed in research is faster wound closure, stronger tissue regeneration, and reduced fibrosis compared to normal healing processes."
+        },
+        "side_effects": {
+          "heading": "Potential Side Effects",
+          "items": [
+            "See source page for side effect observations."
+          ],
+          "note": "This list reflects source-derived observations. Human safety has not been fully established for this investigational compound."
+        }
+      },
+      "dosing_and_reconstitution": {
+        "section_title": "Dosing & Reconstitution",
+        "disclaimer": "This section is source-derived research information only and is not medical advice or a personal use recommendation.",
+        "dosage_protocols": [
+          {
+            "label": "Weeks 1–4",
+            "timeframe": "Weeks 1–4",
+            "dose": "~1.7 mg GHK-Cu / ~0.33 mg BPC-157 / ~0.33 mg TB-500",
+            "units_or_volume": "10 units (0.10 mL)",
+            "notes": ""
+          }
+        ],
+        "reconstitution_guide": {
+          "vial_amount": "70 mg total",
+          "bacteriostatic_water": "3.0 mL",
+          "resulting_concentration": "23.3 mg/mL",
+          "summary": "Add 3.0 mL bacteriostatic water → ~23.3 mg/mL concentration.",
+          "steps": [
+            "Draw 3.0 mL of bacteriostatic water with a sterile syringe.",
+            "Inject slowly down the vial wall to minimize foaming.",
+            "Gently swirl or roll the vial until fully dissolved (do not shake vigorously).",
+            "Label with the date of reconstitution and refrigerate at 2–8 °C (35.6–46.4 °F), protected from light.",
+            "Use within 4 weeks for optimal potency and safety."
+          ]
+        },
+        "injection_frequency": {
+          "summary": "Frequency:",
+          "options": [
+            "Once daily (subcutaneous)"
+          ]
+        },
+        "protocol_duration": {
+          "summary": "4-week cycle per vial (70 mg total). Once daily subcutaneous injection at 10 units (0.10 mL).",
+          "vial_duration": "",
+          "duration_examples": []
+        },
+        "recommended_for": [
+          {
+            "type": "Tissue Repair Research",
+            "description": "For readers studying complementary regenerative mechanisms of GHK-Cu, thymosin β4, and BPC-157 across wound healing, angiogenesis, and cell migration models."
+          },
+          {
+            "type": "Skin & Wound Healing Research",
+            "description": "For readers reviewing GHK-Cu's role in collagen synthesis, gene regulation related to tissue growth, and dermal regeneration in wound healing research."
+          },
+          {
+            "type": "Angiogenesis Research",
+            "description": "For readers investigating vascular remodeling, endothelial cell migration, and angiogenic signaling pathways across TB-500 and BPC-157 preclinical research."
+          }
+        ]
+      },
+      "supplies_needed": {
+        "section_title": "Supplies Needed",
+        "summary": "The following supplies are referenced in the source protocol material. Verify exact quantities based on your protocol length.",
+        "items": [
+          {
+            "name": "Bacteriostatic Water",
+            "purpose": "Used to reconstitute the lyophilized peptide blend before handling.",
+            "quantity_guidance": "Use 3.0 mL per vial for reconstitution."
+          },
+          {
+            "name": "Insulin Syringe",
+            "purpose": "For measuring and administering subcutaneous doses.",
+            "quantity_guidance": "4 weeks:"
+          },
+          {
+            "name": "Alcohol Swab",
+            "purpose": "For sanitizing injection sites and vial tops.",
+            "quantity_guidance": "One for the vial stopper + one for the injection site each day."
+          }
+        ]
+      },
+      "storage_and_handling": {
+        "section_title": "Storage & Handling",
+        "lyophilized_storage": "Storage:Lyophilized: freeze at−20 °C (−4 °F)",
+        "reconstituted_storage": "after reconstitution, refrigerate at 2–8 °C (35",
+        "handling_tips": [
+          "Protect from light.",
+          "Do not shake the vial.",
+          "Do not refreeze after reconstitution.",
+          "Rotate injection sites as noted in source material."
+        ],
+        "safety_notes": [
+          "Use sterile supplies when handling injection-related materials.",
+          "Dispose of used syringes in a sharps container.",
+          "This information is source-derived research context only."
+        ]
+      },
+      "research": {
+        "section_title": "Research & References",
+        "evidence_summary": "The evidence profile for GLOW (70 mg Blend) is classified as primarily preclinical. See source references below.",
+        "resources": [
+          {
+            "id": "resource-glow-1",
+            "label": "International Journal of Molecular Sciences",
+            "title": "Regenerative and Protective Actions of the GHK-Cu Peptide in the Light of the New Gene Data (2018)",
+            "href": "https://www.mdpi.com/1422-0067/19/7/1987",
+            "source_number": 1,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-glow-2",
+            "label": "International Journal of Medical Sciences",
+            "title": "Exploring the Role of Tripeptides in Wound Healing and Skin Regeneration: A Comprehensive Review (2025)",
+            "href": "https://www.medsci.org/v22p4175.htm",
+            "source_number": 2,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-glow-3",
+            "label": "Vitamins & Hormones (PubMed)",
+            "title": "Thymosin β4 Promotes Dermal Healing (2016)",
+            "href": "https://pubmed.ncbi.nlm.nih.gov/27450738/",
+            "source_number": 3,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-glow-4",
+            "label": "Expert Opinion on Biological Therapy (PubMed)",
+            "title": "Thymosin β4: A Multi-Functional Regenerative Peptide. Basic Properties and Clinical Applications (2012)",
+            "href": "https://pubmed.ncbi.nlm.nih.gov/22074294/",
+            "source_number": 4,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-glow-5",
+            "label": "HSS Journal (PMC)",
+            "title": "Emerging Use of BPC-157 in Orthopaedic Sports Medicine: A Systematic Review (2025)",
+            "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12313605/",
+            "source_number": 5,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-glow-6",
+            "label": "Journal of Applied Physiology (PubMed)",
+            "title": "The Promoting Effect of Pentadecapeptide BPC 157 on Tendon Healing Involves Tendon Outgrowth, Cell Survival, and Cell Migration (2011)",
+            "href": "https://pubmed.ncbi.nlm.nih.gov/21030672/",
+            "source_number": 6,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-glow-7",
+            "label": "Immunize.org (IAC)",
+            "title": "Ask the Experts: Administering Vaccines – Subcutaneous Route Q&A (2025)",
+            "href": "",
+            "source_number": 7,
+            "is_clickable": false
+          },
+          {
+            "id": "resource-glow-8",
+            "label": "Bachem Peptide Technical Guide",
+            "title": "Handling and Storage Guidelines for Peptides (2023)",
+            "href": "https://www.bachem.com/knowledge-center/peptide-guide/handling-and-storage-guidelines-for-peptides/",
+            "source_number": 8,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-glow-9",
+            "label": "CDC Pink Book (14th Edition)",
+            "title": "General Best Practice Guidelines for Immunization – Vaccine Administration (Subcutaneous Injection) (2022)",
+            "href": "https://www.cdc.gov/vaccines/hcp/imz-best-practices/vaccine-administration.html",
+            "source_number": 9,
+            "is_clickable": true
+          }
+        ]
+      },
+      "compliance_notes": {
+        "not_medical_advice": true,
+        "content_origin": "Transformed from scraped source material to match the peptide_frontend_library_v2.json schema.",
+        "copyright_safety_note": "This transformation avoids page-by-page paraphrasing. Legal review is still recommended before publication."
+      }
+    },
+    {
+      "id": "blend-008",
+      "name": "KLOW (80 mg Blend)",
+      "base_name": "KLOW",
+      "slug": "klow",
+      "vial_strength": "80 mg Blend",
+      "source_page": {
+        "label": "Original scraped page URL",
+        "href": "https://peptidedosages.com/peptide-blend-dosages/klow-80-mg-vial-dosage-protocol/"
+      },
+      "seo": {
+        "title": "KLOW Peptide Blend Dosage Protocol | PeptideDosages.com",
+        "description": "KLOW is a multi-peptide blend combining TB-500 (10 mg), BPC-157 (10 mg), KPV (10 mg), and GHK-Cu (50 mg) for a total of 80 mg per vial. TB-500 (synthetic thymosin beta-4) promotes wound healing, angio..."
+      },
+      "hero": {
+        "eyebrow": "Peptide Blend Research Library",
+        "title": "KLOW (80 mg Blend)",
+        "subtitle": "KLOW is a multi-peptide blend combining TB-500 (10 mg), BPC-157 (10 mg), KPV (10 mg), and GHK-Cu (50 mg) for a total of 80 mg per vial. TB-500 (synthetic thymosin beta-4) promotes wound healing, angiogenesis, and tissue repair [1][2]. BPC-157 exhibits regenerative properties with preclinical evidence",
+        "image_alt": "KLOW (80 mg Blend) vial image",
+        "tags": [
+          "KLOW"
+        ],
+        "evidence_level": "Primarily preclinical"
+      },
+      "overview": {
+        "what_is_it": {
+          "heading": "What is KLOW (80 mg Blend)?",
+          "body": "KLOW is a multi-peptide blend combining TB-500 (10 mg), BPC-157 (10 mg), KPV (10 mg), and GHK-Cu (50 mg) for a total of 80 mg per vial. TB-500 (synthetic thymosin beta-4) promotes wound healing, angiogenesis, and tissue repair [1][2]. BPC-157 exhibits regenerative properties with preclinical evidence supporting tendon, ligament, and muscle healing [3][4]. KPV is an anti-inflammatory tripeptide that modulates NF-κB signaling [5][6]. GHK-Cu supports collagen synthesis, wound healing, and tissue regeneration [7][8]. This educational protocol presents a once-daily subcutaneous approach using a practical dilution for clear insulin-syringe measurements."
+        },
+        "main_benefits": {
+          "heading": "Potential Benefits",
+          "items": [
+            {
+              "title": "Studied for tissue repair",
+              "description": "Studied for tissue repair and wound healing through four peptides with complementary preclinical mechanisms of action."
+            },
+            {
+              "title": "KPV is associated with",
+              "description": "KPV is associated with NF-κB inhibition and anti-inflammatory cytokine modulation; GHK-Cu with collagen synthesis and tissue remodeling."
+            },
+            {
+              "title": "Potential benefits reflect individual",
+              "description": "Potential benefits reflect individual compound research; direct clinical evidence for the combined KLOW formulation is limited."
+            }
+          ]
+        },
+        "how_it_works": {
+          "heading": "How It Works",
+          "body": "KLOW combines four peptides with complementary mechanisms of action:\nTB-500 (Thymosin Beta-4):\nPromotes angiogenesis, cell migration, and tissue repair by regulating actin, a key protein in cell structure\n[1]\n. Preclinical studies demonstrate accelerated wound healing, reduced inflammation, and tissue regeneration\n[2]\n.\nBPC-157:\nA gastric pentadecapeptide that supports tendon, ligament, and muscle healing through enhanced angiogenesis and growth factor modulation\n[3]\n. Animal studies show favorable tissue repair outcomes\n[4]\n.\nKPV:\nA C-terminal tripeptide fragment of α-MSH with potent anti-inflammatory properties. It inhibits NF-κB signaling and reduces pro-inflammatory cytokines without melanotropic effects\n[5]\n[6]\n.\nGHK-Cu:\nA naturally occurring copper peptide that stimulates collagen and elastin synthesis, promotes wound healing, and modulates gene expression related to tissue remodeling\n[7]\n[8]\n."
+        },
+        "side_effects": {
+          "heading": "Potential Side Effects",
+          "items": [
+            "Observations from preclinical and early-stage research.",
+            "Accelerated tissue repair and wound healing through multiple complementary pathways",
+            "Reduced inflammation via NF-κB inhibition and cytokine modulation",
+            "Enhanced collagen synthesis and connective tissue support",
+            "Promotion of angiogenesis and improved blood flow to healing tissues",
+            "Potential support for musculoskeletal recovery and joint health",
+            "Possible Side Effects",
+            "Mild injection-site reactions (redness, irritation) may occur with subcutaneous administration.",
+            "Occasional lightheadedness reported with some peptides due to vasodilatory effects.",
+            "Limited human clinical data; most safety observations derive from preclinical studies"
+          ],
+          "note": "This list reflects source-derived observations. Human safety has not been fully established for this investigational compound."
+        }
+      },
+      "dosing_and_reconstitution": {
+        "section_title": "Dosing & Reconstitution",
+        "disclaimer": "This section is source-derived research information only and is not medical advice or a personal use recommendation.",
+        "dosage_protocols": [
+          {
+            "label": "Weeks 1–2",
+            "timeframe": "Weeks 1–2",
+            "dose": "250 mcg TB-500 / 250 mcg BPC-157 / 250 mcg KPV / 1.25 mg GHK-Cu",
+            "units_or_volume": "7.5 units (0.075 mL)",
+            "notes": ""
+          },
+          {
+            "label": "Weeks 3–4",
+            "timeframe": "Weeks 3–4",
+            "dose": "500 mcg TB-500 / 500 mcg BPC-157 / 500 mcg KPV / 2.5 mg GHK-Cu",
+            "units_or_volume": "15 units (0.15 mL)",
+            "notes": ""
+          },
+          {
+            "label": "Weeks 5–8",
+            "timeframe": "Weeks 5–8",
+            "dose": "750 mcg TB-500 / 750 mcg BPC-157 / 750 mcg KPV / 3.75 mg GHK-Cu",
+            "units_or_volume": "22.5 units (0.225 mL)",
+            "notes": ""
+          },
+          {
+            "label": "Weeks 9–12 (Maintenance)",
+            "timeframe": "Weeks 9–12 (Maintenance)",
+            "dose": "500 mcg TB-500 / 500 mcg BPC-157 / 500 mcg KPV / 2.5 mg GHK-Cu",
+            "units_or_volume": "15 units (0.15 mL)",
+            "notes": ""
+          }
+        ],
+        "reconstitution_guide": {
+          "vial_amount": "80 mg total",
+          "bacteriostatic_water": "3.0 mL",
+          "resulting_concentration": "26.7 mg/mL",
+          "summary": "Add 3.0 mL bacteriostatic water → ~26.7 mg/mL total concentration.",
+          "steps": [
+            "Draw 3.0 mL of bacteriostatic water with a sterile syringe.",
+            "Inject slowly down the vial wall; avoid foaming.",
+            "Gently swirl/roll until dissolved (do not shake).",
+            "Label with the date of reconstitution and refrigerate at 2–8 °C (35.6–46.4 °F), protected from light."
+          ]
+        },
+        "injection_frequency": {
+          "summary": "Frequency:",
+          "options": [
+            "Once daily (subcutaneous)"
+          ]
+        },
+        "protocol_duration": {
+          "summary": "8–12 week standard cycle; optional extension to 16 weeks. Once daily subcutaneous injection.",
+          "vial_duration": "",
+          "duration_examples": []
+        },
+        "recommended_for": [
+          {
+            "type": "Tissue Repair Research",
+            "description": "For readers studying multi-mechanism regenerative combinations targeting angiogenesis (TB-500), growth factor signaling (BPC-157), and collagen synthesis (GHK-Cu)."
+          },
+          {
+            "type": "Anti-Inflammatory Research",
+            "description": "For readers reviewing KPV-mediated NF-κB pathway inhibition alongside thymosin β4 and BPC-157 anti-inflammatory signaling in preclinical injury and healing models."
+          },
+          {
+            "type": "Collagen & Skin Research",
+            "description": "For readers investigating GHK-Cu's effects on collagen and elastin gene expression, matrix remodeling, and wound healing outcomes in dermal research models."
+          }
+        ]
+      },
+      "supplies_needed": {
+        "section_title": "Supplies Needed",
+        "summary": "The following supplies are referenced in the source protocol material. Verify exact quantities based on your protocol length.",
+        "items": [
+          {
+            "name": "Bacteriostatic Water",
+            "purpose": "Used to reconstitute the lyophilized peptide blend before handling.",
+            "quantity_guidance": "Use ~3.0 mL per vial for reconstitution."
+          },
+          {
+            "name": "Insulin Syringe",
+            "purpose": "For measuring and administering subcutaneous doses.",
+            "quantity_guidance": "Per week:"
+          },
+          {
+            "name": "Alcohol Swab",
+            "purpose": "For sanitizing injection sites and vial tops.",
+            "quantity_guidance": "One for the vial stopper + one for the injection site each day."
+          }
+        ]
+      },
+      "storage_and_handling": {
+        "section_title": "Storage & Handling",
+        "lyophilized_storage": "Storage:Lyophilized: freeze at−20 °C (−4 °F)",
+        "reconstituted_storage": "after reconstitution, refrigerate at 2–8 °C (35",
+        "handling_tips": [
+          "Protect from light.",
+          "Do not shake the vial.",
+          "Do not refreeze after reconstitution.",
+          "Rotate injection sites as noted in source material."
+        ],
+        "safety_notes": [
+          "Use sterile supplies when handling injection-related materials.",
+          "Dispose of used syringes in a sharps container.",
+          "This information is source-derived research context only."
+        ]
+      },
+      "research": {
+        "section_title": "Research & References",
+        "evidence_summary": "The evidence profile for KLOW (80 mg Blend) is classified as primarily preclinical. See source references below.",
+        "resources": [
+          {
+            "id": "resource-klow-1",
+            "label": "PubMed",
+            "title": "Thymosin beta 4 accelerates wound healing (Philp et al., 1999)",
+            "href": "https://pubmed.ncbi.nlm.nih.gov/10469335/",
+            "source_number": 1,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-klow-2",
+            "label": "PubMed",
+            "title": "Thymosin β4 promotes dermal healing in preclinical models and clinical trials",
+            "href": "https://pubmed.ncbi.nlm.nih.gov/27450738/",
+            "source_number": 2,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-klow-3",
+            "label": "PMC",
+            "title": "Emerging use of BPC-157 in orthopaedic sports medicine: systematic review",
+            "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12313605/",
+            "source_number": 3,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-klow-4",
+            "label": "PMC",
+            "title": "Pharmacokinetics, distribution, metabolism, and excretion of BPC-157 in rats and dogs",
+            "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9794587/",
+            "source_number": 4,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-klow-5",
+            "label": "PMC",
+            "title": "PepT1-mediated tripeptide KPV uptake reduces intestinal inflammation",
+            "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2431115/",
+            "source_number": 5,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-klow-6",
+            "label": "PMC",
+            "title": "Orally targeted delivery of tripeptide KPV via HA-functionalized nanoparticles alleviates ulcerative colitis",
+            "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5498804/",
+            "source_number": 6,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-klow-7",
+            "label": "PMC",
+            "title": "Regenerative and protective actions of the GHK-Cu peptide in light of new gene data",
+            "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6073405/",
+            "source_number": 7,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-klow-8",
+            "label": "PMC",
+            "title": "GHK peptide as a natural modulator of multiple cellular pathways in skin regeneration",
+            "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4508379/",
+            "source_number": 8,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-klow-9",
+            "label": "Sigma-Aldrich",
+            "title": "Handling and storage guidelines for peptides and proteins",
+            "href": "https://www.sigmaaldrich.com/US/en/technical-documents/technical-article/research-and-disease-areas/cell-and-developmental-biology-research/handling-and-storage",
+            "source_number": 9,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-klow-10",
+            "label": "CDC",
+            "title": "Vaccine administration: subcutaneous injection technique guidelines",
+            "href": "https://www.cdc.gov/vaccines/hcp/admin/downloads/YCTS-VaxAdmin-Subcut-injection.pdf",
+            "source_number": 10,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-klow-11",
+            "label": "CDC",
+            "title": "Vaccine administration best practices (aspiration not recommended for SC injections)",
+            "href": "https://www.cdc.gov/vaccines/hcp/imz-best-practices/vaccine-administration.html",
+            "source_number": 11,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-klow-12",
+            "label": "NCBI Bookshelf",
+            "title": "Chapter 18: Administration of parenteral medications (injection technique)",
+            "href": "https://www.ncbi.nlm.nih.gov/books/NBK596739/",
+            "source_number": 12,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-klow-13",
+            "label": "PubMed",
+            "title": "Thymosin β4: a multi-functional regenerative peptide (basic properties and clinical applications)",
+            "href": "https://pubmed.ncbi.nlm.nih.gov/22074294/",
+            "source_number": 13,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-klow-14",
+            "label": "PMC",
+            "title": "The potential of GHK as an anti-aging peptide",
+            "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8789089/",
+            "source_number": 14,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-klow-15",
+            "label": "Pure Lab Peptides",
+            "title": "KLOW (80 mg) product page (quality and batch documentation)",
+            "href": "https://purelabpeptides.com/buy-peptides/buy-klow-80mg/",
+            "source_number": 15,
+            "is_clickable": true
+          }
+        ]
+      },
+      "compliance_notes": {
+        "not_medical_advice": true,
+        "content_origin": "Transformed from scraped source material to match the peptide_frontend_library_v2.json schema.",
+        "copyright_safety_note": "This transformation avoids page-by-page paraphrasing. Legal review is still recommended before publication."
+      }
+    },
+    {
+      "id": "blend-009",
+      "name": "Neuroxelin (48 mg Vial)",
+      "base_name": "Neuroxelin",
+      "slug": "neuroxelin",
+      "vial_strength": "48 mg Vial",
+      "source_page": {
+        "label": "Original scraped page URL",
+        "href": "https://peptidedosages.com/peptide-blend-dosages/neuroxelin-48-mg-vial-dosage-protocol/"
+      },
+      "seo": {
+        "title": "Neuroxelin Dosage Protocol | PeptideDosages.com",
+        "description": "Neuroxelin dosage protocols are designed to support neuroprotection and cognitive recovery following brain injury or stroke. As a synthetic neuroprotective peptide, Neuroxelin may help reduce excitoto..."
+      },
+      "hero": {
+        "eyebrow": "Peptide Blend Research Library",
+        "title": "Neuroxelin (48 mg Vial)",
+        "subtitle": "Neuroxelin dosage protocols are designed to support neuroprotection and cognitive recovery following brain injury or stroke. As a synthetic neuroprotective peptide, Neuroxelin may help reduce excitotoxic damage, modulate neuroinflammation, and support neural repair processes [1][2]. Research suggests",
+        "image_alt": "Neuroxelin (48 mg Vial) vial image",
+        "tags": [
+          "Neuroxelin"
+        ],
+        "evidence_level": "Primarily preclinical"
+      },
+      "overview": {
+        "what_is_it": {
+          "heading": "What is Neuroxelin (48 mg Vial)?",
+          "body": "Neuroxelin dosage protocols are designed to support neuroprotection and cognitive recovery following brain injury or stroke. As a synthetic neuroprotective peptide, Neuroxelin may help reduce excitotoxic damage, modulate neuroinflammation, and support neural repair processes [1][2]. Research suggests that Neuroxelin-class peptides can promote improved neurological outcomes and cognitive function when administered consistently over several weeks [3][4]. This educational protocol outlines a once-daily subcutaneous approach optimized for sustained neuroprotective coverage."
+        },
+        "main_benefits": {
+          "heading": "Potential Benefits",
+          "items": [
+            {
+              "title": "Studied in research contexts",
+              "description": "Studied in research contexts for neuroprotection and support of neural repair following brain injury, based on related neuropeptide evidence."
+            },
+            {
+              "title": "Research interest centers on",
+              "description": "Research interest centers on neuroinflammation modulation, reduced excitotoxic neuron death, and improved neurological outcomes in preclinical models."
+            },
+            {
+              "title": "Cognitive recovery associations",
+              "description": "Cognitive recovery associations are based on analogous peptide studies; direct clinical validation for Neuroxelin specifically remains ongoing."
+            }
+          ]
+        },
+        "how_it_works": {
+          "heading": "How It Works",
+          "body": "Neuroxelin is designed to intervene in the cascade of brain injury through multiple mechanisms. It may dampen excitotoxic neuron death by disrupting NMDA receptor signaling pathways, similar to nerinetide (NA-1), which interferes with PSD-95 protein interactions\n[1]\n. Additionally, Neuroxelin-class peptides can reduce neuroinflammation by downregulating microglial activation and cytokine release, as demonstrated in studies of apoE-mimetic peptides like CN-105\n[2]\n. The peptide may also provide neurotrophic support by promoting synaptic repair and neurogenesis, supporting neuronal survival and vascular repair following acute brain injuries\n[3]\n[7]\n."
+        },
+        "side_effects": {
+          "heading": "Potential Side Effects",
+          "items": [
+            "Observations from preclinical and clinical literature on related neuropeptides.",
+            "Research suggests improved neurological outcomes and functional recovery following stroke or brain injury",
+            "Studies of peptide supplementation show significant improvements in cognitive test scores (MoCA) and information processing speed over 90–360 days",
+            "Animal studies demonstrate reduced neuronal death, decreased microglial activation, and better behavioral outcomes",
+            "Related peptides show low toxicity profiles with no significant difference in adverse events versus placebo in Phase III trials",
+            "Possible mild injection-site reactions (redness, irritation) may occur with subcutaneous administration; rotate sites to minimize."
+          ],
+          "note": "This list reflects source-derived observations. Human safety has not been fully established for this investigational compound."
+        }
+      },
+      "dosing_and_reconstitution": {
+        "section_title": "Dosing & Reconstitution",
+        "disclaimer": "This section is source-derived research information only and is not medical advice or a personal use recommendation.",
+        "dosage_protocols": [
+          {
+            "label": "Weeks 1–4",
+            "timeframe": "Weeks 1–4",
+            "dose": "500 mcg",
+            "units_or_volume": "3 units (0.03 mL)",
+            "notes": ""
+          },
+          {
+            "label": "Weeks 5–8",
+            "timeframe": "Weeks 5–8",
+            "dose": "750 mcg",
+            "units_or_volume": "4.7 units (0.047 mL)",
+            "notes": ""
+          },
+          {
+            "label": "Conservative",
+            "timeframe": "Conservative",
+            "dose": "250 mcg",
+            "units_or_volume": "1.6 units (0.016 mL)",
+            "notes": ""
+          },
+          {
+            "label": "Typical",
+            "timeframe": "Typical",
+            "dose": "500 mcg",
+            "units_or_volume": "3.1 units (0.031 mL)",
+            "notes": ""
+          },
+          {
+            "label": "Aggressive",
+            "timeframe": "Aggressive",
+            "dose": "1000 mcg",
+            "units_or_volume": "6.3 units (0.063 mL)",
+            "notes": ""
+          }
+        ],
+        "reconstitution_guide": {
+          "vial_amount": "48 mg total",
+          "bacteriostatic_water": "3.0 mL",
+          "resulting_concentration": "16 mg/mL",
+          "summary": "Add 3.0 mL bacteriostatic water → 16 mg/mL concentration.",
+          "steps": [
+            "Allow lyophilized vial to reach room temperature before opening.",
+            "Draw 3.0 mL of bacteriostatic water with a sterile syringe.",
+            "Inject slowly down the vial wall; avoid foaming.",
+            "Gently swirl/roll until dissolved (do not shake).",
+            "Label with the date and concentration (16 mg/mL); refrigerate at 2–8 °C (35.6–46.4 °F), protected from light."
+          ]
+        },
+        "injection_frequency": {
+          "summary": "Frequency:",
+          "options": [
+            "Typical daily range: 250–1000 mcg once daily (standard dose: 500 mcg)."
+          ]
+        },
+        "protocol_duration": {
+          "summary": "See source protocol for vial duration guidance. Daily range: Typical daily range: 250–1000 mcgonce daily (standard dose: 500 mcg).",
+          "vial_duration": "",
+          "duration_examples": []
+        },
+        "recommended_for": [
+          {
+            "type": "Neuroprotection Research",
+            "description": "For readers reviewing peptide-based interventions studied for neuroprotection against excitotoxic and ischemic neuronal injury in preclinical and clinical research."
+          },
+          {
+            "type": "Stroke Recovery Research",
+            "description": "For readers studying clinical outcomes of neuroprotective peptides in acute ischemic stroke and traumatic brain injury contexts, including phase 2 and 3 trial data."
+          },
+          {
+            "type": "Neuroinflammation Research",
+            "description": "For readers investigating microglial modulation, neuroinflammatory cytokine signaling, and neuropeptide mechanisms relevant to central nervous system injury and repair."
+          }
+        ]
+      },
+      "supplies_needed": {
+        "section_title": "Supplies Needed",
+        "summary": "The following supplies are referenced in the source protocol material. Verify exact quantities based on your protocol length.",
+        "items": [
+          {
+            "name": "Bacteriostatic Water",
+            "purpose": "Used to reconstitute the lyophilized peptide blend before handling.",
+            "quantity_guidance": "Use 3.0 mL per vial for reconstitution."
+          },
+          {
+            "name": "Insulin Syringe",
+            "purpose": "For measuring and administering subcutaneous doses.",
+            "quantity_guidance": "Per week:"
+          },
+          {
+            "name": "Alcohol Swab",
+            "purpose": "For sanitizing injection sites and vial tops.",
+            "quantity_guidance": "One for the vial stopper + one for the injection site each day."
+          }
+        ]
+      },
+      "storage_and_handling": {
+        "section_title": "Storage & Handling",
+        "lyophilized_storage": "Storage:Lyophilized: freeze at−20 °C (−4 °F)",
+        "reconstituted_storage": "after reconstitution, refrigerate at 2–8 °C (35",
+        "handling_tips": [
+          "Protect from light.",
+          "Do not shake the vial.",
+          "Do not refreeze after reconstitution.",
+          "Rotate injection sites as noted in source material."
+        ],
+        "safety_notes": [
+          "Use sterile supplies when handling injection-related materials.",
+          "Dispose of used syringes in a sharps container.",
+          "This information is source-derived research context only."
+        ]
+      },
+      "research": {
+        "section_title": "Research & References",
+        "evidence_summary": "The evidence profile for Neuroxelin (48 mg Vial) is classified as primarily preclinical. See source references below.",
+        "resources": [
+          {
+            "id": "resource-neuroxelin-1",
+            "label": "The Lancet",
+            "title": "Efficacy and safety of nerinetide for acute ischaemic stroke (ESCAPE-NA1): Phase 3 RCT of PSD-95 inhibitor peptide",
+            "href": "https://pure.johnshopkins.edu/en/publications/efficacy-and-safety-of-nerinetide-for-the-treatment-of-acute-isch/",
+            "source_number": 1,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-neuroxelin-2",
+            "label": "Scientific Reports (Nature)",
+            "title": "Neuroprotective pentapeptide CN-105 reduces sterile inflammation and improves outcomes in TBI murine model",
+            "href": "https://www.nature.com/articles/srep46461",
+            "source_number": 2,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-neuroxelin-3",
+            "label": "Drugs (Springer/PubMed)",
+            "title": "Efficacy and safety of sovateltide in acute cerebral ischaemic stroke: Phase III clinical trial",
+            "href": "https://pubmed.ncbi.nlm.nih.gov/39542995/",
+            "source_number": 3,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-neuroxelin-4",
+            "label": "Nutrients (PMC)",
+            "title": "Neuropsychological performance after extended N-Pep-12 supplementation in ischemic stroke (12-month study)",
+            "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11506754/",
+            "source_number": 4,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-neuroxelin-5",
+            "label": "GenScript",
+            "title": "Peptide storage and handling guidelines: stability, reconstitution, and freeze-thaw considerations",
+            "href": "https://www.genscript.com/peptide_storage_and_handling.html",
+            "source_number": 5,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-neuroxelin-6",
+            "label": "NIBSC (UK MHRA)",
+            "title": "Peptide handling, dissolution, and storage guidelines from standards agency",
+            "href": "https://nibsc.org/science_and_research/virology/cjd_resource_centre/available_samples/peptide_library/peptide_storage.aspx",
+            "source_number": 6,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-neuroxelin-7",
+            "label": "Biochimica et Biophysica Acta (ScienceDirect)",
+            "title": "Advances in clinical studies of peptide drugs in stroke disease: mechanisms and progress",
+            "href": "https://www.sciencedirect.com/science/article/abs/pii/S0925443925003187",
+            "source_number": 7,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-neuroxelin-8",
+            "label": "Stroke (AHA Journals)",
+            "title": "Factors influencing nerinetide effect on infarct volume in stroke patients",
+            "href": "https://www.ahajournals.org/doi/10.1161/STROKEAHA.124.048601",
+            "source_number": 8,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-neuroxelin-9",
+            "label": "PubMed",
+            "title": "Phase 1 randomized, double-blind, placebo-controlled study of CN-105 safety and pharmacokinetics",
+            "href": "https://pubmed.ncbi.nlm.nih.gov/27990643/",
+            "source_number": 9,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-neuroxelin-10",
+            "label": "CDC",
+            "title": "Vaccine administration: subcutaneous injection technique (angle, site, no aspiration)",
+            "href": "https://www.cdc.gov/vaccines/hcp/admin/downloads/YCTS-VaxAdmin-Subcut-injection.pdf",
+            "source_number": 10,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-neuroxelin-11",
+            "label": "CDC",
+            "title": "Vaccine administration during vaccination: subcutaneous injection guidance",
+            "href": "https://www.cdc.gov/vaccines/hcp/administration/during.html",
+            "source_number": 11,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-neuroxelin-12",
+            "label": "Advances in Therapy (PMC)",
+            "title": "Subcutaneous injection of drugs: factors influencing pain sensation at injection site",
+            "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6822791/",
+            "source_number": 12,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-neuroxelin-13",
+            "label": "Translational Psychiatry (Nature)",
+            "title": "Davunetide effects on memory in prodromal Alzheimer’s disease",
+            "href": "https://www.nature.com/articles/s41398-024-03118-0",
+            "source_number": 13,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-neuroxelin-14",
+            "label": "Schizophrenia Research (ScienceDirect)",
+            "title": "Effect of the neuroprotective peptide davunetide (AL-108) on cognition and safety",
+            "href": "https://www.sciencedirect.com/science/article/abs/pii/S0920996411005640",
+            "source_number": 14,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-neuroxelin-15",
+            "label": "Pure Lab Peptides",
+            "title": "Neuroxelin (48 mg) product page (quality and batch documentation)",
+            "href": "https://purelabpeptides.com/buy-peptides/buy-neuroxelin-48mg/",
+            "source_number": 15,
+            "is_clickable": true
+          }
+        ]
+      },
+      "compliance_notes": {
+        "not_medical_advice": true,
+        "content_origin": "Transformed from scraped source material to match the peptide_frontend_library_v2.json schema.",
+        "copyright_safety_note": "This transformation avoids page-by-page paraphrasing. Legal review is still recommended before publication."
+      }
+    },
+    {
+      "id": "blend-010",
+      "name": "Tesamorelin 5mg + Ipamorelin 5mg (10mg Blend)",
+      "base_name": "Tesamorelin 5mg + Ipamorelin 5mg",
+      "slug": "tesamorelin-5mg-ipamorelin-5mg",
+      "vial_strength": "10mg Blend",
+      "source_page": {
+        "label": "Original scraped page URL",
+        "href": "https://peptidedosages.com/peptide-blend-dosages/tesamorelin-5-mg-ipamorelin-5-mg-10-mg-blend-dosage-protocol/"
+      },
+      "seo": {
+        "title": "Tesamorelin + Ipamorelin Blend Dosage Protocol | PeptideDosages.com",
+        "description": "This blend combines tesamorelin, a synthetic GHRH analog, with ipamorelin, a selective ghrelin mimetic (growth hormone secretagogue). When administered together, GHRH analogs and ghrelin mimetics produc..."
+      },
+      "hero": {
+        "eyebrow": "Peptide Blend Research Library",
+        "title": "Tesamorelin 5mg + Ipamorelin 5mg (10mg Blend)",
+        "subtitle": "This blend combines tesamorelin, a synthetic GHRH analog, with ipamorelin, a selective ghrelin mimetic (growth hormone secretagogue). When administered together, GHRH analogs and ghrelin mimetics produce synergistic GH pulses [1][2]. The FDA‑approved tesamorelin dose is 2 mg SC daily [3], while ipamorel",
+        "image_alt": "Tesamorelin 5mg + Ipamorelin 5mg (10mg Blend) vial image",
+        "tags": [
+          "Tesamorelin 5mg",
+          "Ipamorelin 5mg"
+        ],
+        "evidence_level": "Primarily preclinical"
+      },
+      "overview": {
+        "what_is_it": {
+          "heading": "What is Tesamorelin 5mg + Ipamorelin 5mg (10mg Blend)?",
+          "body": "This blend combines tesamorelin, a synthetic GHRH analog, with ipamorelin, a selective ghrelin mimetic (growth hormone secretagogue). When administered together, GHRH analogs and ghrelin mimetics produce synergistic GH pulses [1][2]. The FDA‑approved tesamorelin dose is 2 mg SC daily [3], while ipamorelin is commonly studied at 100–300 mcg SC daily [4]. This educational protocol presents a once-daily subcutaneous approach with gradual titration using a 1:1 blend ratio."
+        },
+        "main_benefits": {
+          "heading": "Potential Benefits",
+          "items": [
+            {
+              "title": "Enhanced pulsatile GH secretion",
+              "description": "Dual-pathway stimulation via GHRH analog (tesamorelin) and ghrelin mimetic (ipamorelin) produces synergistic GH pulses exceeding either agent alone in human pharmacology studies."
+            },
+            {
+              "title": "Studied for visceral fat reduction",
+              "description": "Tesamorelin (2 mg/day) demonstrated reductions in trunk fat and visceral adipose tissue in Phase 3 trials of HIV-associated lipodystrophy."
+            },
+            {
+              "title": "High GH selectivity",
+              "description": "Ipamorelin shows high GH selectivity with minimal impact on cortisol, prolactin, or ACTH in preclinical and clinical research."
+            }
+          ]
+        },
+        "how_it_works": {
+          "heading": "How It Works",
+          "body": "Tesamorelin\nis a synthetic 44‑amino‑acid GHRH analog that stimulates pituitary GH release\n[3]\n.\nIpamorelin\nis a pentapeptide ghrelin mimetic that acts on the GHS‑R1a receptor, selectively stimulating GH secretion without significantly affecting cortisol, prolactin, or ACTH\n[4]\n[7]\n. Combined GHRH + GHRP/ghrelin‑mimetic administration produces synergistic, amplified GH pulses compared to either agent alone\n[1]\n[2]\n. Human pharmacokinetic studies show ipamorelin achieves peak GH release approximately 40 minutes post‑dose\n[8]\n."
+        },
+        "side_effects": {
+          "heading": "Potential Side Effects",
+          "items": [
+            "Observations from preclinical and clinical literature.",
+            "Enhanced pulsatile GH secretion through dual‑pathway stimulation",
+            "Tesamorelin (2 mg/day) demonstrated reductions in trunk fat and visceral adipose tissue in HIV‑associated lipodystrophy trials",
+            "Ipamorelin shows high GH selectivity with minimal impact on cortisol or other hormones",
+            "Common adverse events with tesamorelin include injection‑site reactions (erythema, pruritus), arthralgia, and peripheral edema",
+            "Ipamorelin is generally well tolerated; transient flushing or headache may occur"
+          ],
+          "note": "This list reflects source-derived observations. Human safety has not been fully established for this investigational compound."
+        }
+      },
+      "dosing_and_reconstitution": {
+        "section_title": "Dosing & Reconstitution",
+        "disclaimer": "This section is source-derived research information only and is not medical advice or a personal use recommendation.",
+        "dosage_protocols": [
+          {
+            "label": "Weeks 1–2",
+            "timeframe": "Weeks 1–2",
+            "dose": "250 mcg tesamorelin + 125 mcg ipamorelin",
+            "units_or_volume": "23 units (0.23 mL)",
+            "notes": ""
+          },
+          {
+            "label": "Weeks 3–4",
+            "timeframe": "Weeks 3–4",
+            "dose": "500 mcg tesamorelin + 250 mcg ipamorelin",
+            "units_or_volume": "45 units (0.45 mL)",
+            "notes": ""
+          },
+          {
+            "label": "Weeks 5–6",
+            "timeframe": "Weeks 5–6",
+            "dose": "1000 mcg tesamorelin + 500 mcg ipamorelin",
+            "units_or_volume": "90 units (0.90 mL)",
+            "notes": ""
+          },
+          {
+            "label": "Weeks 7–10",
+            "timeframe": "Weeks 7–10",
+            "dose": "1500 mcg tesamorelin + 750 mcg ipamorelin",
+            "units_or_volume": "135 units (1.35 mL)",
+            "notes": ""
+          },
+          {
+            "label": "Weeks 11–16",
+            "timeframe": "Weeks 11–16",
+            "dose": "2000 mcg tesamorelin + 1000 mcg ipamorelin",
+            "units_or_volume": "180 units (1.80 mL)",
+            "notes": ""
+          }
+        ],
+        "reconstitution_guide": {
+          "vial_amount": "10 mg total",
+          "bacteriostatic_water": "3.0 mL",
+          "resulting_concentration": "3.33 mg/mL total",
+          "summary": "Add 3.0 mL bacteriostatic water to the 10 mg vial → ~3.33 mg/mL total(1.67 mg/mL each peptide).",
+          "steps": [
+            "Draw 3.0 mL of bacteriostatic water with a sterile syringe.",
+            "Inject slowly down the vial wall; avoid foaming.",
+            "Gently swirl/roll until dissolved (do not shake).",
+            "Label with the date of reconstitution and refrigerate at 2–8 °C (35.6–46.4 °F), protected from light; use within 24–48 hours."
+          ]
+        },
+        "injection_frequency": {
+          "summary": "Frequency:",
+          "options": [
+            "Typical daily range: 250–2000 mcg tesamorelin + 125–1000 mcg ipamorelin (gradual titration)."
+          ]
+        },
+        "protocol_duration": {
+          "summary": "See source protocol for vial duration guidance. Daily range: Typical daily range: 250–2000 mcg tesamorelin + 125–1000 mcg ipamorelin(gradual titration).",
+          "vial_duration": "",
+          "duration_examples": []
+        },
+        "recommended_for": [
+          {
+            "type": "Growth Hormone Research",
+            "description": "For readers studying synergistic GH release from GHRH analog and ghrelin-mimetic co-administration, including tesamorelin's FDA-approved pharmacology and clinical applications."
+          },
+          {
+            "type": "Body Composition Research",
+            "description": "For readers reviewing tesamorelin's phase 3 clinical evidence on visceral fat reduction and body composition outcomes alongside the GH-amplifying role of ipamorelin."
+          },
+          {
+            "type": "Metabolic Research",
+            "description": "For readers comparing GH and IGF-1 axis modulation effects on metabolic parameters and investigating the pharmacokinetics and pharmacodynamics of synthetic GHRH analogs."
+          }
+        ]
+      },
+      "supplies_needed": {
+        "section_title": "Supplies Needed",
+        "summary": "The following supplies are referenced in the source protocol material. Verify exact quantities based on your protocol length.",
+        "items": [
+          {
+            "name": "Bacteriostatic Water",
+            "purpose": "Used to reconstitute the lyophilized peptide blend before handling.",
+            "quantity_guidance": "Use ~3.0 mL per vial for reconstitution."
+          },
+          {
+            "name": "Insulin Syringe",
+            "purpose": "For measuring and administering subcutaneous doses.",
+            "quantity_guidance": "Per week:"
+          },
+          {
+            "name": "Alcohol Swab",
+            "purpose": "For sanitizing injection sites and vial tops.",
+            "quantity_guidance": "One for the vial stopper + one for the injection site each day."
+          }
+        ]
+      },
+      "storage_and_handling": {
+        "section_title": "Storage & Handling",
+        "lyophilized_storage": "Storage:Lyophilized: refrigerate at 2–8 °C (35",
+        "reconstituted_storage": "6–46",
+        "handling_tips": [
+          "Protect from light.",
+          "Do not shake the vial.",
+          "Do not refreeze after reconstitution.",
+          "Rotate injection sites as noted in source material."
+        ],
+        "safety_notes": [
+          "Use sterile supplies when handling injection-related materials.",
+          "Dispose of used syringes in a sharps container.",
+          "This information is source-derived research context only."
+        ]
+      },
+      "research": {
+        "section_title": "Research & References",
+        "evidence_summary": "The evidence profile for Tesamorelin 5mg + Ipamorelin 5mg (10mg Blend) is classified as primarily preclinical. See source references below.",
+        "resources": [
+          {
+            "id": "resource-tesamorelin-5mg-ipamorelin-5mg-1",
+            "label": "PMC — The Safety and Efficacy of Growth Hormone Secretagogues",
+            "title": "GHRH + GHRP synergy; dual pathway GH stimulation mechanisms",
+            "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5632578/",
+            "source_number": 1,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-tesamorelin-5mg-ipamorelin-5mg-2",
+            "label": "Endocrine Reviews — Growth Hormone Secretagogues",
+            "title": "Synergistic amplification of GH release with combined GHRH and ghrelin mimetics",
+            "href": "https://academic.oup.com/edrv/article/18/5/621/2530748",
+            "source_number": 2,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-tesamorelin-5mg-ipamorelin-5mg-3",
+            "label": "NCBI LiverTox — Tesamorelin",
+            "title": "Synthetic GHRH analog; recommended dose 2 mg SC daily for HIV lipodystrophy",
+            "href": "https://www.ncbi.nlm.nih.gov/books/NBK548730/",
+            "source_number": 3,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-tesamorelin-5mg-ipamorelin-5mg-4",
+            "label": "PubMed — Ipamorelin, the first selective growth hormone secretagogue",
+            "title": "High GH potency and selectivity; no cortisol/ACTH effect",
+            "href": "https://pubmed.ncbi.nlm.nih.gov/9849822/",
+            "source_number": 4,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-tesamorelin-5mg-ipamorelin-5mg-5",
+            "label": "FDA Egrifta (tesamorelin) Label",
+            "title": "SC abdomen injection; rotate sites; storage and reconstitution guidance",
+            "href": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2013/022505s004lbl.pdf",
+            "source_number": 5,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-tesamorelin-5mg-ipamorelin-5mg-6",
+            "label": "CDC — Vaccine Administration: Subcutaneous Injection",
+            "title": "Subcutaneous injection technique (45° angle, pinch skin, no aspiration)",
+            "href": "https://www.cdc.gov/vaccines/hcp/admin/downloads/YCTS-VaxAdmin-Subcut-injection.pdf",
+            "source_number": 6,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-tesamorelin-5mg-ipamorelin-5mg-7",
+            "label": "European Journal of Endocrinology — Ipamorelin GH selectivity",
+            "title": "Potent and specific GH release without affecting cortisol, prolactin, or FSH/LH",
+            "href": "",
+            "source_number": 7,
+            "is_clickable": false
+          },
+          {
+            "id": "resource-tesamorelin-5mg-ipamorelin-5mg-8",
+            "label": "PubMed — Pharmacokinetic-pharmacodynamic modeling of ipamorelin",
+            "title": "Human GH release peaked ~0.67 h post-dose",
+            "href": "https://pubmed.ncbi.nlm.nih.gov/10496658/",
+            "source_number": 8,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-tesamorelin-5mg-ipamorelin-5mg-9",
+            "label": "JAMA — Tesamorelin for Abdominal Fat in HIV",
+            "title": "Phase 3 trials demonstrating visceral fat reduction with tesamorelin",
+            "href": "https://jamanetwork.com/journals/jama/fullarticle/186684",
+            "source_number": 9,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-tesamorelin-5mg-ipamorelin-5mg-10",
+            "label": "CDC — Vaccine Administration During",
+            "title": "General subcutaneous route guidance (angle/site)",
+            "href": "https://www.cdc.gov/vaccines/hcp/administration/during.html",
+            "source_number": 10,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-tesamorelin-5mg-ipamorelin-5mg-11",
+            "label": "NCBI Bookshelf — Best Practices for Injection",
+            "title": "Asepsis, preparation, and administration guidance",
+            "href": "https://www.ncbi.nlm.nih.gov/books/NBK138495/",
+            "source_number": 11,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-tesamorelin-5mg-ipamorelin-5mg-12",
+            "label": "PMC — Subcutaneous Drug Injection Review",
+            "title": "Pharmacologic considerations of the subcutaneous route",
+            "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6822791/",
+            "source_number": 12,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-tesamorelin-5mg-ipamorelin-5mg-13",
+            "label": "Drugs — Tesamorelin: A Review",
+            "title": "Comprehensive review of tesamorelin pharmacology and clinical use",
+            "href": "",
+            "source_number": 13,
+            "is_clickable": false
+          },
+          {
+            "id": "resource-tesamorelin-5mg-ipamorelin-5mg-14",
+            "label": "Pure Lab Peptides",
+            "title": "Tesamorelin 5 mg + Ipamorelin 5 mg (10 mg Blend) product page",
+            "href": "https://purelabpeptides.com/buy-peptides/buy-tesamorelin-5mg-ipamorelin-5mg-10mg-blend/",
+            "source_number": 14,
+            "is_clickable": true
+          }
+        ]
+      },
+      "compliance_notes": {
+        "not_medical_advice": true,
+        "content_origin": "Transformed from scraped source material to match the peptide_frontend_library_v2.json schema.",
+        "copyright_safety_note": "This transformation avoids page-by-page paraphrasing. Legal review is still recommended before publication."
+      }
+    },
+    {
+      "id": "blend-011",
+      "name": "Tri-Heal (45 mg Blend)",
+      "base_name": "Tri-Heal",
+      "slug": "tri-heal",
+      "vial_strength": "45 mg Blend",
+      "source_page": {
+        "label": "Original scraped page URL",
+        "href": "https://peptidedosages.com/peptide-blend-dosages/tri-heal-tb-500-25-mg-bpc-157-10-mg-kpv-10-mg-vial-dosage-protocol/"
+      },
+      "seo": {
+        "title": "Tri-Heal Dosage Protocol | PeptideDosages.com",
+        "description": "Tri-Heal is a research peptide blend combining TB-500 (25 mg), BPC-157 (10 mg), and KPV (10 mg) for advanced tissue repair and inflammation modulation [1]. TB-500 is a synthetic fragment of thymosin β4..."
+      },
+      "hero": {
+        "eyebrow": "Peptide Blend Research Library",
+        "title": "Tri-Heal (45 mg Blend)",
+        "subtitle": "Tri-Heal is a research peptide blend combining TB-500 (25 mg), BPC-157 (10 mg), and KPV (10 mg) for advanced tissue repair and inflammation modulation [1]. TB-500 is a synthetic fragment of thymosin β4, a 43-amino-acid peptide involved in cell migration, angiogenesis, and wound healing [2]. BPC-157 is",
+        "image_alt": "Tri-Heal (45 mg Blend) vial image",
+        "tags": [
+          "Tri-Heal"
+        ],
+        "evidence_level": "Primarily preclinical"
+      },
+      "overview": {
+        "what_is_it": {
+          "heading": "What is Tri-Heal (45 mg Blend)?",
+          "body": "Tri-Heal is a research peptide blend combining TB-500 (25 mg), BPC-157 (10 mg), and KPV (10 mg) for advanced tissue repair and inflammation modulation [1]. TB-500 is a synthetic fragment of thymosin β4, a 43-amino-acid peptide involved in cell migration, angiogenesis, and wound healing [2]. BPC-157 is a synthetic 15-amino-acid body protection compound with pro-angiogenic and gastroprotective properties [3]. KPV (Lys-Pro-Val) is a tripeptide derived from α-MSH noted for potent anti-inflammatory effects [4]. This educational protocol presents a once-daily subcutaneous approach using a practical dilution for clear insulin-syringe measurements."
+        },
+        "main_benefits": {
+          "heading": "Potential Benefits",
+          "items": [
+            {
+              "title": "Tissue repair",
+              "description": "Promotes cell proliferation, angiogenesis, and accelerated tissue repair; inhibits apoptosis and inflammation in healing tissues"
+            },
+            {
+              "title": "Musculoskeletal healing",
+              "description": "Accelerates musculoskeletal healing including tendon and muscle repair; stimulates endothelial regeneration and fibroblast activity"
+            },
+            {
+              "title": "Anti-inflammatory activity",
+              "description": "Reduces inflammatory cytokine release; demonstrates efficacy in models of epithelial inflammation"
+            }
+          ]
+        },
+        "how_it_works": {
+          "heading": "How It Works",
+          "body": "Tri-Heal combines three peptides with complementary mechanisms targeting multiple aspects of tissue injury repair:\nTB-500 (Thymosin β4):\nActs as a natural repair factor, inhibiting inflammation and apoptosis while promoting angiogenesis, cell migration, and matrix remodeling\n[2]\n[7]\n. This 43-amino-acid peptide has been shown to accelerate dermal healing in both preclinical models and clinical applications\n[2]\n.\nBPC-157 (Body Protection Compound):\nEnhances healing via VEGFR2/Akt-eNOS activation, increasing nitric oxide production and angiogenesis while stimulating fibroblast activity\n[8]\n. This 15-amino-acid gastric peptide accelerates tendon, muscle, and gut repair\n[3]\n[9]\n.\nKPV (Lys-Pro-Val):\nProvides anti-inflammatory effects by reducing NF-κB activation and attenuating pro-inflammatory cytokine signaling in epithelial and immune cells\n[4]\n. This α-MSH-derived tripeptide complements the regenerative actions of TB-500 and BPC-157.\nThe combination thus addresses wound repair, angiogenesis, and inflammation simultaneously through distinct but synergistic pathways."
+        },
+        "side_effects": {
+          "heading": "Potential Side Effects",
+          "items": [
+            "Observations from preclinical and clinical literature on the individual components.",
+            "General tolerability:",
+            "Individual peptides are generally well tolerated in preclinical studies; occasional mild injection-site reactions (redness, transient discomfort) may occur with subcutaneous administration.",
+            "Note: Human clinical data on this specific combination is limited; observations are extrapolated from studies of individual components."
+          ],
+          "note": "This list reflects source-derived observations. Human safety has not been fully established for this investigational compound."
+        }
+      },
+      "dosing_and_reconstitution": {
+        "section_title": "Dosing & Reconstitution",
+        "disclaimer": "This section is source-derived research information only and is not medical advice or a personal use recommendation.",
+        "dosage_protocols": [
+          {
+            "label": "Standard 8-Week: Weeks 1–2",
+            "timeframe": "Weeks 1–2",
+            "dose": "500 mcg",
+            "units_or_volume": "3.3 units (0.033 mL)",
+            "notes": ""
+          },
+          {
+            "label": "Standard 8-Week: Weeks 3–4",
+            "timeframe": "Weeks 3–4",
+            "dose": "1000 mcg",
+            "units_or_volume": "6.7 units (0.067 mL)",
+            "notes": ""
+          },
+          {
+            "label": "Standard 8-Week: Weeks 5–6",
+            "timeframe": "Weeks 5–6",
+            "dose": "1500 mcg",
+            "units_or_volume": "10 units (0.10 mL)",
+            "notes": ""
+          },
+          {
+            "label": "Standard 8-Week: Weeks 7–8",
+            "timeframe": "Weeks 7–8",
+            "dose": "2000 mcg",
+            "units_or_volume": "13.3 units (0.133 mL)",
+            "notes": ""
+          },
+          {
+            "label": "Extended 12-Week: Weeks 1–2",
+            "timeframe": "Weeks 1–2",
+            "dose": "500 mcg",
+            "units_or_volume": "3.3 units (0.033 mL)",
+            "notes": ""
+          },
+          {
+            "label": "Extended 12-Week: Weeks 3–4",
+            "timeframe": "Weeks 3–4",
+            "dose": "1000 mcg",
+            "units_or_volume": "6.7 units (0.067 mL)",
+            "notes": ""
+          },
+          {
+            "label": "Extended 12-Week: Weeks 5–6",
+            "timeframe": "Weeks 5–6",
+            "dose": "1500 mcg",
+            "units_or_volume": "10 units (0.10 mL)",
+            "notes": ""
+          },
+          {
+            "label": "Extended 12-Week: Weeks 7–8",
+            "timeframe": "Weeks 7–8",
+            "dose": "2000 mcg",
+            "units_or_volume": "13.3 units (0.133 mL)",
+            "notes": ""
+          },
+          {
+            "label": "Extended 12-Week: Weeks 9–10",
+            "timeframe": "Weeks 9–10",
+            "dose": "2500 mcg",
+            "units_or_volume": "16.7 units (0.167 mL)",
+            "notes": ""
+          },
+          {
+            "label": "Extended 12-Week: Weeks 11–12",
+            "timeframe": "Weeks 11–12",
+            "dose": "3000 mcg",
+            "units_or_volume": "20 units (0.20 mL)",
+            "notes": ""
+          },
+          {
+            "label": "Extended 16-Week: Weeks 1–2",
+            "timeframe": "Weeks 1–2",
+            "dose": "500 mcg",
+            "units_or_volume": "3.3 units (0.033 mL)",
+            "notes": ""
+          },
+          {
+            "label": "Extended 16-Week: Weeks 3–4",
+            "timeframe": "Weeks 3–4",
+            "dose": "1000 mcg",
+            "units_or_volume": "6.7 units (0.067 mL)",
+            "notes": ""
+          },
+          {
+            "label": "Extended 16-Week: Weeks 5–6",
+            "timeframe": "Weeks 5–6",
+            "dose": "1500 mcg",
+            "units_or_volume": "10 units (0.10 mL)",
+            "notes": ""
+          },
+          {
+            "label": "Extended 16-Week: Weeks 7–8",
+            "timeframe": "Weeks 7–8",
+            "dose": "2000 mcg",
+            "units_or_volume": "13.3 units (0.133 mL)",
+            "notes": ""
+          },
+          {
+            "label": "Extended 16-Week: Weeks 9–10",
+            "timeframe": "Weeks 9–10",
+            "dose": "2500 mcg",
+            "units_or_volume": "16.7 units (0.167 mL)",
+            "notes": ""
+          },
+          {
+            "label": "Extended 16-Week: Weeks 11–12",
+            "timeframe": "Weeks 11–12",
+            "dose": "3000 mcg",
+            "units_or_volume": "20 units (0.20 mL)",
+            "notes": ""
+          },
+          {
+            "label": "Extended 16-Week: Weeks 13–14",
+            "timeframe": "Weeks 13–14",
+            "dose": "3500 mcg",
+            "units_or_volume": "23.3 units (0.233 mL)",
+            "notes": ""
+          },
+          {
+            "label": "Extended 16-Week: Weeks 15–16",
+            "timeframe": "Weeks 15–16",
+            "dose": "4000 mcg",
+            "units_or_volume": "26.7 units (0.267 mL)",
+            "notes": ""
+          }
+        ],
+        "reconstitution_guide": {
+          "vial_amount": "45 mg total",
+          "bacteriostatic_water": "3.0 mL",
+          "resulting_concentration": "15 mg/mL",
+          "summary": "Add 3.0 mL bacteriostatic water → 15 mg/mL concentration (15,000 mcg/mL).",
+          "steps": [
+            "Draw 3.0 mL of bacteriostatic water with a sterile syringe.",
+            "Inject slowly down the vial wall; avoid foaming or direct stream onto the lyophilized cake.",
+            "Gently swirl or roll until fully dissolved (do not shake vigorously).",
+            "Label with the date and concentration (15 mg/mL); refrigerate at 2–8 °C (35.6–46.4 °F), protected from light."
+          ]
+        },
+        "injection_frequency": {
+          "summary": "Frequency:",
+          "options": [
+            "Typical daily range: 500–2000 mcg once daily (gradual titration over 8 weeks)."
+          ]
+        },
+        "protocol_duration": {
+          "summary": "See source protocol for vial duration guidance. Daily range: Typical daily range: 500–2000 mcgonce daily (gradual titration over 8 weeks).",
+          "vial_duration": "",
+          "duration_examples": []
+        },
+        "recommended_for": [
+          {
+            "type": "Tissue Repair Research",
+            "description": "For readers studying complementary mechanisms of thymosin β4, BPC-157, and KPV across musculoskeletal, soft-tissue, and angiogenic repair models."
+          },
+          {
+            "type": "Anti-Inflammatory Research",
+            "description": "For readers reviewing KPV-mediated NF-κB inhibition alongside BPC-157's anti-inflammatory and cytoprotective properties in preclinical tissue injury and healing research."
+          },
+          {
+            "type": "Recovery Research",
+            "description": "For readers investigating multi-peptide approaches to accelerated healing, combining angiogenic, anti-inflammatory, and cell migration signaling pathways across TB-500, BPC-157, and KPV studies."
+          }
+        ]
+      },
+      "supplies_needed": {
+        "section_title": "Supplies Needed",
+        "summary": "The following supplies are referenced in the source protocol material. Verify exact quantities based on your protocol length.",
+        "items": [
+          {
+            "name": "Bacteriostatic Water",
+            "purpose": "Used to reconstitute the lyophilized peptide blend before handling.",
+            "quantity_guidance": "Use 3.0 mL per vial for reconstitution."
+          },
+          {
+            "name": "Insulin Syringe",
+            "purpose": "For measuring and administering subcutaneous doses.",
+            "quantity_guidance": "Per week:"
+          },
+          {
+            "name": "Alcohol Swab",
+            "purpose": "For sanitizing injection sites and vial tops.",
+            "quantity_guidance": "One for the vial stopper + one for the injection site each day."
+          }
+        ]
+      },
+      "storage_and_handling": {
+        "section_title": "Storage & Handling",
+        "lyophilized_storage": "Storage:Lyophilized: freeze at−20 °C (−4 °F)",
+        "reconstituted_storage": "after reconstitution, refrigerate at 2–8 °C (35",
+        "handling_tips": [
+          "Protect from light.",
+          "Do not shake the vial.",
+          "Do not refreeze after reconstitution.",
+          "Rotate injection sites as noted in source material."
+        ],
+        "safety_notes": [
+          "Use sterile supplies when handling injection-related materials.",
+          "Dispose of used syringes in a sharps container.",
+          "This information is source-derived research context only."
+        ]
+      },
+      "research": {
+        "section_title": "Research & References",
+        "evidence_summary": "The evidence profile for Tri-Heal (45 mg Blend) is classified as primarily preclinical. See source references below.",
+        "resources": [
+          {
+            "id": "resource-tri-heal-1",
+            "label": "Pure Lab Peptides",
+            "title": "Tri-Heal (45 mg) product page; blend composition and specifications",
+            "href": "https://purelabpeptides.com/buy-peptides/buy-tri-heal-45mg/",
+            "source_number": 1,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-tri-heal-2",
+            "label": "Annals of the New York Academy of Sciences (2012)",
+            "title": "The regenerative peptide thymosin β4 accelerates dermal healing in preclinical models and patients",
+            "href": "https://pubmed.ncbi.nlm.nih.gov/23050815/",
+            "source_number": 2,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-tri-heal-3",
+            "label": "HSS Journal / PMC (2025)",
+            "title": "Emerging Use of BPC-157 in Orthopaedic Sports Medicine: A Systematic Review",
+            "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12313605/",
+            "source_number": 3,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-tri-heal-4",
+            "label": "Molecular Therapy Methods & Clinical Development / PMC (2017)",
+            "title": "Orally Targeted Delivery of Tripeptide KPV via HA-Functionalized Nanoparticles Alleviates Ulcerative Colitis",
+            "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5498804/",
+            "source_number": 4,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-tri-heal-5",
+            "label": "Clinical Chemistry (2016)",
+            "title": "Recommendations for the Generation, Quantification, Storage, and Handling of Peptides Used for Mass Spectrometry-Based Assays",
+            "href": "",
+            "source_number": 5,
+            "is_clickable": false
+          },
+          {
+            "id": "resource-tri-heal-6",
+            "label": "CDC Pink Book (2024)",
+            "title": "Vaccine Administration: subcutaneous route technique, angle, and site guidance",
+            "href": "",
+            "source_number": 6,
+            "is_clickable": false
+          },
+          {
+            "id": "resource-tri-heal-7",
+            "label": "Frontiers in Endocrinology (2021)",
+            "title": "Progress on the Function and Application of Thymosin β4",
+            "href": "https://www.frontiersin.org/articles/10.3389/fendo.2021.767785/full",
+            "source_number": 7,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-tri-heal-8",
+            "label": "Current Reviews in Musculoskeletal Medicine (2025)",
+            "title": "Regeneration or Risk? A Narrative Review of BPC-157 for Musculoskeletal Healing",
+            "href": "https://pubmed.ncbi.nlm.nih.gov/40789979/",
+            "source_number": 8,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-tri-heal-9",
+            "label": "Journal of Orthopaedic Research (2003)",
+            "title": "Gastric pentadecapeptide BPC 157 accelerates healing of transected rat Achilles tendon and stimulates tendocyte growth",
+            "href": "https://pubmed.ncbi.nlm.nih.gov/14554208/",
+            "source_number": 9,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-tri-heal-10",
+            "label": "CDC (Subcutaneous Injection PDF)",
+            "title": "Technique diagram and site guidance for subcutaneous injections",
+            "href": "https://www.cdc.gov/vaccines/hcp/admin/downloads/YCTS-VaxAdmin-Subcut-injection.pdf",
+            "source_number": 10,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-tri-heal-11",
+            "label": "NCBI Bookshelf",
+            "title": "Best practices for injection: asepsis, preparation, and administration",
+            "href": "https://www.ncbi.nlm.nih.gov/books/NBK138495/",
+            "source_number": 11,
+            "is_clickable": true
+          },
+          {
+            "id": "resource-tri-heal-12",
+            "label": "Subcutaneous Drug Injection Review / PMC",
+            "title": "Pharmacologic considerations of the subcutaneous route",
+            "href": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6822791/",
+            "source_number": 12,
+            "is_clickable": true
+          }
+        ]
+      },
+      "compliance_notes": {
+        "not_medical_advice": true,
+        "content_origin": "Transformed from scraped source material to match the peptide_frontend_library_v2.json schema.",
+        "copyright_safety_note": "This transformation avoids page-by-page paraphrasing. Legal review is still recommended before publication."
+      }
+    }
+  ]
+}

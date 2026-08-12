@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Browse pre-formulated peptide blend combinations organized by research purpose — Fat Loss, Healing, Muscle Growth, Cognitive, and Anti-Aging." />
+  <title>Peptide Blends Library — PeptideGuidelines</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">Peptide<span>Guidelines</span></a>
+      <button class="nav-hamburger" id="nav-hamburger" type="button"
+              aria-label="Open navigation menu" aria-expanded="false" aria-controls="main-nav">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </button>
+      <nav class="nav" id="main-nav">
+        <div class="nav-dropdown">
+          <button class="nav-btn">
+            Guides
+            <svg class="nav-chevron" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/>
+            </svg>
+          </button>
+          <div class="dropdown-menu">
+            <span class="dropdown-header">Essential Guides</span>
+            <a class="dropdown-item" href="guides.html?guide=beginners-guide">Beginner's Guide to Peptides</a>
+            <a class="dropdown-item" href="guides.html?guide=reconstitution">How to Reconstitute Peptides</a>
+            <a class="dropdown-item" href="guides.html?guide=syringe-guide">Syringe &amp; Measurement Guide</a>
+            <span class="dropdown-header" style="margin-top:8px">Tools</span>
+            <a class="dropdown-item" href="calculator.html">Reconstitution Calculator</a>
+          </div>
+        </div>
+        <div class="nav-dropdown">
+          <button class="nav-btn">
+            Peptides
+            <svg class="nav-chevron" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/>
+            </svg>
+          </button>
+          <div class="dropdown-menu peptides-menu" id="peptides-dropdown-menu">
+            <span class="dropdown-header">Loading…</span>
+          </div>
+        </div>
+        <a href="calculator.html" class="nav-link">Calculator</a>
+        <a href="why.html" class="nav-link">Why Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="lib-hero">
+      <p class="lib-hero-eyebrow">Blend Library</p>
+      <h1>Peptide Blends</h1>
+      <p>Pre-formulated multi-peptide combinations, organized by research purpose.</p>
+    </div>
+
+    <div id="blend-library" class="pep-loading-state">Loading blend library…</div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="footer-logo">Peptide<span>Guidelines</span></span>
+        <p class="footer-tagline">A structured peptide information database.</p>
+      </div>
+      <div class="footer-cols">
+        <div class="footer-col">
+          <p class="footer-col-heading">Peptides</p>
+          <a href="peptides-library.html">Single Peptides</a>
+          <a href="blends-library.html">Peptide Blends</a>
+          <a href="stacks-library.html">Peptide Stacks</a>
+        </div>
+        <div class="footer-col">
+          <p class="footer-col-heading">Guides</p>
+          <a href="guides.html?guide=beginners-guide">Beginner's Guide</a>
+          <a href="guides.html?guide=reconstitution">Reconstitution Guide</a>
+          <a href="guides.html?guide=syringe-guide">Syringe &amp; Measurement</a>
+          <a href="calculator.html">Dosing Calculator</a>
+        </div>
+        <div class="footer-col">
+          <p class="footer-col-heading">Discover</p>
+          <a href="about.html">About</a>
+          <a href="why.html">Why Us</a>
+          <a href="#">Contact</a>
+          <a href="editorial-policy.html">Editorial Policy</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>This website is for informational and educational purposes only and is not medical advice.</p>
+      <p>&copy; 2026 PeptideGuidelines</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="script.js"></script>
+</body>
+</html>

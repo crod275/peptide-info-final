@@ -1,0 +1,1118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Educational guides for peptide research — beginner's guide, reconstitution protocol, and syringe measurement reference." />
+  <title>Guides — PeptideGuidelines</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">Peptide<span>Guidelines</span></a>
+      <button class="nav-hamburger" id="nav-hamburger" type="button"
+              aria-label="Open navigation menu" aria-expanded="false" aria-controls="main-nav">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </button>
+      <nav class="nav" id="main-nav">
+        <div class="nav-dropdown">
+          <button class="nav-btn">
+            Guides
+            <svg class="nav-chevron" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/>
+            </svg>
+          </button>
+          <div class="dropdown-menu">
+            <span class="dropdown-header">Essential Guides</span>
+            <a class="dropdown-item" href="guides.html?guide=beginners-guide">Beginner's Guide to Peptides</a>
+            <a class="dropdown-item" href="guides.html?guide=reconstitution">How to Reconstitute Peptides</a>
+            <a class="dropdown-item" href="guides.html?guide=syringe-guide">Syringe &amp; Measurement Guide</a>
+            <span class="dropdown-header" style="margin-top:8px">Tools</span>
+            <a class="dropdown-item" href="calculator.html">Reconstitution Calculator</a>
+          </div>
+        </div>
+        <div class="nav-dropdown">
+          <button class="nav-btn">
+            Peptides
+            <svg class="nav-chevron" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/>
+            </svg>
+          </button>
+          <div class="dropdown-menu peptides-menu" id="peptides-dropdown-menu">
+            <span class="dropdown-header">Loading…</span>
+          </div>
+        </div>
+        <a href="calculator.html" class="nav-link">Calculator</a>
+        <a href="why.html" class="nav-link">Why Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="guides-root"></main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="footer-logo">Peptide<span>Guidelines</span></span>
+        <p class="footer-tagline">A structured peptide information database.</p>
+      </div>
+      <div class="footer-cols">
+        <div class="footer-col">
+          <p class="footer-col-heading">Peptides</p>
+          <a href="peptides-library.html">Single Peptides</a>
+          <a href="blends-library.html">Peptide Blends</a>
+          <a href="stacks-library.html">Peptide Stacks</a>
+        </div>
+        <div class="footer-col">
+          <p class="footer-col-heading">Guides</p>
+          <a href="guides.html?guide=beginners-guide">Beginner's Guide</a>
+          <a href="guides.html?guide=reconstitution">Reconstitution Guide</a>
+          <a href="guides.html?guide=syringe-guide">Syringe &amp; Measurement</a>
+          <a href="calculator.html">Dosing Calculator</a>
+        </div>
+        <div class="footer-col">
+          <p class="footer-col-heading">Company</p>
+          <a href="about.html">About</a>
+          <a href="why.html">Why Us</a>
+          <a href="#">Contact</a>
+          <a href="editorial-policy.html">Editorial Policy</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>This website is for informational and educational purposes only and is not medical advice.</p>
+      <p>&copy; 2026 PeptideGuidelines</p>
+    </div>
+  </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script>
+// ═══════════════════════════════════════════════
+// GUIDE DATA
+// ═══════════════════════════════════════════════
+
+const GUIDES = [
+
+  // ── GUIDE 1: BEGINNER'S GUIDE ──────────────────────────────────────────────
+  {
+    slug: 'beginners-guide',
+    category: "Foundation Guide",
+    readTime: '12 min read',
+    eyebrow: 'Peptide Education Series',
+    title: "Beginner's Guide to Peptides",
+    subtitle: 'A structured introduction to research peptides — what they are, how they work, and how to approach them safely and intelligently.',
+    tags: ['Introduction', 'Education', 'Getting Started'],
+    disclaimer: 'This guide is for informational and educational purposes only. All peptides discussed are research compounds not approved by the FDA for human use. Nothing here constitutes medical advice. Consult a qualified healthcare provider before use.',
+    icon: `<svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>`,
+    sections: [
+      {
+        id: 'what-are-peptides',
+        heading: 'What Are Peptides?',
+        content: [
+          { type: 'paragraph', text: 'Peptides are short chains of amino acids — the same building blocks that make up proteins. While proteins typically contain hundreds or thousands of amino acids, peptides are smaller molecules, generally defined as chains of 2 to 50 amino acids. Their compact size allows them to bind to specific receptors on cells with high precision.' },
+          { type: 'paragraph', text: 'Unlike synthetic pharmaceuticals, many peptides are naturally occurring in the human body. They act as signaling molecules, instructing cells to perform specific functions — whether healing tissue, releasing hormones, regulating inflammation, or supporting cognitive function.' },
+          { type: 'callout', variant: 'info', text: '<strong>Key distinction:</strong> Research peptides are synthesized versions of naturally occurring peptides. They mimic or enhance the body\'s existing signaling pathways rather than introducing entirely foreign chemical structures.' },
+          { type: 'subheading', text: 'Peptides vs. Proteins vs. Hormones' },
+          { type: 'paragraph', text: 'These three terms are often confused. A protein is simply a very long peptide chain (50+ amino acids) that has folded into a specific 3D structure. Hormones are signaling molecules that can be either peptides (like insulin) or non-peptide compounds (like testosterone, which is a steroid). Many growth hormone-related peptides work by stimulating your body\'s own hormone production rather than introducing synthetic hormones directly.' },
+        ]
+      },
+      {
+        id: 'how-peptides-work',
+        heading: 'How Peptides Work',
+        content: [
+          { type: 'paragraph', text: 'Peptides produce their effects primarily through receptor binding. Each peptide has a specific shape that allows it to lock onto complementary receptors on the surface of target cells — a process similar to a key fitting a lock. When the peptide binds, it triggers a cascade of intracellular events.' },
+          { type: 'subheading', text: 'Primary Mechanisms' },
+          { type: 'list', items: [
+            '<strong>Receptor agonism:</strong> The peptide activates a receptor, initiating a downstream biological response (e.g., Ipamorelin activating the ghrelin receptor to stimulate GH release)',
+            '<strong>Receptor antagonism:</strong> Some peptides block a receptor, preventing an unwanted signal',
+            '<strong>Enzyme modulation:</strong> Peptides like BPC-157 may influence enzyme activity involved in tissue repair pathways',
+            '<strong>Gene expression:</strong> Certain peptides can influence which genes are expressed in target cells, modulating cellular behavior at a deeper level',
+          ]},
+          { type: 'callout', variant: 'tip', text: '<strong>Research context:</strong> Most research peptides work by amplifying signals the body already produces — they don\'t override natural systems but enhance existing pathways. This is why they are considered milder than traditional anabolic steroids or exogenous hormones.' },
+          { type: 'paragraph', text: 'Bioavailability varies by administration route. Most research peptides are administered subcutaneously (under the skin) because digestive enzymes in the stomach would break down amino acid chains before they could reach circulation. Some peptides — particularly intranasal formulations like Semax and Selank — can be absorbed through the nasal mucosa.' },
+        ]
+      },
+      {
+        id: 'peptide-categories',
+        heading: 'Peptide Categories',
+        content: [
+          { type: 'paragraph', text: 'Research peptides span a wide range of biological functions. Understanding the major categories helps identify which peptides align with a given research objective.' },
+          { type: 'table', headers: ['Category', 'Primary Action', 'Example Peptides'], rows: [
+            ['Healing & Recovery', 'Tissue repair, gut lining restoration, systemic healing', 'BPC-157, TB-500'],
+            ['Growth Hormone Support', 'Stimulate natural GH release via GHRH or ghrelin pathways', 'Ipamorelin, CJC-1295, Sermorelin'],
+            ['Fat Loss', 'Enhance lipolysis; target adipose tissue metabolism', 'AOD-9604, Fragment 176-191'],
+            ['Cognitive Enhancement', 'Support BDNF, neuroprotection, and neurotransmitter balance', 'Semax, Selank, Dihexa'],
+            ['Anti-Aging', 'Collagen synthesis, telomerase activation, cellular longevity', 'GHK-Cu, Epitalon'],
+            ['Sleep & Recovery', 'Circadian rhythm support, deep sleep modulation', 'DSIP, Epithalon'],
+            ['Hormonal Support', 'Influence reproductive hormones and melanocortin pathways', 'PT-141, Kisspeptin-10'],
+          ]},
+          { type: 'paragraph', text: 'Many peptides overlap categories. BPC-157, for example, has documented effects on gut healing, tendon repair, and neurological protection. When reviewing individual peptide profiles, consider all documented research pathways rather than limiting to a single category.' },
+        ]
+      },
+      {
+        id: 'getting-started',
+        heading: 'Getting Started',
+        content: [
+          { type: 'paragraph', text: 'Before beginning any peptide protocol, a structured approach minimizes risk and maximizes the quality of research observations.' },
+          { type: 'subheading', text: 'Research Checklist' },
+          { type: 'ordered-list', items: [
+            '<strong>Define your research objective.</strong> What outcome are you studying? Healing, body composition, cognitive function? Your goal determines the appropriate peptide(s).',
+            '<strong>Review the individual peptide profile.</strong> Read the full research overview for your target peptide, including evidence level, dosing protocols, and known side effects.',
+            '<strong>Understand sourcing standards.</strong> Peptide quality varies significantly. Look for third-party certificate of analysis (CoA) and high-purity standards (≥98% purity).',
+            '<strong>Learn reconstitution protocol.</strong> Lyophilized peptides require reconstitution with bacteriostatic water before use. Review the Reconstitution Guide before proceeding.',
+            '<strong>Prepare your supplies.</strong> Insulin syringes, BAC water, alcohol swabs, and a sharps container are the minimum required supplies.',
+            '<strong>Start with conservative doses.</strong> Begin at the lower end of the research dose range and assess response before titrating upward.',
+            '<strong>Document observations.</strong> Track start date, dose, frequency, and any notable observations systematically.',
+          ]},
+          { type: 'callout', variant: 'warning', text: '<strong>Important:</strong> Research peptides are not approved for human consumption in most jurisdictions. Use is for research purposes only. Do not begin any protocol without consulting a qualified healthcare provider.' },
+        ]
+      },
+      {
+        id: 'administration',
+        heading: 'Administration Methods',
+        content: [
+          { type: 'paragraph', text: 'The administration route significantly affects a peptide\'s bioavailability — that is, the fraction of the compound that reaches systemic circulation in active form.' },
+          { type: 'table', headers: ['Route', 'Bioavailability', 'Common Peptides', 'Notes'], rows: [
+            ['Subcutaneous (SubQ)', '~80–90%', 'BPC-157, TB-500, Ipamorelin, CJC-1295', 'Most common; injected into fat layer under skin'],
+            ['Intramuscular (IM)', '~80–90%', 'TB-500, some GH peptides', 'Faster onset; used when SubQ is insufficient'],
+            ['Intranasal', '~50–75%', 'Semax, Selank', 'No needles; absorption via nasal mucosa'],
+            ['Oral', '<10% (most)', 'Very limited', 'Most peptides degraded by digestive enzymes'],
+            ['Topical', 'Variable', 'GHK-Cu (cosmetic)', 'Limited systemic absorption; localized effect'],
+          ]},
+          { type: 'subheading', text: 'Subcutaneous Injection — The Standard Approach' },
+          { type: 'paragraph', text: 'SubQ injection involves inserting a short, fine-gauge needle (27–31G) into the subcutaneous fat layer, typically in the abdomen, outer thigh, or upper arm. Rotating injection sites prevents lipohypertrophy — localized fat buildup from repeated injections at the same site.' },
+          { type: 'callout', variant: 'info', text: 'Review the <strong>Syringe &amp; Measurement Guide</strong> for detailed injection technique and the <strong>Reconstitution Guide</strong> for preparation instructions before administering any peptide.' },
+        ]
+      },
+      {
+        id: 'safety',
+        heading: 'Safety & Considerations',
+        content: [
+          { type: 'paragraph', text: 'Research peptides generally have favorable safety profiles compared to traditional performance-enhancing compounds, but they are not without potential adverse effects. Most reported side effects in the research literature are mild and dose-dependent.' },
+          { type: 'subheading', text: 'General Considerations' },
+          { type: 'list', items: [
+            '<strong>Injection site reactions:</strong> Redness, mild swelling, or bruising at the injection site are common with SubQ administration and typically resolve within 24–48 hours.',
+            '<strong>Water retention:</strong> GH-stimulating peptides (Ipamorelin, CJC-1295) can cause mild water retention, particularly at higher doses.',
+            '<strong>Peptide-specific effects:</strong> Each peptide has unique pharmacology. Review individual peptide profiles for category-specific considerations.',
+            '<strong>Receptor downregulation:</strong> Chronic high-frequency use of some peptides may reduce receptor sensitivity over time. Protocol cycles and breaks are common practice.',
+            '<strong>Sourcing risk:</strong> Impure or incorrectly prepared peptides carry contamination risks. Always verify purity documentation from suppliers.',
+          ]},
+          { type: 'callout', variant: 'warning', text: '<strong>Regulatory status:</strong> Research peptides exist in a legal gray area in many jurisdictions. They are typically sold "for research use only" and are not approved by regulatory bodies (FDA, EMA) for human administration. Check local regulations before ordering.' },
+          { type: 'subheading', text: 'Who Should Avoid Research Peptides' },
+          { type: 'list', items: [
+            'Pregnant or breastfeeding individuals',
+            'Those with active malignancies or a history of cancer (GH-stimulating peptides specifically)',
+            'Individuals with known peptide or component allergies',
+            'Anyone with uncontrolled hormonal conditions without medical supervision',
+          ]},
+        ]
+      },
+      {
+        id: 'faq',
+        heading: 'Frequently Asked Questions',
+        content: [
+          { type: 'subheading', text: 'How long until I see results?' },
+          { type: 'paragraph', text: 'Timelines vary significantly by peptide and goal. Healing peptides like BPC-157 may show subjective improvements within 1–2 weeks. GH-stimulating peptides typically require 4–8 weeks before body composition changes become apparent. Cognitive peptides can have more immediate effects in some research subjects.' },
+          { type: 'subheading', text: 'Do peptides require injection?' },
+          { type: 'paragraph', text: 'Most research peptides require subcutaneous injection to maintain efficacy. Oral administration renders most peptides inactive due to enzymatic breakdown in the gastrointestinal tract. Exceptions include intranasal peptides (Semax, Selank) and some topically applied peptides (GHK-Cu in cosmetic formulations).' },
+          { type: 'subheading', text: 'Can peptides be stacked?' },
+          { type: 'paragraph', text: 'Yes — synergistic peptide combinations (stacks) are commonly studied. The most established include BPC-157 + TB-500 for healing, CJC-1295 + Ipamorelin for GH support, and Semax + Selank for cognitive balance. Stacking should only be considered after individual peptides are well understood.' },
+          { type: 'subheading', text: 'How should I store peptides?' },
+          { type: 'paragraph', text: 'Lyophilized (unreconstituted) peptides are generally stable at room temperature for short periods but should be refrigerated for longer storage and protected from light. Reconstituted peptides must be refrigerated at 2–8°C and used within 28–30 days. Never freeze a reconstituted peptide.' },
+          { type: 'subheading', text: 'What is the difference between a peptide and a SARM?' },
+          { type: 'paragraph', text: 'SARMs (selective androgen receptor modulators) are small-molecule compounds that selectively bind to androgen receptors. They are chemically distinct from peptides. While both are studied as performance-enhancing research compounds, they have different mechanisms, side effect profiles, and legal statuses.' },
+        ]
+      },
+    ]
+  },
+
+  // ── GUIDE 2: RECONSTITUTION ────────────────────────────────────────────────
+  {
+    slug: 'reconstitution',
+    category: 'Protocol Guide',
+    readTime: '8 min read',
+    eyebrow: 'Peptide Preparation Series',
+    title: 'How to Reconstitute Peptides',
+    subtitle: 'A step-by-step protocol for dissolving lyophilized peptides in bacteriostatic water — including dose calculations, storage guidelines, and common mistakes to avoid.',
+    tags: ['Preparation', 'Protocol', 'Safety'],
+    disclaimer: 'This guide describes general peptide preparation techniques for research purposes only. It does not constitute medical advice or encourage use of peptides for human consumption. Always follow proper sterile technique.',
+    icon: `<svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3h6M9 3v3L5 20a1 1 0 001 1h12a1 1 0 001-1L15 6V3M9 3h6"/><line x1="5" y1="12" x2="19" y2="12"/></svg>`,
+    sections: [
+      {
+        id: 'what-is-reconstitution',
+        heading: 'What is Reconstitution?',
+        content: [
+          { type: 'paragraph', text: 'Research peptides are typically sold in their lyophilized form — a white or off-white powder that has been freeze-dried to extend shelf life and improve stability. Before a lyophilized peptide can be used, it must be dissolved in a sterile solvent to create an injectable solution. This process is called reconstitution.' },
+          { type: 'paragraph', text: 'Bacteriostatic water (BAC water) is the standard solvent used for peptide reconstitution. It contains 0.9% benzyl alcohol, which acts as a preservative to inhibit bacterial growth in the solution. This extends the usable life of the reconstituted peptide to approximately 28–30 days when refrigerated.' },
+          { type: 'callout', variant: 'info', text: '<strong>Why not regular water?</strong> Sterile water for injection (SWFI) is appropriate for single-use reconstitution but lacks the preservative that keeps the solution stable for multi-dose use. Bacteriostatic water is strongly preferred for protocols requiring multiple doses from the same vial.' },
+          { type: 'stat-cards', cards: [
+            { label: 'Shelf Life (Lyophilized)', value: '12–24 mo' },
+            { label: 'Shelf Life (Reconstituted)', value: '28–30 days' },
+            { label: 'Storage (Reconstituted)', value: '2–8°C' },
+            { label: 'Standard Solvent', value: 'BAC Water' },
+          ]},
+        ]
+      },
+      {
+        id: 'supplies-needed',
+        heading: 'Supplies Needed',
+        content: [
+          { type: 'paragraph', text: 'Proper preparation requires a small set of supplies. Gather everything before you begin to maintain a clean, efficient workspace.' },
+          { type: 'table', headers: ['Item', 'Specification', 'Purpose'], rows: [
+            ['Peptide vial', 'Your lyophilized research peptide', 'Contains the peptide powder to be reconstituted'],
+            ['Bacteriostatic water', '30 mL multi-dose vial (standard)', 'Sterile solvent with preservative'],
+            ['Insulin syringe', 'U-100, 1 mL, 28–31G needle', 'For drawing and injecting BAC water and peptide solution'],
+            ['Alcohol swabs', '70% isopropyl alcohol', 'Sterilize vial stoppers before piercing'],
+            ['Sharps container', 'Approved disposal container', 'Safe disposal of used needles'],
+            ['Clean surface', 'Paper towel or sterile pad', 'Sterile work area'],
+          ]},
+          { type: 'callout', variant: 'tip', text: '<strong>Tip:</strong> Use a separate drawing syringe to add BAC water to the peptide vial, and a fresh syringe for each dose you draw. This minimizes contamination risk and keeps the vial stopper intact longer.' },
+        ]
+      },
+      {
+        id: 'step-by-step',
+        heading: 'Step-by-Step Reconstitution',
+        content: [
+          { type: 'paragraph', text: 'Follow these steps precisely to ensure a sterile, properly reconstituted peptide solution.' },
+          { type: 'ordered-list', items: [
+            '<strong>Prepare your workspace.</strong> Wash hands thoroughly. Work on a clean, flat surface. Avoid reconstituting near open windows or fans to minimize airborne contamination.',
+            '<strong>Swab both vial stoppers.</strong> Use a fresh alcohol swab on the rubber stopper of the peptide vial. Use a second fresh swab on the BAC water vial stopper. Allow to air-dry for 10–15 seconds.',
+            '<strong>Draw the BAC water.</strong> Insert your syringe needle through the BAC water vial stopper and draw the desired volume (typically 1–2 mL — see dosing calculations).',
+            '<strong>Inject water slowly into the peptide vial.</strong> Insert the needle through the peptide vial stopper and angle it so the stream of water runs <em>down the side of the glass</em>, not directly onto the powder. This prevents foaming and peptide degradation.',
+            '<strong>Do not shake.</strong> Gently swirl the vial in slow circular motions. Shaking denatures (damages) the peptide structure. Continue swirling until the powder is fully dissolved and the solution is clear.',
+            '<strong>Inspect the solution.</strong> A properly reconstituted peptide should be a clear, colorless solution. Cloudiness, particulates, or a strong off-odor may indicate contamination or degradation.',
+            '<strong>Label the vial.</strong> Write the peptide name, concentration (e.g., 2500 mcg/mL), date reconstituted, and your initials. Refrigerate immediately.',
+          ]},
+          { type: 'callout', variant: 'warning', text: '<strong>Never shake the vial.</strong> Vigorous agitation introduces air bubbles and mechanical stress that breaks down the peptide chain, reducing potency. Always swirl gently.' },
+        ]
+      },
+      {
+        id: 'dosing-calculations',
+        heading: 'Dosing Calculations',
+        content: [
+          { type: 'paragraph', text: 'Accurate dosing requires understanding the concentration of your reconstituted solution. Concentration is determined by the amount of BAC water added to a known peptide mass.' },
+          { type: 'callout', variant: 'info', text: '<strong>Formula:</strong> Concentration (mcg/mL) = Peptide mass (mcg) ÷ Volume of BAC water (mL)<br/><br/>Example: 5 mg vial + 2 mL BAC water = 5,000 mcg ÷ 2 mL = <strong>2,500 mcg/mL</strong>' },
+          { type: 'subheading', text: 'Concentration Reference Table' },
+          { type: 'table', headers: ['Vial Size', 'BAC Water Added', 'Concentration', 'Volume for 250 mcg', 'Units (U-100)'], rows: [
+            ['2 mg', '1 mL', '2,000 mcg/mL', '0.125 mL', '12.5 units'],
+            ['5 mg', '1 mL', '5,000 mcg/mL', '0.050 mL', '5 units'],
+            ['5 mg', '2 mL', '2,500 mcg/mL', '0.100 mL', '10 units'],
+            ['10 mg', '2 mL', '5,000 mcg/mL', '0.050 mL', '5 units'],
+            ['10 mg', '4 mL', '2,500 mcg/mL', '0.100 mL', '10 units'],
+          ]},
+          { type: 'callout', variant: 'tip', text: 'When possible, target concentrations that make dose measurement clean — 2,500 mcg/mL means 250 mcg = exactly 10 units on a U-100 syringe, which is easy to read accurately.' },
+        ]
+      },
+      {
+        id: 'storage',
+        heading: 'Storage After Reconstitution',
+        content: [
+          { type: 'paragraph', text: 'Proper storage is critical to preserving peptide integrity after reconstitution. Degradation occurs from heat, light, repeated freeze-thaw cycles, and contamination.' },
+          { type: 'table', headers: ['Condition', 'Lyophilized Peptide', 'Reconstituted Peptide'], rows: [
+            ['Short-term (days)', 'Room temperature acceptable', 'Refrigerate (2–8°C) immediately'],
+            ['Long-term (months)', 'Refrigerate; freeze for extended storage', 'Not recommended — use within 28 days'],
+            ['Freezing', 'Stable; preferred for long-term storage', 'Do NOT freeze — ice crystals damage peptide'],
+            ['Light exposure', 'Avoid direct sunlight', 'Avoid direct sunlight; amber vials preferred'],
+          ]},
+          { type: 'callout', variant: 'warning', text: '<strong>Do not freeze reconstituted peptides.</strong> Freezing causes ice crystal formation that mechanically damages the peptide chain. If long-term storage is needed, keep the vial in lyophilized form and only reconstitute what you plan to use within 30 days.' },
+          { type: 'subheading', text: 'Handling Tips' },
+          { type: 'list', items: [
+            'Use the vial within 28–30 days of reconstitution',
+            'Keep the vial in the back of the refrigerator where temperature is most stable',
+            'Minimize the number of times you pierce the stopper to reduce contamination risk',
+            'Discard any reconstituted peptide that becomes cloudy, changes color, or develops particulates',
+          ]},
+        ]
+      },
+      {
+        id: 'common-mistakes',
+        heading: 'Common Mistakes to Avoid',
+        content: [
+          { type: 'paragraph', text: 'These are the most frequently encountered errors in peptide reconstitution — each one reduces potency, increases contamination risk, or leads to inaccurate dosing.' },
+          { type: 'table', headers: ['Mistake', 'Why It Matters', 'Correct Approach'], rows: [
+            ['Shaking the vial', 'Mechanical agitation denatures the peptide', 'Gently swirl until dissolved'],
+            ['Directing water at the powder', 'Creates foam; may degrade peptide', 'Aim water stream down the glass wall'],
+            ['Using regular saline', 'No preservative; solution unstable after opening', 'Use bacteriostatic water (BAC water)'],
+            ['Not swabbing vial stoppers', 'Introduces bacteria into the vial', 'Always alcohol-swab before piercing'],
+            ['Reusing the same syringe for multiple vials', 'Cross-contamination risk', 'Use a fresh syringe for each vial'],
+            ['Failing to label the vial', 'Risk of incorrect dosing or using expired solution', 'Label with peptide, concentration, and date'],
+            ['Storing at room temperature', 'Accelerated degradation', 'Refrigerate reconstituted peptide immediately'],
+          ]},
+        ]
+      },
+    ]
+  },
+
+  // ── GUIDE 3: SYRINGE GUIDE ────────────────────────────────────────────────
+  {
+    slug: 'syringe-guide',
+    category: 'Reference Guide',
+    readTime: '7 min read',
+    eyebrow: 'Peptide Administration Series',
+    title: 'Syringe & Measurement Guide',
+    subtitle: 'Complete reference for syringe selection, reading unit markings, converting between dose units, and administering research peptides accurately.',
+    tags: ['Reference', 'Measurement', 'Administration'],
+    disclaimer: 'This guide provides technical reference information for research purposes only. Injection techniques described are for educational context. This is not medical guidance or instruction for human self-administration.',
+    icon: `<svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2l4 4-1.5 1.5-4-4L18 2z"/><path d="M15.5 4.5L19.5 8.5"/><path d="M13 7l4 4-8.5 8.5-1.5 1.5-3-3 1.5-1.5L13 7z"/><path d="M2 22l3.5-3.5"/></svg>`,
+    sections: [
+      {
+        id: 'syringe-types',
+        heading: 'Syringe Types',
+        content: [
+          { type: 'paragraph', text: 'For research peptide administration, insulin syringes are the standard tool. They are designed for small-volume, precision dosing — exactly what peptide protocols require.' },
+          { type: 'table', headers: ['Syringe Type', 'Volume', 'Unit Scale', 'Best For'], rows: [
+            ['U-100 (1 mL)', '1.0 mL / 100 units', '1 unit = 0.01 mL', 'Standard choice for most peptide protocols'],
+            ['U-50 (0.5 mL)', '0.5 mL / 50 units', '1 unit = 0.01 mL', 'Smaller doses; easier to read small volumes'],
+            ['U-30 (0.3 mL)', '0.3 mL / 30 units', '1 unit = 0.01 mL', 'Precision dosing of very small volumes'],
+          ]},
+          { type: 'subheading', text: 'Needle Gauge' },
+          { type: 'paragraph', text: 'Needle gauge refers to the diameter of the needle — a higher gauge number means a thinner needle. For subcutaneous peptide injection, 27–31G needles are standard.' },
+          { type: 'table', headers: ['Gauge', 'Outer Diameter', 'Comfort Level', 'Common Use'], rows: [
+            ['27G', '0.41 mm', 'Moderate', 'Standard; good for most peptides'],
+            ['29G', '0.34 mm', 'High', 'Preferred by many; minimal discomfort'],
+            ['31G', '0.26 mm', 'Very High', 'Maximum comfort; slightly slower draw time'],
+          ]},
+          { type: 'callout', variant: 'tip', text: '<strong>Recommendation:</strong> A 29G, 0.5-inch needle on a U-100 syringe is the most commonly used configuration for subcutaneous peptide injection — it balances comfort, precision, and ease of use.' },
+        ]
+      },
+      {
+        id: 'reading-a-syringe',
+        heading: 'Reading a Syringe',
+        content: [
+          { type: 'paragraph', text: 'Understanding syringe markings is fundamental to accurate dosing. On a U-100 (1 mL) insulin syringe, the barrel is marked in units from 0 to 100.' },
+          { type: 'subheading', text: 'U-100 Syringe Scale' },
+          { type: 'table', headers: ['Marking', 'Units', 'Volume (mL)', 'Notes'], rows: [
+            ['Major division', '10 units', '0.10 mL', 'Larger, numbered lines (10, 20, 30…)'],
+            ['Minor division', '2 units', '0.02 mL', 'Smaller tick marks between major lines'],
+            ['Full syringe', '100 units', '1.00 mL', 'Maximum capacity of a 1 mL syringe'],
+          ]},
+          { type: 'paragraph', text: 'To read the syringe, hold it horizontally at eye level. The bottom edge of the plunger (the front flat ring) is the reading edge — align this with the desired unit marking on the barrel.' },
+          { type: 'callout', variant: 'info', text: '<strong>Example:</strong> To draw 10 units (0.10 mL) of solution, pull the plunger back until the bottom edge aligns with the 10-unit line on the barrel.' },
+          { type: 'subheading', text: 'Removing Air Bubbles' },
+          { type: 'paragraph', text: 'After drawing your solution, small air bubbles may be visible. Hold the syringe needle-up and gently tap the barrel with your finger. Bubbles rise to the top. Push the plunger slightly to expel air, then re-check your volume measurement.' },
+        ]
+      },
+      {
+        id: 'unit-conversions',
+        heading: 'Unit Conversions',
+        content: [
+          { type: 'paragraph', text: 'Peptide dosing involves several units that are often confused. Understanding the relationships between these units is essential for accurate calculation.' },
+          { type: 'table', headers: ['Unit', 'Abbreviation', 'Relationship', 'Context'], rows: [
+            ['Milligram', 'mg', '1 mg = 1,000 mcg', 'Peptide mass (vial size)'],
+            ['Microgram', 'mcg (μg)', '1 mcg = 0.001 mg', 'Peptide dose amount'],
+            ['Milliliter', 'mL', '1 mL = 100 units (U-100)', 'Injection volume'],
+            ['Unit (insulin)', 'unit / IU', '1 unit = 0.01 mL (U-100)', 'Syringe measurement'],
+          ]},
+          { type: 'callout', variant: 'info', text: '<strong>Key formula:</strong> mcg dose ÷ Concentration (mcg/mL) = Volume to draw (mL)<br/><br/>Volume in mL × 100 = Units to draw on a U-100 syringe' },
+          { type: 'subheading', text: 'Worked Example' },
+          { type: 'paragraph', text: 'You have a 5 mg vial reconstituted with 2 mL BAC water. The protocol calls for a 250 mcg dose.' },
+          { type: 'ordered-list', items: [
+            'Concentration = 5,000 mcg ÷ 2 mL = <strong>2,500 mcg/mL</strong>',
+            'Volume needed = 250 mcg ÷ 2,500 mcg/mL = <strong>0.10 mL</strong>',
+            'Units on U-100 syringe = 0.10 mL × 100 = <strong>10 units</strong>',
+          ]},
+        ]
+      },
+      {
+        id: 'measurement-tables',
+        heading: 'Measurement Reference Tables',
+        content: [
+          { type: 'paragraph', text: 'Use these pre-calculated tables to quickly determine how many units to draw for common dose and concentration combinations.' },
+          { type: 'subheading', text: 'At 1,000 mcg/mL (1 mg/mL)' },
+          { type: 'paragraph', text: 'Achieved by: 1 mL added to a 1 mg vial, 2 mL to a 2 mg vial, 10 mL to a 10 mg vial.' },
+          { type: 'table', headers: ['Dose', 'Volume (mL)', 'Units (U-100)'], rows: [
+            ['100 mcg', '0.10 mL', '10 units'],
+            ['200 mcg', '0.20 mL', '20 units'],
+            ['250 mcg', '0.25 mL', '25 units'],
+            ['500 mcg', '0.50 mL', '50 units'],
+            ['1 mg (1,000 mcg)', '1.00 mL', '100 units'],
+          ]},
+          { type: 'subheading', text: 'At 2,500 mcg/mL (2.5 mg/mL)' },
+          { type: 'paragraph', text: 'Achieved by: 2 mL added to a 5 mg vial, 4 mL to a 10 mg vial.' },
+          { type: 'table', headers: ['Dose', 'Volume (mL)', 'Units (U-100)'], rows: [
+            ['100 mcg', '0.04 mL', '4 units'],
+            ['200 mcg', '0.08 mL', '8 units'],
+            ['250 mcg', '0.10 mL', '10 units'],
+            ['500 mcg', '0.20 mL', '20 units'],
+            ['1 mg (1,000 mcg)', '0.40 mL', '40 units'],
+          ]},
+          { type: 'subheading', text: 'At 5,000 mcg/mL (5 mg/mL)' },
+          { type: 'paragraph', text: 'Achieved by: 1 mL added to a 5 mg vial, 2 mL to a 10 mg vial.' },
+          { type: 'table', headers: ['Dose', 'Volume (mL)', 'Units (U-100)'], rows: [
+            ['100 mcg', '0.02 mL', '2 units'],
+            ['200 mcg', '0.04 mL', '4 units'],
+            ['250 mcg', '0.05 mL', '5 units'],
+            ['500 mcg', '0.10 mL', '10 units'],
+            ['1 mg (1,000 mcg)', '0.20 mL', '20 units'],
+          ]},
+        ]
+      },
+      {
+        id: 'injection-technique',
+        heading: 'Injection Technique',
+        content: [
+          { type: 'paragraph', text: 'For research peptides, subcutaneous (SubQ) injection is the most common administration route. It involves depositing the solution into the subcutaneous fat layer directly beneath the skin.' },
+          { type: 'subheading', text: 'Subcutaneous Injection Protocol' },
+          { type: 'ordered-list', items: [
+            '<strong>Choose an injection site.</strong> The abdomen (2+ inches from the navel), outer thigh, and upper arm are common SubQ sites. Rotate sites to prevent tissue buildup.',
+            '<strong>Clean the site.</strong> Swab the injection area with an alcohol swab and allow it to dry completely.',
+            '<strong>Pinch the skin.</strong> Use your non-dominant hand to pinch a fold of skin at the injection site, lifting the subcutaneous tissue away from muscle.',
+            '<strong>Insert the needle.</strong> Hold the syringe like a pencil at a 45° angle (some prefer 90° with very short needles) and insert in a smooth, confident motion.',
+            '<strong>Depress the plunger slowly.</strong> Inject the solution over 3–5 seconds. Avoid injecting too rapidly.',
+            '<strong>Withdraw and apply pressure.</strong> Pull the needle out at the same angle it was inserted. Apply gentle pressure with a clean swab for 10–15 seconds.',
+          ]},
+          { type: 'subheading', text: 'Site Rotation' },
+          { type: 'paragraph', text: 'Repeating injections at the same site causes lipohypertrophy — localized areas of fat tissue buildup that become less sensitive and may alter absorption rates. Space injections at least 1 cm apart from recent sites and maintain a rotation pattern.' },
+          { type: 'callout', variant: 'warning', text: 'Never inject into: inflamed or infected skin, areas with visible veins, scar tissue, or the same site used within the past 24–48 hours.' },
+        ]
+      },
+      {
+        id: 'disposal-safety',
+        heading: 'Disposal & Safety',
+        content: [
+          { type: 'paragraph', text: 'Safe needle disposal protects you, others, and waste handlers from needlestick injuries, which carry significant infection risk.' },
+          { type: 'subheading', text: 'Sharps Disposal Protocol' },
+          { type: 'ordered-list', items: [
+            '<strong>Never recap needles.</strong> Recapping is the leading cause of needlestick injuries. Place used needles directly into a sharps container immediately after use.',
+            '<strong>Use an approved sharps container.</strong> Rigid, puncture-resistant plastic containers are standard. Many pharmacies sell these specifically for home use.',
+            '<strong>Do not overfill.</strong> Seal the container when it is three-quarters full and replace with a new one.',
+            '<strong>Follow local disposal regulations.</strong> Options typically include: mail-back programs, pharmacy drop-off, household hazardous waste facilities, or community drop-off sites.',
+          ]},
+          { type: 'table', headers: ['What To Do', 'What Not To Do'], rows: [
+            ['Place needles directly in sharps container', 'Recap needles with the original cap'],
+            ['Use a rigid, puncture-resistant container', 'Place needles in regular trash or recycling'],
+            ['Seal and replace at 75% capacity', 'Force more needles in when nearly full'],
+            ['Use official disposal channels', 'Flush needles or dispose in household waste'],
+          ]},
+          { type: 'callout', variant: 'important', text: 'Sharps containers must never be placed in regular household recycling. Even when sealed, they must be disposed of through proper channels to prevent injury to waste handlers.' },
+        ]
+      },
+    ]
+  },
+
+]
+
+// ═══════════════════════════════════════════════
+// STATE
+// ═══════════════════════════════════════════════
+
+let selectedGuide = null
+
+// ═══════════════════════════════════════════════
+// SVG CONSTANTS
+// ═══════════════════════════════════════════════
+
+const ARROW_RIGHT = `<svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>`
+const ARROW_LEFT  = `<svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"/></svg>`
+
+// ═══════════════════════════════════════════════
+// CONTENT RENDERER
+// ═══════════════════════════════════════════════
+
+function renderContent(items) {
+  return items.map(item => {
+    switch (item.type) {
+
+      case 'paragraph':
+        return `<p class="guide-paragraph">${item.text}</p>`
+
+      case 'subheading':
+        return `<h3 class="guide-subheading">${item.text}</h3>`
+
+      case 'list':
+        return `<ul class="guide-list">${item.items.map(i => `<li>${i}</li>`).join('')}</ul>`
+
+      case 'ordered-list':
+        return `<ol class="guide-list guide-list-ordered">${item.items.map(i => `<li>${i}</li>`).join('')}</ol>`
+
+      case 'callout':
+        return `<div class="guide-callout guide-callout-${item.variant || 'info'}">${item.text}</div>`
+
+      case 'table': {
+        const ths = item.headers.map(h => `<th>${h}</th>`).join('')
+        const trs = item.rows.map(row =>
+          `<tr>${row.map((cell, ci) => `<td class="${ci === 0 ? 'cell-primary' : ''}">${cell}</td>`).join('')}</tr>`
+        ).join('')
+        return `<div class="guide-table-wrap"><table class="guide-table"><thead><tr>${ths}</tr></thead><tbody>${trs}</tbody></table></div>`
+      }
+
+      case 'stat-cards':
+        return `<div class="guide-stat-cards">${item.cards.map(c =>
+          `<div class="guide-stat-card"><span class="guide-stat-label">${c.label}</span><span class="guide-stat-value">${c.value}</span></div>`
+        ).join('')}</div>`
+
+      default:
+        return ''
+    }
+  }).join('')
+}
+
+// ═══════════════════════════════════════════════
+// RENDER: GUIDE CARDS HUB
+// ═══════════════════════════════════════════════
+
+function buildGuideCard(guide) {
+  const tagPills = guide.tags.slice(0, 2).map(t =>
+    `<span class="card-tag tag-research">${t}</span>`
+  ).join('')
+
+  return `
+    <div class="guide-card" data-slug="${guide.slug}" role="button" tabindex="0" aria-label="Read ${guide.title}">
+      <div class="guide-card-icon">${guide.icon}</div>
+      <div class="guide-card-meta">
+        <span class="guide-card-category">${guide.category}</span>
+        <span class="guide-card-dot"></span>
+        <span class="guide-card-read-time">${guide.readTime}</span>
+      </div>
+      <h2>${guide.title}</h2>
+      <p class="guide-card-desc">${guide.subtitle}</p>
+      <div class="guide-card-footer">
+        <div class="guide-card-tags">${tagPills}</div>
+        <span class="guide-card-cta">Read the Guide ${ARROW_RIGHT}</span>
+      </div>
+    </div>`
+}
+
+function renderGuideCards() {
+  return `
+    <div class="guides-page-wrap guide-fade-in">
+      <section class="guides-hero">
+        <div class="guides-hero-inner">
+          <span class="guides-hub-eyebrow">Essential Guides</span>
+          <h1>Peptide Education Library</h1>
+          <p>Structured guides covering the fundamentals of peptide research — from first principles to practical protocols.</p>
+        </div>
+      </section>
+      <section class="guides-grid-section">
+        <div class="guides-grid-header">
+          <p class="section-label">All Guides</p>
+        </div>
+        <div class="guides-grid" id="guides-grid">
+          ${GUIDES.map(buildGuideCard).join('')}
+        </div>
+      </section>
+    </div>`
+}
+
+// ═══════════════════════════════════════════════
+// RENDER: GUIDE DETAIL PAGE
+// ═══════════════════════════════════════════════
+
+function renderGuideTOC(guide) {
+  const links = guide.sections.map(s =>
+    `<a class="toc-link" href="#${s.id}">${s.heading}</a>`
+  ).join('')
+  return `
+    <aside class="pep-toc">
+      <p class="toc-label">On this page</p>
+      <nav>${links}</nav>
+    </aside>`
+}
+
+function renderGuideDetail(guide) {
+  const sectionsHTML = guide.sections.map(s => `
+    <div id="${s.id}" class="pep-section-block">
+      <h2 class="section-heading">${s.heading}</h2>
+      ${renderContent(s.content)}
+    </div>`).join('')
+
+  return `
+    <div class="peptide-page guide-fade-in">
+      <div class="pep-layout">
+
+        ${renderGuideTOC(guide)}
+
+        <div class="pep-main">
+
+          <!-- BACK BUTTON -->
+          <button class="guide-back-btn" id="guide-back-btn" aria-label="Back to Guides">
+            ${ARROW_LEFT}
+            Back to Guides
+          </button>
+
+          <!-- HERO -->
+          <div class="pep-hero-wrap">
+            <div class="pep-hero-split">
+              <div class="pep-hero-content">
+                <span class="pep-eyebrow">${guide.eyebrow}</span>
+                <h1 class="pep-hero-title">${guide.title}</h1>
+                <div class="guide-hero-meta">
+                  <span class="pep-vial-badge pep-vial-badge-hero">${guide.category}</span>
+                  <span class="guide-read-time-badge">${guide.readTime}</span>
+                </div>
+                <p class="pep-subtitle">${guide.subtitle}</p>
+                <div class="pep-tags">
+                  ${guide.tags.map(t => `<span class="pep-tag">${t}</span>`).join('')}
+                </div>
+              </div>
+              <div class="pep-hero-right">
+                <div class="pep-vial-card guide-hero-icon-card">
+                  <div class="guide-hero-icon-wrap">${guide.icon}</div>
+                  <div class="pep-vial-card-name">${guide.title}</div>
+                  <div class="pep-vial-card-strength">${guide.category}</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- DISCLAIMER -->
+          <div class="global-disclaimer-banner">${guide.disclaimer}</div>
+
+          <!-- CONTENT SECTIONS -->
+          ${sectionsHTML}
+
+        </div><!-- /pep-main -->
+      </div><!-- /pep-layout -->
+    </div>`
+}
+
+// ═══════════════════════════════════════════════
+// ANIMATION UTILITY (mirrors script.js initRevealObserver)
+// ═══════════════════════════════════════════════
+
+function initRevealObserver(els, staggerMs) {
+  staggerMs = staggerMs === undefined ? 70 : staggerMs
+  const items = Array.from(els)
+  if (!items.length) return
+
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    items.forEach(el => { el.classList.remove('will-reveal'); el.classList.add('is-visible') })
+    return
+  }
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const el = entry.target
+        setTimeout(() => el.classList.add('is-visible'), parseInt(el.dataset.revealDelay || '0', 10))
+        observer.unobserve(el)
+      }
+    })
+  }, { threshold: 0.06, rootMargin: '0px 0px -24px 0px' })
+
+  items.forEach((el, i) => {
+    el.classList.add('will-reveal')
+    el.dataset.revealDelay = i * staggerMs
+    observer.observe(el)
+  })
+}
+
+// ═══════════════════════════════════════════════
+// RENDER CONTROLLER
+// ═══════════════════════════════════════════════
+
+function render() {
+  const root = document.getElementById('guides-root')
+  if (!root) return
+  root.innerHTML = selectedGuide ? renderGuideDetail(selectedGuide) : renderGuideCards()
+  if (selectedGuide) {
+    initBackBtn()
+    initTOCLinks()
+    initTOCScroll()
+    initRevealObserver(root.querySelectorAll('.pep-section-block'), 80)
+  } else {
+    initGuideCardClicks()
+    initRevealObserver(root.querySelectorAll('.guide-card'), 60)
+  }
+}
+
+function openGuide(slug) {
+  const guide = GUIDES.find(g => g.slug === slug)
+  if (!guide) return
+  selectedGuide = guide
+  history.pushState({ guide: slug }, '', `?guide=${slug}`)
+  document.title = `${guide.title} — PeptideGuidelines`
+  render()
+  window.scrollTo({ top: 0, behavior: 'smooth' })
+}
+
+function closeGuide() {
+  selectedGuide = null
+  history.pushState({}, '', 'guides.html')
+  document.title = 'Guides — PeptideGuidelines'
+  render()
+  window.scrollTo({ top: 0, behavior: 'smooth' })
+}
+
+// ═══════════════════════════════════════════════
+// INTERACTION INIT
+// ═══════════════════════════════════════════════
+
+function initGuideCardClicks() {
+  const grid = document.getElementById('guides-grid')
+  if (!grid) return
+  grid.addEventListener('click', e => {
+    const card = e.target.closest('.guide-card')
+    if (card) openGuide(card.dataset.slug)
+  })
+  grid.addEventListener('keydown', e => {
+    if (e.key === 'Enter' || e.key === ' ') {
+      const card = e.target.closest('.guide-card')
+      if (card) { e.preventDefault(); openGuide(card.dataset.slug) }
+    }
+  })
+}
+
+function initBackBtn() {
+  const btn = document.getElementById('guide-back-btn')
+  if (btn) btn.addEventListener('click', closeGuide)
+}
+
+function initTOCLinks() {
+  document.querySelectorAll('.toc-link').forEach(link => {
+    link.addEventListener('click', e => {
+      e.preventDefault()
+      const id = link.getAttribute('href').replace('#', '')
+      const target = document.getElementById(id)
+      if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' })
+    })
+  })
+}
+
+function initTOCScroll() {
+  const links = document.querySelectorAll('.toc-link')
+  if (!links.length) return
+
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        links.forEach(l => l.classList.remove('toc-active'))
+        const active = document.querySelector(`.toc-link[href="#${entry.target.id}"]`)
+        if (active) active.classList.add('toc-active')
+      }
+    })
+  }, { rootMargin: '-5% 0px -80% 0px', threshold: 0 })
+
+  document.querySelectorAll('.pep-section-block').forEach(el => observer.observe(el))
+}
+
+function initNavDropdowns() {
+  document.querySelectorAll('.nav-dropdown').forEach(dropdown => {
+    dropdown.querySelector('.nav-btn').addEventListener('click', e => {
+      e.stopPropagation()
+      const isOpen = dropdown.classList.contains('open')
+      document.querySelectorAll('.nav-dropdown').forEach(d => d.classList.remove('open'))
+      if (!isOpen) dropdown.classList.add('open')
+    })
+  })
+  document.addEventListener('click', () => {
+    document.querySelectorAll('.nav-dropdown').forEach(d => d.classList.remove('open'))
+  })
+
+  // ── Hamburger toggle ──
+  const hamburger = document.getElementById('nav-hamburger')
+  const header    = hamburger ? hamburger.closest('.header') : null
+  if (!hamburger || !header) return
+
+  function closeMobileNav() {
+    header.classList.remove('nav-open')
+    document.body.classList.remove('nav-open')
+    hamburger.setAttribute('aria-expanded', 'false')
+    hamburger.setAttribute('aria-label', 'Open navigation menu')
+    document.querySelectorAll('.nav-dropdown').forEach(d => d.classList.remove('open'))
+  }
+
+  hamburger.addEventListener('click', e => {
+    e.stopPropagation()
+    const opening = !header.classList.contains('nav-open')
+    header.classList.toggle('nav-open')
+    document.body.classList.toggle('nav-open')
+    hamburger.setAttribute('aria-expanded', String(opening))
+    hamburger.setAttribute('aria-label', opening ? 'Close navigation menu' : 'Open navigation menu')
+  })
+
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape' && header.classList.contains('nav-open')) {
+      closeMobileNav()
+      hamburger.focus()
+    }
+  })
+
+  // Close nav when a leaf link is tapped on mobile
+  document.querySelectorAll('#main-nav .nav-link, #main-nav .dropdown-item').forEach(link => {
+    link.addEventListener('click', () => { if (window.innerWidth <= 768) closeMobileNav() })
+  })
+
+  // Snap back to desktop state on resize
+  window.addEventListener('resize', () => { if (window.innerWidth > 768) closeMobileNav() })
+}
+
+async function loadPeptidesDropdown() {
+  try {
+    const res = await fetch('peptide_frontend_library_v2.json')
+    const data = await res.json()
+    const seen = new Map()
+    for (const p of data.peptides) {
+      if (!seen.has(p.base_name)) {
+        const rs = (p.slug + '-' + p.vial_strength)
+          .toLowerCase().replace(/[()]/g, '').replace(/\s+/g, '-')
+          .replace(/-{2,}/g, '-').replace(/^-|-$/g, '')
+        seen.set(p.base_name, { name: p.base_name, rs })
+      }
+    }
+    const items = [...seen.values()].sort((a, b) => a.name.localeCompare(b.name))
+      .map(p => `<a class="dropdown-item" href="peptide.html?slug=${p.rs}">${p.name}</a>`).join('')
+    const menu = document.getElementById('peptides-dropdown-menu')
+    if (menu) menu.innerHTML = `<span class="dropdown-header">Single Peptides</span><div class="dropdown-scroll">${items}</div>`
+  } catch (_) { /* silent fail */ }
+}
+
+// ═══════════════════════════════════════════════
+// INIT
+// ═══════════════════════════════════════════════
+
+document.addEventListener('DOMContentLoaded', () => {
+  initNavDropdowns()
+  loadPeptidesDropdown()
+
+  const params = new URLSearchParams(window.location.search)
+  const slug = params.get('guide')
+  if (slug) {
+    selectedGuide = GUIDES.find(g => g.slug === slug) || null
+    if (selectedGuide) document.title = `${selectedGuide.title} — PeptideGuidelines`
+  }
+
+  render()
+})
+
+window.addEventListener('popstate', e => {
+  if (e.state && e.state.guide) {
+    selectedGuide = GUIDES.find(g => g.slug === e.state.guide) || null
+    document.title = selectedGuide ? `${selectedGuide.title} — PeptideGuidelines` : 'Guides — PeptideGuidelines'
+  } else {
+    selectedGuide = null
+    document.title = 'Guides — PeptideGuidelines'
+  }
+  render()
+  window.scrollTo({ top: 0, behavior: 'auto' })
+})
+</script>
+
+<script>
+(function () {
+  const _sb = window.supabase.createClient(
+    'https://kjvkntwyzxqqazsfcafn.supabase.co',
+    'sb_publishable_eLi7yz1OksG-tdkiyFzePA_BBFIZFAg'
+  )
+
+  function updateNavAuthGuides(session) {
+    document.querySelectorAll('.nav-auth-group').forEach(el => el.remove())
+    document.querySelectorAll('.nav').forEach(nav => {
+      const group = document.createElement('div')
+      group.className = 'nav-auth-group'
+      if (session) {
+        const email   = session.user.email || ''
+        const display = email.length > 22 ? email.slice(0, 20) + '…' : email
+        group.innerHTML = `
+          <span class="nav-user-email">${display}</span>
+          <button class="nav-auth-btn nav-auth-btn--secondary nav-logout-btn">Log Out</button>
+        `
+        group.querySelector('.nav-logout-btn').addEventListener('click', () => _sb.auth.signOut())
+      } else {
+        group.innerHTML = `
+          <button class="nav-auth-btn nav-auth-btn--secondary g-login-open-btn">Log In</button>
+          <button class="nav-auth-btn nav-auth-btn--primary g-signup-open-btn">Sign Up</button>
+        `
+        group.querySelector('.g-login-open-btn').addEventListener('click', openGLoginModal)
+        group.querySelector('.g-signup-open-btn').addEventListener('click', openGSignupModal)
+      }
+      nav.appendChild(group)
+    })
+  }
+
+  let _gPrevFocus = null
+
+  function openGLoginModal() {
+    _gPrevFocus = document.activeElement
+    const m = document.getElementById('g-login-modal')
+    if (!m) return
+    m.classList.add('is-open')
+    document.body.classList.add('modal-open')
+    const f = m.querySelector('input')
+    if (f) f.focus()
+  }
+
+  function closeGLoginModal() {
+    const m = document.getElementById('g-login-modal')
+    if (!m) return
+    m.classList.remove('is-open')
+    document.body.classList.remove('modal-open')
+    if (_gPrevFocus) { _gPrevFocus.focus(); _gPrevFocus = null }
+    setTimeout(() => {
+      const form = m.querySelector('#g-login-form')
+      const err  = m.querySelector('#g-login-error')
+      if (form) { form.hidden = false; form.reset() }
+      if (err)  err.textContent = ''
+    }, 220)
+  }
+
+  function openGSignupModal() {
+    _gPrevFocus = document.activeElement
+    const m = document.getElementById('g-signup-modal')
+    if (!m) return
+    m.classList.add('is-open')
+    document.body.classList.add('modal-open')
+    const f = m.querySelector('input')
+    if (f) f.focus()
+  }
+
+  function closeGSignupModal() {
+    const m = document.getElementById('g-signup-modal')
+    if (!m) return
+    m.classList.remove('is-open')
+    document.body.classList.remove('modal-open')
+    if (_gPrevFocus) { _gPrevFocus.focus(); _gPrevFocus = null }
+    setTimeout(() => {
+      const form = m.querySelector('#g-signup-form')
+      const err  = m.querySelector('#g-signup-error')
+      if (form) { form.hidden = false; form.reset() }
+      if (err)  err.textContent = ''
+    }, 220)
+  }
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const lm = document.createElement('div')
+    lm.id = 'g-login-modal'
+    lm.className = 'modal-overlay'
+    lm.setAttribute('role', 'dialog')
+    lm.setAttribute('aria-modal', 'true')
+    lm.setAttribute('aria-labelledby', 'g-login-title')
+    lm.innerHTML = `
+      <div class="modal-panel">
+        <div class="modal-header">
+          <h2 id="g-login-title" class="modal-title">Log in to PeptideGuidelines</h2>
+          <button class="modal-close" aria-label="Close dialog">
+            <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/>
+            </svg>
+          </button>
+        </div>
+        <form class="modal-form" id="g-login-form" novalidate>
+          <div class="form-group">
+            <label class="form-label" for="g-login-email">Email</label>
+            <input class="form-input" type="email" id="g-login-email" autocomplete="email" placeholder="you@example.com" required />
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="g-login-pw">Password</label>
+            <input class="form-input" type="password" id="g-login-pw" autocomplete="current-password" placeholder="Your password" required />
+          </div>
+          <p class="form-error" id="g-login-error"></p>
+          <button class="form-submit" type="submit">Log In</button>
+        </form>
+        <div class="modal-success" id="g-login-success" hidden>
+          <div class="modal-success-icon" aria-hidden="true">
+            <svg width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
+            </svg>
+          </div>
+          <h3>Logged in</h3>
+          <p>Welcome back.</p>
+        </div>
+      </div>`
+    document.body.appendChild(lm)
+    lm.addEventListener('click', e => { if (e.target === lm) closeGLoginModal() })
+    lm.querySelector('.modal-close').addEventListener('click', closeGLoginModal)
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape' && lm.classList.contains('is-open')) closeGLoginModal()
+    })
+    document.getElementById('g-login-form').addEventListener('submit', async e => {
+      e.preventDefault()
+      const btn = e.target.querySelector('.form-submit')
+      const err = document.getElementById('g-login-error')
+      err.textContent = ''
+      btn.disabled = true; btn.textContent = 'Logging in…'
+      const { error } = await _sb.auth.signInWithPassword({
+        email:    document.getElementById('g-login-email').value.trim(),
+        password: document.getElementById('g-login-pw').value,
+      })
+      btn.disabled = false; btn.textContent = 'Log In'
+      if (error) { err.textContent = error.message || 'Login failed.'; return }
+      document.getElementById('g-login-form').hidden = true
+      document.getElementById('g-login-success').hidden = false
+      setTimeout(closeGLoginModal, 1200)
+    })
+
+    const sm = document.createElement('div')
+    sm.id = 'g-signup-modal'
+    sm.className = 'modal-overlay'
+    sm.setAttribute('role', 'dialog')
+    sm.setAttribute('aria-modal', 'true')
+    sm.setAttribute('aria-labelledby', 'g-signup-title')
+    sm.innerHTML = `
+      <div class="modal-panel">
+        <div class="modal-header">
+          <h2 id="g-signup-title" class="modal-title">Create an account</h2>
+          <button class="modal-close" aria-label="Close dialog">
+            <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/>
+            </svg>
+          </button>
+        </div>
+        <form class="modal-form" id="g-signup-form" novalidate>
+          <div class="form-group">
+            <label class="form-label" for="g-signup-email">Email</label>
+            <input class="form-input" type="email" id="g-signup-email" autocomplete="email" placeholder="you@example.com" required />
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="g-signup-pw">Password</label>
+            <input class="form-input" type="password" id="g-signup-pw" autocomplete="new-password" placeholder="Choose a password" required />
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="g-signup-confirm">Confirm password</label>
+            <input class="form-input" type="password" id="g-signup-confirm" autocomplete="new-password" placeholder="Repeat your password" required />
+          </div>
+          <p class="form-error" id="g-signup-error"></p>
+          <button class="form-submit" type="submit">Create Account</button>
+        </form>
+        <div class="modal-success" id="g-signup-success" hidden>
+          <div class="modal-success-icon" aria-hidden="true">
+            <svg width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
+            </svg>
+          </div>
+          <h3>Account created</h3>
+          <p>Check your email to confirm your address.</p>
+        </div>
+      </div>`
+    document.body.appendChild(sm)
+    sm.addEventListener('click', e => { if (e.target === sm) closeGSignupModal() })
+    sm.querySelector('.modal-close').addEventListener('click', closeGSignupModal)
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape' && sm.classList.contains('is-open')) closeGSignupModal()
+    })
+    document.getElementById('g-signup-form').addEventListener('submit', async e => {
+      e.preventDefault()
+      const btn     = e.target.querySelector('.form-submit')
+      const err     = document.getElementById('g-signup-error')
+      err.textContent = ''
+      const pw      = document.getElementById('g-signup-pw').value
+      const confirm = document.getElementById('g-signup-confirm').value
+      if (pw !== confirm) { err.textContent = 'Passwords do not match.'; return }
+      if (pw.length < 6)  { err.textContent = 'Password must be at least 6 characters.'; return }
+      btn.disabled = true; btn.textContent = 'Creating account…'
+      const { error } = await _sb.auth.signUp({
+        email:    document.getElementById('g-signup-email').value.trim(),
+        password: pw,
+      })
+      btn.disabled = false; btn.textContent = 'Create Account'
+      if (error) { err.textContent = error.message || 'Sign up failed.'; return }
+      document.getElementById('g-signup-form').hidden = true
+      document.getElementById('g-signup-success').hidden = false
+    })
+
+    _sb.auth.getSession().then(({ data: { session } }) => updateNavAuthGuides(session))
+    _sb.auth.onAuthStateChange((_event, session) => updateNavAuthGuides(session))
+  })
+}())
+</script>
+</body>
+</html>

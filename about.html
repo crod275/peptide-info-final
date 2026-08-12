@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="About PeptideGuidelines — an independent educational resource for peptide research built on published literature, honest evidence ratings, and consistent structure." />
+  <title>About — PeptideGuidelines</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+
+    /* ── HERO ── */
+    .why-hero {
+      padding: 80px 24px 68px;
+      background: var(--page-bg);
+      border-bottom: 1px solid var(--border);
+    }
+    .why-hero-inner {
+      max-width: 640px;
+      margin: 0 auto;
+    }
+    .why-eyebrow {
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      color: var(--accent);
+      margin-bottom: 16px;
+    }
+    .why-hero h1 {
+      font-size: clamp(28px, 4vw, 44px);
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      line-height: 1.1;
+      color: var(--text-primary);
+      margin-bottom: 20px;
+    }
+    .why-hero p {
+      font-size: 15px;
+      color: var(--text-secondary);
+      line-height: 1.7;
+      max-width: 52ch;
+    }
+
+    /* ── CONTENT WRAPPER ── */
+    .why-content {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 64px 24px 96px;
+    }
+
+    /* ── ROW LISTS ── */
+    .why-rows {
+      border-top: 1px solid var(--border);
+      margin-bottom: 72px;
+    }
+    .why-row {
+      display: grid;
+      grid-template-columns: 200px 1fr;
+      gap: 32px;
+      padding: 28px 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .why-row-title {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--text-primary);
+      letter-spacing: -0.01em;
+      line-height: 1.4;
+    }
+    .why-row-body {
+      font-size: 14px;
+      color: var(--text-secondary);
+      line-height: 1.75;
+    }
+
+    /* ── SECTIONS ── */
+    .why-section {
+      margin-bottom: 64px;
+    }
+    .why-section-label {
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      color: var(--text-muted);
+      margin-bottom: 20px;
+    }
+    .why-section h2 {
+      font-size: 20px;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      color: var(--text-primary);
+      margin-bottom: 20px;
+      line-height: 1.3;
+    }
+    .why-section p {
+      font-size: 14px;
+      color: var(--text-secondary);
+      line-height: 1.75;
+      margin-bottom: 16px;
+      max-width: 65ch;
+    }
+    .why-section p:last-child { margin-bottom: 0; }
+
+    /* ── 2×2 GRID ── */
+    .why-not-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1px;
+      background: var(--border);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+      margin-top: 24px;
+    }
+    .why-not-item {
+      background: var(--bg);
+      padding: 20px 24px;
+    }
+    .why-not-title {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin-bottom: 4px;
+    }
+    .why-not-desc {
+      font-size: 13px;
+      color: var(--text-muted);
+      line-height: 1.55;
+    }
+
+    /* ── BULLET LIST ── */
+    .why-editorial-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      border-top: 1px solid var(--border);
+      margin-top: 24px;
+    }
+    .why-editorial-list li {
+      display: flex;
+      align-items: baseline;
+      gap: 12px;
+      padding: 14px 0;
+      border-bottom: 1px solid var(--border);
+      font-size: 14px;
+      color: var(--text-secondary);
+      line-height: 1.5;
+    }
+    .why-editorial-list li::before {
+      content: '';
+      width: 5px;
+      height: 5px;
+      background: var(--accent);
+      border-radius: 50%;
+      flex-shrink: 0;
+      margin-top: 5px;
+    }
+
+    /* ── DISCLAIMER BANNER ── */
+    .why-disclaimer {
+      background: var(--warning-bg);
+      border: 1px solid var(--warning-border);
+      border-radius: var(--radius);
+      padding: 20px 24px;
+      margin-top: 16px;
+    }
+    .why-disclaimer p {
+      font-size: 13px;
+      color: var(--warning-text);
+      line-height: 1.6;
+      margin: 0;
+      max-width: none;
+    }
+
+    /* ── BY THE NUMBERS ── */
+    .about-stats-row {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1px;
+      background: var(--border);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+      margin-top: 24px;
+    }
+    .about-stat {
+      background: var(--bg);
+      padding: 24px;
+    }
+    .about-stat-num {
+      display: block;
+      font-family: 'JetBrains Mono', 'Fira Code', monospace;
+      font-size: 28px;
+      font-weight: 500;
+      color: var(--text-primary);
+      letter-spacing: -0.02em;
+      margin-bottom: 6px;
+    }
+    .about-stat-label {
+      font-size: 11px;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      font-weight: 500;
+    }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 600px) {
+      .why-hero { padding: 56px 16px 48px; }
+      .why-content { padding: 48px 16px 64px; }
+      .why-row { grid-template-columns: 1fr; gap: 8px; }
+      .why-not-grid { grid-template-columns: 1fr; }
+      .about-stats-row { grid-template-columns: 1fr 1fr; }
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">Peptide<span>Guidelines</span></a>
+      <button class="nav-hamburger" id="nav-hamburger" type="button"
+              aria-label="Open navigation menu" aria-expanded="false" aria-controls="main-nav">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </button>
+      <nav class="nav" id="main-nav">
+        <div class="nav-dropdown">
+          <button class="nav-btn">
+            Guides
+            <svg class="nav-chevron" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/>
+            </svg>
+          </button>
+          <div class="dropdown-menu">
+            <span class="dropdown-header">Essential Guides</span>
+            <a class="dropdown-item" href="guides.html?guide=beginners-guide">Beginner's Guide to Peptides</a>
+            <a class="dropdown-item" href="guides.html?guide=reconstitution">How to Reconstitute Peptides</a>
+            <a class="dropdown-item" href="guides.html?guide=syringe-guide">Syringe &amp; Measurement Guide</a>
+            <span class="dropdown-header" style="margin-top:8px">Tools</span>
+            <a class="dropdown-item" href="calculator.html">Reconstitution Calculator</a>
+          </div>
+        </div>
+        <div class="nav-dropdown">
+          <button class="nav-btn">
+            Peptides
+            <svg class="nav-chevron" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/>
+            </svg>
+          </button>
+          <div class="dropdown-menu peptides-menu" id="peptides-dropdown-menu">
+            <span class="dropdown-header">Loading…</span>
+          </div>
+        </div>
+        <a href="calculator.html" class="nav-link">Calculator</a>
+        <a href="why.html" class="nav-link">Why Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="why-hero">
+      <div class="why-hero-inner">
+        <p class="why-eyebrow">About PeptideGuidelines</p>
+        <h1>The reference we<br>wished existed</h1>
+        <p>PeptideGuidelines is an independent educational resource for peptide research. Built because the information researchers actually need — accurate dosing ranges, honest evidence ratings, clear sourcing — wasn't in one place.</p>
+      </div>
+    </section>
+
+    <div class="why-content">
+
+      <!-- SECTION 1: WHY WE EXIST -->
+      <div class="why-section">
+        <p class="why-section-label">Why we exist</p>
+        <h2>The peptide space has an information quality problem</h2>
+        <p>Search any peptide online and you'll find dosing tables copied from site to site — no one checking whether the numbers trace back to real data, or a forum post from 2015. The same figures get repeated with more confidence each time they're republished, until the source is completely invisible.</p>
+        <p>Forums are anecdotal by design. Reddit threads age badly, get locked, and reflect whoever replied loudest — not what the evidence shows. Supplement company content has a built-in conflict of interest: it's written to move product. Academic literature is the most reliable source and the hardest to access — paywalled, statistical, and written for people with a biology background.</p>
+        <p>PeptideGuidelines traces every page to published clinical literature, peer-reviewed studies, and established pharmacological references. Where evidence is strong, we say so. Where it's preliminary or limited, we say that too. Transparency about evidence quality is more useful than false confidence — and a lot more honest than most of what's out there.</p>
+      </div>
+
+      <!-- SECTION 2: WHAT WE PUBLISH -->
+      <div class="why-section">
+        <p class="why-section-label">What we publish</p>
+        <div class="why-rows">
+          <div class="why-row">
+            <p class="why-row-title">Peptide pages</p>
+            <p class="why-row-body">A growing library of documented single peptides. Each page covers mechanism of action, dosage ranges, evidence rating, side effects, and stacking notes — always in the same structure, so you know where to look before you arrive.</p>
+          </div>
+          <div class="why-row">
+            <p class="why-row-title">Stacks</p>
+            <p class="why-row-body">Multi-peptide protocol documentation. Synergistic combinations drawn from published research and established protocols, with clear rationale for each pairing and honest coverage of the evidence behind the combination.</p>
+          </div>
+          <div class="why-row">
+            <p class="why-row-title">Blends</p>
+            <p class="why-row-body">Pre-combined peptide formulas documented with the same rigor as single peptides — full ingredient breakdown, intended application, and evidence context for each component.</p>
+          </div>
+          <div class="why-row">
+            <p class="why-row-title">Guides</p>
+            <p class="why-row-body">Standalone educational resources covering peptide fundamentals, reconstitution procedures, and syringe measurement. Written for researchers at every level, with enough depth to be useful past the first read.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- SECTION 3: WHAT MAKES US DIFFERENT -->
+      <div class="why-section">
+        <p class="why-section-label">What makes us different</p>
+        <div class="why-rows">
+          <div class="why-row">
+            <p class="why-row-title">Every claim is sourced</p>
+            <p class="why-row-body">We don't publish dosage ranges, mechanism descriptions, or safety profiles without a cited source. If credible published evidence doesn't exist for a claim, the claim doesn't appear on the page.</p>
+          </div>
+          <div class="why-row">
+            <p class="why-row-title">We grade evidence quality</p>
+            <p class="why-row-body">Not all published research is equally strong. We distinguish between findings backed by multiple randomized controlled trials and those from a single animal study — using language that reflects the actual weight of the evidence, not just that a study exists.</p>
+          </div>
+          <div class="why-row">
+            <p class="why-row-title">Consistent structure, every page</p>
+            <p class="why-row-body">Every peptide page follows the same layout. You spend your time on the information, not on finding it. That predictability is a feature, not an accident.</p>
+          </div>
+          <div class="why-row">
+            <p class="why-row-title">Content is maintained, not abandoned</p>
+            <p class="why-row-body">Peptide research moves quickly. New trial results, updated safety data, and emerging protocols can change dosing recommendations. We update pages as new evidence becomes available rather than publishing once and walking away.</p>
+          </div>
+          <div class="why-row">
+            <p class="why-row-title">No unsourced claims</p>
+            <p class="why-row-body">We don't repeat forum anecdotes, social media testimonials, or vendor copy as fact. If something is widely discussed online but lacks published backing, we say so explicitly — even when that disagrees with what's popular. We're comfortable with that.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- SECTION 4: WHO THIS IS FOR -->
+      <div class="why-section">
+        <p class="why-section-label">Who this is for</p>
+        <h2>Built for people who want the evidence, not the pitch</h2>
+        <p>PeptideGuidelines is for independent researchers, students studying peptide pharmacology, clinicians looking for quick reference material, and individuals who want to understand the evidence behind what they're reading elsewhere.</p>
+        <p>If you value accuracy over hype, want to see the source behind every claim, and prefer an honest assessment of limited evidence over confident-sounding statements with no backing — this site was built for you.</p>
+      </div>
+
+      <!-- SECTION 5: WHAT WE'RE NOT -->
+      <div class="why-section">
+        <p class="why-section-label">What we're not</p>
+        <h2>A reference, not a service</h2>
+        <div class="why-not-grid">
+          <div class="why-not-item">
+            <p class="why-not-title">Not a medical provider</p>
+            <p class="why-not-desc">No patient-provider relationship exists here. Nothing on this site is a substitute for qualified medical guidance.</p>
+          </div>
+          <div class="why-not-item">
+            <p class="why-not-title">Not a supplement store</p>
+            <p class="why-not-desc">We don't sell peptides, research materials, or anything else. No affiliate links, no sponsored content, no vendor arrangements.</p>
+          </div>
+          <div class="why-not-item">
+            <p class="why-not-title">Not a vendor directory</p>
+            <p class="why-not-desc">Where third-party references appear on this site, they are informational only — not endorsements of product quality, purity, or business practices.</p>
+          </div>
+          <div class="why-not-item">
+            <p class="why-not-title">Not a forum</p>
+            <p class="why-not-desc">No comment sections, no upvotes, no testimonials. Structured information from published sources only.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- SECTION 6: BY THE NUMBERS -->
+      <div class="why-section">
+        <p class="why-section-label">By the numbers</p>
+        <h2>What PeptideGuidelines covers today</h2>
+        <div class="about-stats-row">
+          <div class="about-stat">
+            <span class="about-stat-num" id="about-stat-peptides">—</span>
+            <span class="about-stat-label">Peptides documented</span>
+          </div>
+          <div class="about-stat">
+            <span class="about-stat-num" id="about-stat-stacks">—</span>
+            <span class="about-stat-label">Stacks documented</span>
+          </div>
+          <div class="about-stat">
+            <span class="about-stat-num" id="about-stat-blends">—</span>
+            <span class="about-stat-label">Blends documented</span>
+          </div>
+          <div class="about-stat">
+            <span class="about-stat-num">3</span>
+            <span class="about-stat-label">Educational guides</span>
+          </div>
+        </div>
+        <p class="about-stats-note">New protocols and content are added regularly based on emerging research and reader requests.</p>
+      </div>
+
+      <!-- SECTION 7: GET IN TOUCH -->
+      <div class="why-section">
+        <p class="why-section-label">Get in touch</p>
+        <h2>Questions, requests, and corrections</h2>
+        <p>If you have a question, want to request documentation for a peptide we haven't covered, or found an error in our content — we want to hear from you.</p>
+        <ul class="why-editorial-list">
+          <li>To request a new peptide, stack, or blend page, use the <a href="#" class="content-link">Contact</a> page with the peptide name and any relevant source material</li>
+          <li>To report an inaccuracy, a broken citation, or outdated information, let us know through the Contact page — we take corrections seriously and update content promptly</li>
+          <li>For general questions about the site's methodology or editorial approach, the <a href="why.html" class="content-link">Why Us</a> page covers our standards in detail</li>
+        </ul>
+      </div>
+
+      <!-- DISCLAIMER -->
+      <div class="why-section">
+        <p class="why-section-label">Disclaimer</p>
+        <div class="why-disclaimer">
+          <p>The information on PeptideGuidelines is provided for educational and research purposes only. It is not intended to be, and does not constitute, medical advice, diagnosis, or treatment. Always seek the guidance of a qualified healthcare professional before starting, changing, or stopping any treatment or therapy. Peptides discussed on this site may be research chemicals not approved for human use by regulatory agencies. Compliance with all applicable laws and regulations is your responsibility.</p>
+        </div>
+      </div>
+
+    </div>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="footer-logo">Peptide<span>Guidelines</span></span>
+        <p class="footer-tagline">A structured peptide information database.</p>
+      </div>
+      <div class="footer-cols">
+        <div class="footer-col">
+          <p class="footer-col-heading">Peptides</p>
+          <a href="peptides-library.html">Single Peptides</a>
+          <a href="blends-library.html">Peptide Blends</a>
+          <a href="stacks-library.html">Peptide Stacks</a>
+        </div>
+        <div class="footer-col">
+          <p class="footer-col-heading">Guides</p>
+          <a href="guides.html?guide=beginners-guide">Beginner's Guide</a>
+          <a href="guides.html?guide=reconstitution">Reconstitution Guide</a>
+          <a href="guides.html?guide=syringe-guide">Syringe &amp; Measurement</a>
+          <a href="calculator.html">Dosing Calculator</a>
+        </div>
+        <div class="footer-col">
+          <p class="footer-col-heading">Company</p>
+          <a href="about.html">About</a>
+          <a href="why.html">Why Us</a>
+          <a href="#">Contact</a>
+          <a href="editorial-policy.html">Editorial Policy</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>This website is for informational and educational purposes only and is not medical advice.</p>
+      <p>&copy; 2026 PeptideGuidelines</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="script.js"></script>
+  <script>
+    Promise.all([
+      fetch('peptide_frontend_library_v2.json').then(r => r.json()),
+      fetch('peptide_stacks_frontend_library.json').then(r => r.json()),
+      fetch('peptide_blends_frontend_library.json').then(r => r.json()),
+    ]).then(([peptideData, stackData, blendData]) => {
+      const seen = new Set()
+      for (const p of (peptideData.peptides || [])) seen.add(p.base_name)
+      const peptideCount = seen.size
+
+      const stackCount = (stackData.peptides || []).length
+      const blendCount = (Array.isArray(blendData) ? blendData : (blendData.peptides || [])).length
+
+      const set = (id, val) => { const el = document.getElementById(id); if (el) el.textContent = val }
+      set('about-stat-peptides', peptideCount)
+      set('about-stat-stacks', stackCount)
+      set('about-stat-blends', blendCount)
+    }).catch(() => {})
+  </script>
+</body>
+</html>

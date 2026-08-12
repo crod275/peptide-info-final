@@ -1,0 +1,129 @@
+=== PHASE 0 BASELINE ===
+Date: Thu May 21 13:57:02 CDT 2026
+
+=== C1: Em dashes in reconstitution steps ===
+peptide_frontend_library_v2.json 95 steps arrays with em dash
+peptide_blends_frontend_library.json 0 steps arrays with em dash
+peptide_stacks_frontend_library.json 0 steps arrays with em dash
+
+=== C2: Em dashes in body prose (how_it_works.body) ===
+peptide_frontend_library_v2.json 0 entries with em dash in how_it_works.body
+peptide_blends_frontend_library.json 1 entries with em dash in how_it_works.body
+peptide_stacks_frontend_library.json 2 entries with em dash in how_it_works.body
+
+=== C3: Collapsed spacing before numbers (Add/Draw/at + digit) ===
+peptide_blends_frontend_library.json 22 hits
+ example: "        \"summary\": \"Add3.0 mLbacteriosta"
+ example: "tution, refrigerate at2–8 °C (35\",\n     "
+ example: "        \"summary\": \"Add3.0 mLbacteriosta"
+ example: "tution, refrigerate at2–8 °C (35\",\n     "
+ example: "        \"summary\": \"Add3.0 mLbacteriosta"
+peptide_stacks_frontend_library.json 30 hits
+ example: "ps\": [\n            \"Draw2.0 m Lbacterios"
+ example: "ate and refrigerate at2–8 °C (35.6–46.4 "
+ example: "°F).\",\n            \"Draw3.0 m Lbacterios"
+ example: "ate and refrigerate at2–8 °C (35.6–46.4 "
+ example: "\": [\n              \"Draw2.0 m Lbacterios"
+
+=== C4: mL unit collapse (mLb, mLw, mLs etc) ===
+peptide_blends_frontend_library.json 22 hits
+ example: " \"summary\": \"Add3.0 mLbacteriostatic wat"
+ example: "ostatic water →4 mg/mLtotal (2 mg/mL AOD"
+ example: "daily range:0.1–0.2 mLonce daily (200–40"
+ example: "daily range:0.1–0.2 mLonce daily (200–40"
+ example: " \"summary\": \"Add3.0 mLbacteriostatic wat"
+peptide_stacks_frontend_library.json 0 hits
+
+=== C5: 'm L' split unit in stacks ===
+peptide_stacks_frontend_library.json 0 hits
+
+=== C6: Citation markers abutting text (word[n]) ===
+peptide_blends_frontend_library.json 109 hits
+peptide_stacks_frontend_library.json 36 hits
+
+=== C7: 'How This Works' heading duplication in how_it_works.body ===
+peptide_blends_frontend_library.json 11 entries with heading duplication
+peptide_stacks_frontend_library.json 3 entries with heading duplication
+
+=== A2: Em dashes in stack protocol labels ===
+peptide_stacks_frontend_library.json 25 protocol labels with em dash
+
+=== A10: Orphan header in stack side_effects.items[0] ===
+cjc-1295-dac-ipamorelin has orphan header
+cjc-1295-dac-ipamorelin has orphan header
+pt-141-melanotan-ii has orphan header
+tb-500-bpc-157 has orphan header
+
+=== A11: CJC+Ipamorelin injection_frequency.summary ===
+cjc-1295-dac-ipamorelin
+ summary: 1 mg subcutaneously once per week on a consistent day.
+cjc-1295-dac-ipamorelin
+ summary: 1 mg (40 units) subcutaneously once per week on a consistent day.
+
+=== A9: Side effects misclassification check ===
+cagrilintide-semaglutide side_effects.items count: 6
+ [0] Observations from clinical literature.
+ [1] Phase 2 trials report mean body‑weight loss of ~15–17% at 32 weeks with the comb
+ [2] In type 2 diabetes, HbA1c reductions were observed alongside weight loss
+ [3] Nausea, vomiting, and diarrhea are the most common adverse events; gradual titra
+ [4] Injection‑site reactions:
+ [5] Mild and transient in clinical reports.
+tri-heal side_effects.items count: 7
+ [0] Observations from preclinical and clinical literature on the individual componen
+ [1] Promotes cell proliferation, angiogenesis, and accelerated tissue repair; inhibi
+ [2] Accelerates musculoskeletal healing including tendon and muscle repair; stimulat
+ [3] Reduces inflammatory cytokine release; demonstrates efficacy in models of epithe
+ [4] General tolerability:
+ [5] Individual peptides are generally well tolerated in preclinical studies; occasio
+ [6] Note: Human clinical data on this specific combination is limited; observations 
+
+=== JSON validity check ===
+OK - all 3 files parse
+
+=== ENTRY COUNTS ===
+peptide_frontend_library_v2.json 95 entries
+peptide_blends_frontend_library.json 11 entries
+peptide_stacks_frontend_library.json 4 entries
+
+=== C5 (revised): 'm L' split without quotes ===
+peptide_stacks_frontend_library.json 77 hits (in units_or_volume fields and similar)
+
+=== A3: Em dashes in body prose (blend/stack) ===
+peptide_blends_frontend_library.json glow how_it_works: 4 em dashes (genomic modulator—, mediators—, pathways—, control—)
+peptide_stacks_frontend_library.json cjc-1295-dac-ipamorelin how_it_works: 2 em dashes (both stack vial variants same text: "pathways—GHRH receptor and ghrelin receptor—")
+
+=== STACK SLUGS ===
+cjc-1295-dac-ipamorelin (2 entries)
+pt-141-melanotan-ii
+tb-500-bpc-157
+
+=== SUMMARY TABLE ===
+Issue | Count | File(s)
+C1 em dash in recon steps | 95 | peptide file
+C2 em dash in how_it_works body | 1 blend, 2 stacks | blends + stacks
+C3 collapsed spacing Add/Draw/at+digit | 22 | blends; 30 | stacks
+C4 mL unit collapse | 22 | blends; 0 | stacks
+C5 m L split | 77 | stacks
+C6 citation abutting text | 109 | blends; 36 | stacks
+C7 How This Works heading duplication | 11 | blends; 3 | stacks (not 4 as estimated)
+A2 protocol label em dashes | 25 | stacks
+A3 body prose em dashes | 4 | glow blend; 2 | cjc stack (same text, 2 entries)
+A10 orphan header | 4 entries (cjc x2, pt-141, tb-500) | stacks
+A11 injection freq summary single-peptide | 2 | stacks
+A9 misclassified efficacy items | cagrilintide-semaglutide (2), tri-heal (3) | blends
+
+=== PHASE 1 FINDINGS (CSS investigation) ===
+Root cause: .pep-loading-state { text-align: center } in styles.css line 924-926
+The container divs (#pep-content, #blend-content, #stack-content) have class="pep-loading-state"
+in the HTML shells. script.js sets .innerHTML but never removes this class, so all rendered
+content inherits text-align: center.
+
+Fix location: script.js — add contentEl.classList.remove('pep-loading-state') before each
+innerHTML assignment in renderPeptidePage(), renderBlendPage(), renderStackPage() (3 locations).
+
+Verified via Playwright: computed text-align on .accordion-body-inner p and .side-effects-list li
+is "start" (left-aligned) after fix on all three page types.
+
+=== PHASE 2 FIX APPLIED ===
+script.js: 3 lines added, one per render function
+Commit: fix(css): remove pep-loading-state class from content container on render
