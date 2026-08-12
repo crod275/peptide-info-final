@@ -1563,7 +1563,11 @@ function renderRelatedResearchPanel(type, baseName) {
   const chips = items.map(item => `
         <a class="related-chip" href="${RELATED_TYPE_HREF[item.type]}?slug=${item.routeSlug}"
            aria-label="${item.baseName} — ${RELATED_TYPE_LABEL[item.type]} — ${item.reason}" title="${item.reason}">
-          ${item.baseName}
+          <span class="related-chip-body">
+            <span class="related-chip-name">${item.baseName}</span>
+            <span class="related-chip-meta">View research</span>
+          </span>
+          ${CARD_ARROW_SVG}
         </a>`).join('')
 
   return `
@@ -1585,14 +1589,16 @@ function refreshRelatedResearchPanel() {
 // Single source of truth for page-section links — used by both the desktop
 // sidebar TOC and the hero section-nav pills, so they can never drift out of
 // sync and no section list is ever hardcoded in more than one place.
-function renderTOCNavLinks(hasStackDetails) {
+function renderTOCNavLinks(hasStackDetails, withChevron) {
+  const chevron = withChevron ? CARD_ARROW_SVG : ''
+  const link = (href, label) => `<a class="toc-link" href="${href}"><span>${label}</span>${chevron}</a>`
   return `
-        <a class="toc-link" href="#overview">Overview</a>
-        <a class="toc-link" href="#supplies">Supplies Needed</a>
-        <a class="toc-link" href="#dosing">Dosing &amp; Reconstitution</a>
-        ${hasStackDetails ? '<a class="toc-link" href="#stack-details">Stack Details</a>' : ''}
-        <a class="toc-link" href="#storage">Storage &amp; Handling</a>
-        <a class="toc-link" href="#research">References &amp; Research</a>`
+        ${link('#overview', 'Overview')}
+        ${link('#supplies', 'Supplies Needed')}
+        ${link('#dosing', 'Dosing &amp; Reconstitution')}
+        ${hasStackDetails ? link('#stack-details', 'Stack Details') : ''}
+        ${link('#storage', 'Storage &amp; Handling')}
+        ${link('#research', 'References &amp; Research')}`
 }
 
 function renderDetailTOC(hasStackDetails) {
@@ -1606,22 +1612,17 @@ function renderDetailTOC(hasStackDetails) {
 
 function renderHero(p, otherVials) {
   const hero = p.hero || {}
-  const res  = p.research?.resources || []
-  const ct   = t => parseCitations(t, res)
 
   const otherVialsHTML = otherVials.length
-    ? `<div class="pep-other-vials">
-        <span class="pep-other-vials-label">Also available:</span>
-        ${otherVials.map(v =>
-          `<a class="pep-other-vial-link" href="peptide.html?slug=${v.routeSlug}">${v.name}</a>`
-        ).join('')}
-      </div>`
+    ? otherVials.map(v =>
+        `<a class="pep-vial-option" href="peptide.html?slug=${v.routeSlug}">${v.name}</a>`
+      ).join('')
     : ''
 
   const evClass = evidenceLevelClass(hero.evidence_level)
 
   return `
-    <div class="pep-hero-wrap">
+    <div class="pep-hero-wrap pep-detail-hero">
       <nav class="breadcrumb" aria-label="Breadcrumb">
         <a href="index.html">Home</a>
         <span class="breadcrumb-sep">›</span>
@@ -1635,15 +1636,20 @@ function renderHero(p, otherVials) {
           <span class="pep-eyebrow">${hero.eyebrow || 'Peptide Research Library'}</span>
           <h1 class="pep-hero-title">${hero.title || p.base_name}</h1>
           <div class="pep-hero-vial-row">
-            <span class="pep-vial-badge pep-vial-badge-hero">${p.vial_strength}</span>
-            ${otherVialsHTML}
+            ${otherVials.length ? '<span class="pep-vial-select-label">Available Vials</span>' : ''}
+            <div class="pep-vial-options">
+              <span class="pep-vial-option pep-vial-option-active">${p.vial_strength}</span>
+              ${otherVialsHTML}
+            </div>
           </div>
-          <p class="pep-subtitle">${ct(hero.subtitle || '')}</p>
           ${hero.evidence_level ? `<div class="pep-evidence-level ${evClass}"><span class="ev-dot"></span>${hero.evidence_level}</div>` : ''}
           <div class="hero-related-compact" id="related-research-panel">
             ${renderRelatedResearchPanel('peptide', p.base_name)}
           </div>
-          <nav class="hero-nav-pills" aria-label="Page sections">${renderTOCNavLinks()}</nav>
+          <nav class="mobile-toc" aria-label="Page sections">
+            <p class="toc-label">On this page</p>
+            ${renderTOCNavLinks(undefined, true)}
+          </nav>
         </div>
         <div class="pep-hero-right">
           <div class="pep-vial-card">
@@ -2090,22 +2096,17 @@ function renderPeptidePage() {
 
 function renderBlendHero(blend, otherVials) {
   const hero = blend.hero || {}
-  const res  = blend.research?.resources || []
-  const ct   = t => parseCitations(t, res)
 
   const otherVialsHTML = otherVials.length
-    ? `<div class="pep-other-vials">
-        <span class="pep-other-vials-label">Also available:</span>
-        ${otherVials.map(v =>
-          `<a class="pep-other-vial-link" href="blend.html?slug=${v.routeSlug}">${v.name}</a>`
-        ).join('')}
-      </div>`
+    ? otherVials.map(v =>
+        `<a class="pep-vial-option" href="blend.html?slug=${v.routeSlug}">${v.name}</a>`
+      ).join('')
     : ''
 
   const evClass = evidenceLevelClass(hero.evidence_level)
 
   return `
-    <div class="pep-hero-wrap">
+    <div class="pep-hero-wrap pep-detail-hero">
       <nav class="breadcrumb" aria-label="Breadcrumb">
         <a href="index.html">Home</a>
         <span class="breadcrumb-sep">›</span>
@@ -2119,15 +2120,20 @@ function renderBlendHero(blend, otherVials) {
           <span class="pep-eyebrow">${hero.eyebrow || 'Peptide Blend Research Library'}</span>
           <h1 class="pep-hero-title">${hero.title || blend.base_name}</h1>
           <div class="pep-hero-vial-row">
-            <span class="pep-vial-badge pep-vial-badge-hero">${blend.vial_strength}</span>
-            ${otherVialsHTML}
+            ${otherVials.length ? '<span class="pep-vial-select-label">Available Vials</span>' : ''}
+            <div class="pep-vial-options">
+              <span class="pep-vial-option pep-vial-option-active">${blend.vial_strength}</span>
+              ${otherVialsHTML}
+            </div>
           </div>
-          <p class="pep-subtitle">${ct(hero.subtitle || '')}</p>
           ${hero.evidence_level ? `<div class="pep-evidence-level ${evClass}"><span class="ev-dot"></span>${hero.evidence_level}</div>` : ''}
           <div class="hero-related-compact" id="related-research-panel">
             ${renderRelatedResearchPanel('blend', blend.base_name)}
           </div>
-          <nav class="hero-nav-pills" aria-label="Page sections">${renderTOCNavLinks()}</nav>
+          <nav class="mobile-toc" aria-label="Page sections">
+            <p class="toc-label">On this page</p>
+            ${renderTOCNavLinks(undefined, true)}
+          </nav>
         </div>
         <div class="pep-hero-right">
           <div class="pep-vial-card">
@@ -2208,25 +2214,20 @@ function renderBlendPage() {
 
 function renderStackHero(stack, otherVials, hasStackDetails) {
   const hero = stack.hero || {}
-  const res  = stack.research?.resources || []
-  const ct   = t => parseCitations(t, res)
   const componentsHTML = (hero.tags || []).map(t =>
     `<span class="stack-hero-component">${t}</span>`
   ).join('')
 
   const otherVialsHTML = otherVials.length
-    ? `<div class="pep-other-vials">
-        <span class="pep-other-vials-label">Also available:</span>
-        ${otherVials.map(v =>
-          `<a class="pep-other-vial-link" href="stack.html?slug=${v.routeSlug}">${v.name}</a>`
-        ).join('')}
-      </div>`
+    ? otherVials.map(v =>
+        `<a class="pep-vial-option" href="stack.html?slug=${v.routeSlug}">${v.name}</a>`
+      ).join('')
     : ''
 
   const evClass = evidenceLevelClass(hero.evidence_level)
 
   return `
-    <div class="pep-hero-wrap">
+    <div class="pep-hero-wrap pep-detail-hero">
       <nav class="breadcrumb" aria-label="Breadcrumb">
         <a href="index.html">Home</a>
         <span class="breadcrumb-sep">›</span>
@@ -2240,15 +2241,20 @@ function renderStackHero(stack, otherVials, hasStackDetails) {
           <span class="pep-eyebrow">${hero.eyebrow || 'Peptide Stack Research Library'}</span>
           <h1 class="pep-hero-title">${hero.title || stack.base_name}</h1>
           <div class="pep-hero-vial-row">
-            <span class="pep-vial-badge pep-vial-badge-hero">${stack.vial_strength}</span>
-            ${otherVialsHTML}
+            ${otherVials.length ? '<span class="pep-vial-select-label">Available Vials</span>' : ''}
+            <div class="pep-vial-options">
+              <span class="pep-vial-option pep-vial-option-active">${stack.vial_strength}</span>
+              ${otherVialsHTML}
+            </div>
           </div>
-          <p class="pep-subtitle">${ct(hero.subtitle || '')}</p>
           ${hero.evidence_level ? `<div class="pep-evidence-level ${evClass}"><span class="ev-dot"></span>${hero.evidence_level}</div>` : ''}
           <div class="hero-related-compact" id="related-research-panel">
             ${renderRelatedResearchPanel('stack', stack.base_name)}
           </div>
-          <nav class="hero-nav-pills" aria-label="Page sections">${renderTOCNavLinks(hasStackDetails)}</nav>
+          <nav class="mobile-toc" aria-label="Page sections">
+            <p class="toc-label">On this page</p>
+            ${renderTOCNavLinks(hasStackDetails, true)}
+          </nav>
         </div>
         <div class="pep-hero-right">
           <div class="pep-vial-card pep-stack-vial-card">

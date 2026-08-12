@@ -75,6 +75,7 @@ h1, h2, h3, h4 {
 .dose-cell,
 .pep-vial-badge,
 .pep-vial-badge-hero,
+.pep-vial-option,
 .snapshot-value {
   font-family: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
   font-size: 12px;
@@ -130,7 +131,7 @@ a { text-decoration: none; color: inherit; }
 }
 
 .jump-refs-btn:focus-visible,
-.pep-other-vial-link:focus-visible {
+a.pep-vial-option:focus-visible {
   outline: none;
   box-shadow: var(--shadow-focus);
 }
@@ -1742,6 +1743,8 @@ a { text-decoration: none; color: inherit; }
   }
   .pep-toc { display: none; }
   .research-split { grid-template-columns: 1fr; }
+  .hero-related-compact { margin-bottom: 0; }
+  .mobile-toc { display: block; margin-top: 24px; margin-bottom: 16px; }
 }
 
 @media (max-width: 600px) {
@@ -1792,12 +1795,50 @@ a { text-decoration: none; color: inherit; }
 
 .pep-hero-vial-row {
   display: flex;
-  align-items: center;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
   gap: 8px;
   margin-bottom: 16px;
 }
 
+.pep-vial-select-label {
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+}
+
+.pep-vial-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.pep-vial-option {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 14px;
+  border-radius: var(--radius-full);
+  font-size: 13px;
+  font-weight: 500;
+  transition: border-color var(--ease), background var(--ease), color var(--ease);
+}
+
+.pep-vial-option-active {
+  background: var(--surface);
+  border: var(--border-hero);
+  color: var(--text-secondary);
+}
+
+a.pep-vial-option {
+  border: 1px solid var(--accent);
+  color: var(--accent);
+}
+
+/* .pep-vial-badge-hero and .pep-subtitle are no longer used by the peptide/
+   blend/stack hero (see .pep-vial-option above), but guides.html's separate
+   guide-detail hero still renders both — kept alive for that template. */
 .pep-vial-badge-hero {
   background: var(--surface);
   border: var(--border-hero);
@@ -1808,37 +1849,16 @@ a { text-decoration: none; color: inherit; }
   color: var(--text-secondary);
 }
 
-.pep-other-vials {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  flex-wrap: wrap;
-}
-
-.pep-other-vials-label {
-  font-size: 12px;
-  color: var(--text-muted);
-}
-
-.pep-other-vial-link {
-  font-size: 12px;
-  color: var(--accent);
-  border: 1px solid var(--accent);
-  border-radius: var(--radius-full);
-  padding: 3px 10px;
-  transition: background var(--ease), color var(--ease);
-}
-
-.pep-other-vial-link:hover {
-  background: var(--accent);
-  color: #fff;
-}
-
 .pep-subtitle {
   font-size: 15px;
   color: var(--text-secondary);
   line-height: 1.7;
   margin-bottom: 16px;
+}
+
+a.pep-vial-option:hover {
+  background: var(--accent);
+  color: #fff;
 }
 
 .pep-tags {
@@ -1963,9 +1983,10 @@ a { text-decoration: none; color: inherit; }
   font-weight: 500;
 }
 
-/* ── RELATED RESEARCH (compact chips — replaces the old Save button slot) ── */
+/* ── RELATED RESEARCH (compact recommendation cards — replaces the old Save button slot) ── */
 .hero-related-compact {
   margin-top: 16px;
+  margin-bottom: 16px;
 }
 
 .related-compact-label {
@@ -1986,21 +2007,47 @@ a { text-decoration: none; color: inherit; }
 .related-chip {
   display: inline-flex;
   align-items: center;
-  min-height: 36px;
-  padding: 6px 14px;
+  gap: 16px;
+  padding: 12px 16px;
   background: var(--surface);
   border: 1px solid var(--border-hover);
-  border-radius: var(--radius-full);
-  color: var(--text-secondary);
-  font-size: 12.5px;
-  font-weight: 500;
-  transition: border-color var(--ease), color var(--ease), background var(--ease);
+  border-radius: var(--radius);
+  transition: border-color var(--ease), background var(--ease);
+}
+
+.related-chip-body {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.related-chip-name {
+  font-size: 13.5px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.related-chip-meta {
+  font-size: 11px;
+  color: var(--text-muted);
+}
+
+.related-chip .card-arrow {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+  color: var(--text-muted);
+  transition: color var(--ease), transform var(--ease);
 }
 
 .related-chip:hover {
   border-color: var(--accent);
-  color: var(--accent);
   background: var(--accent-light);
+}
+
+.related-chip:hover .card-arrow {
+  color: var(--accent);
+  transform: translateX(2px);
 }
 
 .related-chip:focus-visible {
@@ -2008,38 +2055,62 @@ a { text-decoration: none; color: inherit; }
   outline-offset: 2px;
 }
 
-/* ── SECTION NAVIGATION PILLS (replaces the old research-tags row; shares
-   .toc-link with the sidebar TOC so click-to-scroll and active-state sync
-   come for free — see initTOCLinks()/initTOCScroll()) ── */
-.hero-nav-pills {
+/* ── MOBILE "ON THIS PAGE" NAV (replaces the desktop sidebar TOC below 900px;
+   shares .toc-link with the sidebar so click-to-scroll and active-state sync
+   come for free — see initTOCLinks()/initTOCScroll()). Hidden on desktop,
+   shown only inside the @media (max-width: 900px) block. ── */
+.mobile-toc {
+  display: none;
+}
+
+.mobile-toc .toc-link {
   display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-top: 14px;
-}
-
-.hero-nav-pills .toc-link {
-  display: inline-flex;
   align-items: center;
-  min-height: 36px;
-  padding: 6px 14px;
-  border: 1px solid var(--border-hover);
-  border-left: 1px solid var(--border-hover);
-  border-radius: var(--radius-full);
-  font-size: 12px;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 4px;
+  min-height: 44px;
+  border-bottom: 1px solid var(--border);
+  border-left: none;
+  border-radius: 0;
+  font-size: 14px;
+  color: var(--text-secondary);
 }
 
-.hero-nav-pills .toc-link:hover {
-  border-color: var(--accent);
+.mobile-toc .toc-link:last-child {
+  border-bottom: none;
+}
+
+.mobile-toc .toc-link:hover,
+.mobile-toc .toc-link:focus-visible {
+  color: var(--text-primary);
   background: var(--surface);
 }
 
-.hero-nav-pills .toc-link.toc-active {
-  border-color: var(--accent);
+.mobile-toc .toc-link.toc-active {
+  color: var(--accent);
+  background: var(--accent-light);
+  font-weight: 500;
+}
+
+.mobile-toc .toc-link .card-arrow {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+  color: var(--text-muted);
+  transform: rotate(90deg);
+  transition: color var(--ease);
+}
+
+.mobile-toc .toc-link:hover .card-arrow,
+.mobile-toc .toc-link.toc-active .card-arrow {
+  color: var(--accent);
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .related-chip { transition: none; }
+  .related-chip,
+  .related-chip .card-arrow,
+  .mobile-toc .toc-link .card-arrow { transition: none; }
 }
 
 /* ── SECTION BLOCKS ── */
@@ -2765,13 +2836,21 @@ a { text-decoration: none; color: inherit; }
   .storage-cards { grid-template-columns: 1fr; }
   .storage-tips-grid { grid-template-columns: 1fr; }
   .recon-stats { grid-template-columns: 1fr 1fr 1fr; }
+
+  /* Peptide/blend/stack detail hero only (.pep-detail-hero) — guides.html's
+     separate guide-detail hero reuses the same base classes above and keeps
+     the original behavior. */
+  .pep-detail-hero .pep-hero-split { flex-direction: column; }
+  .pep-detail-hero .pep-vial-card { flex-wrap: wrap; }
+  .pep-detail-hero .stack-hero-components { width: 100%; justify-content: center; }
 }
 
 @media (max-width: 600px) {
   .pep-hero-split { gap: 20px; }
   .pep-hero-right { display: none; }
   .related-chip,
-  .hero-nav-pills .toc-link { min-height: 44px; }
+  .mobile-toc .toc-link,
+  .pep-vial-option { min-height: 44px; }
   .benefits-grid { grid-template-columns: 1fr; }
   .recon-stats { grid-template-columns: 1fr; }
   .recommended-grid { grid-template-columns: 1fr; }
@@ -2783,6 +2862,13 @@ a { text-decoration: none; color: inherit; }
   .accordion-body-content { padding: 6px 18px 20px; }
   .section-heading { font-size: 18px; }
   .pep-section-block { margin-bottom: 36px; }
+
+  /* Peptide/blend/stack detail hero only — bottle card stays visible and
+     compact on phones instead of being hidden (see .pep-detail-hero note
+     above). guides.html keeps the display:none behavior above. */
+  .pep-detail-hero .pep-hero-right { display: flex; width: 100%; }
+  .pep-detail-hero .pep-hero-split { gap: 16px; }
+  .pep-detail-hero .pep-vial-card { padding: 12px 18px; gap: 10px; }
 }
 
 /* ── PEPTIDE STACKS ── */
